@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="u09CD" format="2">
+  <unicode hex="09CD"/>
+  <outline>
+    <contour>
+      <point x="-191" y="-62" type="line"/>
+      <point x="-191" y="-62" type="line"/>
+      <point x="-191" y="-126" type="line"/>
+      <point x="-128" y="-126" type="line"/>
+      <point x="-128" y="-62" type="line"/>
+    </contour>
+    <contour>
+      <point x="-128" y="-62" type="line"/>
+      <point x="-128" y="-62" type="line"/>
+      <point x="-128" y="-126" type="line"/>
+      <point x="-64" y="-126" type="line"/>
+      <point x="-64" y="-62" type="line"/>
+    </contour>
+    <contour>
+      <point x="-64" y="-126" type="line"/>
+      <point x="-64" y="-126" type="line"/>
+      <point x="-64" y="-189" type="line"/>
+      <point x="-1" y="-189" type="line"/>
+      <point x="-1" y="-126" type="line"/>
+    </contour>
+    <contour>
+      <point x="-1" y="-189" type="line"/>
+      <point x="-1" y="-189" type="line"/>
+      <point x="-1" y="-252" type="line"/>
+      <point x="62" y="-252" type="line"/>
+      <point x="62" y="-189" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>c0f949a503899c5465b3b9c7c1e2f2225fc2c5ecb478a8a13f76f292c8448fc032f2d300c0a8ee74f37fae60f1c855afd9ca7de4b8964689b7b06abf7d277da2</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

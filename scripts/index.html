@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Iksir (ইকসির) — Type Specimen</title>
+  <meta name="description" content="Iksir is a pixel-perfect retro bitmap Bengali and Latin typeface designed by Inan."/>
+  <script src="https://unpkg.com/@phosphor-icons/web@2.1.1"></script>
+  <style>
+    @font-face { font-family:'Iksir'; src:url('../fonts/ttf/Iksir-Regular.ttf') format('truetype'); font-weight:400; font-style:normal; font-display:swap; }
+    @font-face { font-family:'Iksir'; src:url('../fonts/ttf/Iksir-Italic.ttf') format('truetype'); font-weight:400; font-style:italic; font-display:swap; }
+    :root{--bg:#FDF8F0;--bg2:#F0EBE0;--ink:#1B2838;--ink2:#4A5568;--ink3:#8B9AAF;--terra:#C95D48;--teal:#4A8F84;--teal-l:#D8EEEA;--gold:#D4A03C;--sand:#DDD4C2;--rule:#C8BFA8}
+    *,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+    html{font-size:17px;scroll-behavior:smooth}
+    body{font-family:'Iksir','Courier New',monospace;color:var(--ink);background:var(--bg);line-height:1.65;min-height:100vh;overflow-x:hidden;-webkit-font-smoothing:none}
+    ::selection{background:var(--terra);color:var(--bg)}
+    .w{max-width:960px;margin:0 auto;padding:0 2rem}
+    @keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+    @keyframes sway{0%,100%{transform:rotate(-2deg)}50%{transform:rotate(2deg)}}
+    @keyframes ripple{0%,100%{transform:scaleX(1)}50%{transform:scaleX(1.05)}}
+
+    /* NAV */
+    .nav{display:flex;justify-content:space-between;align-items:center;padding:1.5rem 0;border-bottom:2px solid var(--sand)}
+    .nav-brand{display:flex;align-items:center;gap:.6rem;color:var(--terra);font-size:1.1rem}
+    .nav-right{font-size:.7rem;letter-spacing:.15em;text-transform:uppercase;color:var(--ink3)}
+
+    /* HERO */
+    .hero{position:relative;padding:5rem 0 4rem;text-align:center;background:linear-gradient(180deg,var(--bg) 0%,var(--bg2) 100%);border-bottom:3px solid var(--sand)}
+    .hero-scene{position:relative;display:flex;justify-content:center;align-items:flex-end;gap:2rem;margin-bottom:2.5rem;min-height:160px}
+    .hero-boat{animation:bob 5s ease-in-out infinite}
+    .hero-lantern{position:absolute;top:0;right:15%;animation:sway 4s ease-in-out infinite;transform-origin:top center}
+    .hero-lotus{position:absolute;bottom:10px;left:12%}
+    .hero h1{font-size:5.5rem;line-height:1;margin-bottom:.4rem}
+    .hero h2{font-size:2.8rem;color:var(--teal);margin-bottom:1.5rem}
+    .hero-tag{display:inline-block;border:2px solid var(--gold);padding:.35rem 1.5rem;font-size:.65rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold)}
+    .hero-desc{max-width:620px;margin:1.5rem auto 0;font-size:.95rem;color:var(--ink2)}
+
+    /* WAVE DIVIDER */
+    .wave-div{display:flex;justify-content:center;padding:2rem 0;animation:ripple 6s ease-in-out infinite}
+
+    /* STATS */
+    .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:1.2rem;padding:2.5rem 0}
+    .stat{text-align:center;padding:1.5rem 1rem;background:var(--bg);border:2px solid var(--sand);border-radius:12px;transition:border-color .2s,transform .2s}
+    .stat:hover{border-color:var(--teal);transform:translateY(-4px)}
+    .stat-ico{font-size:1.6rem;color:var(--teal);margin-bottom:.5rem}
+    .stat-n{font-size:2rem;color:var(--ink);margin-bottom:.2rem}
+    .stat-l{font-size:.6rem;letter-spacing:.12em;text-transform:uppercase;color:var(--ink3)}
+
+    /* SECTION */
+    section{padding:3rem 0}
+    .sec-hd{display:flex;align-items:center;gap:.8rem;margin-bottom:2rem}
+    .sec-hd svg{width:28px;height:28px;flex-shrink:0}
+    .sec-t{font-size:1.1rem;color:var(--terra);text-transform:uppercase;letter-spacing:.1em}
+
+    /* DARK CARD */
+    .dark-card{background:var(--ink);color:var(--bg);padding:3rem;border-radius:16px;text-align:center;position:relative;overflow:hidden;margin:1.5rem 0}
+    .dark-card::before{content:'';position:absolute;inset:0;background-image:radial-gradient(circle,rgba(255,255,255,.08) 1.5px,transparent 1.5px);background-size:24px 24px}
+    .dark-card *{position:relative;z-index:1}
+    .dc-big{font-size:3rem;color:var(--gold);line-height:1.35;margin-bottom:.8rem}
+    .dc-sm{font-size:1.1rem;color:var(--sand)}
+
+    /* GLYPH PILLS */
+    .gpill-wrap{display:flex;flex-wrap:wrap;gap:.6rem;justify-content:center}
+    .gpill{font-size:1.6rem;padding:.6rem 1rem;background:var(--bg);border:2px solid var(--sand);border-radius:10px;transition:all .15s}
+    .gpill:hover{background:var(--terra);color:var(--bg);border-color:var(--terra)}
+
+    /* STYLE CARDS */
+    .style-grid{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem}
+    .style-card{background:var(--bg2);padding:1.8rem;border-radius:14px;border:1px solid var(--sand)}
+    .style-lbl{font-size:.6rem;letter-spacing:.15em;text-transform:uppercase;color:var(--teal);margin-bottom:.8rem}
+
+    /* META TABLE */
+    .mtbl{width:100%;border-collapse:collapse;font-size:.8rem}
+    .mtbl td{padding:.55rem .7rem;border-bottom:1px solid var(--rule)}
+    .mtbl td:first-child{color:var(--ink3);width:36%;font-size:.6rem;letter-spacing:.08em;text-transform:uppercase}
+    .mtbl tr:hover td{background:var(--teal-l)}
+    .mtbl a{color:var(--teal)}
+
+    /* USE CARDS */
+    .use-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem}
+    .use-c{background:var(--bg);border:1.5px solid var(--sand);border-radius:12px;padding:1.3rem;display:flex;gap:.7rem;align-items:flex-start;transition:border-color .2s}
+    .use-c:hover{border-color:var(--teal)}
+    .use-c i{font-size:1.3rem;color:var(--terra);margin-top:.1rem;flex-shrink:0}
+    .use-c h4{font-size:.7rem;letter-spacing:.08em;text-transform:uppercase;margin-bottom:.25rem}
+    .use-c p{font-size:.68rem;color:var(--ink2);line-height:1.45}
+
+    /* FOOTER */
+    footer{background:var(--bg2);padding:3rem 0;text-align:center;border-top:3px solid var(--sand);margin-top:3rem}
+    .ft-glyph{font-size:3rem;color:var(--teal);margin-bottom:.4rem}
+    .ft-name{font-size:1.5rem;margin-bottom:.3rem}
+    .ft-sub{font-size:.6rem;letter-spacing:.25em;text-transform:uppercase;color:var(--ink3)}
+    .ft-links{display:flex;justify-content:center;gap:1rem;margin-top:1rem}
+    .ft-links a{color:var(--ink3);font-size:1rem;text-decoration:none;transition:color .15s}
+    .ft-links a:hover{color:var(--teal)}
+
+    @media(max-width:700px){
+      .hero h1{font-size:3.5rem}.hero h2{font-size:2rem}
+      .stats{grid-template-columns:1fr 1fr}.style-grid,.use-grid{grid-template-columns:1fr}
+      .hero-lantern,.hero-lotus{display:none}
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<div class="w">
+  <nav class="nav">
+    <div class="nav-brand">
+      <!-- Pixel Mango brand icon -->
+      <svg width="22" height="22" viewBox="0 0 16 16" shape-rendering="crispEdges">
+        <rect x="6" y="0" width="4" height="2" fill="var(--teal)"/>
+        <rect x="8" y="2" width="2" height="2" fill="var(--teal)"/>
+        <rect x="4" y="4" width="8" height="2" fill="var(--gold)"/>
+        <rect x="2" y="6" width="12" height="4" fill="var(--gold)"/>
+        <rect x="4" y="10" width="8" height="2" fill="var(--gold)"/>
+        <rect x="6" y="12" width="4" height="2" fill="var(--gold)"/>
+      </svg>
+      IKSIR
+    </div>
+    <div class="nav-right"><i class="ph ph-squares-four"></i> Type Specimen</div>
+  </nav>
+</div>
+
+<!-- HERO -->
+<header class="hero">
+  <div class="w">
+    <div class="hero-scene">
+      <!-- Pixel Lotus (left) -->
+      <svg class="hero-lotus" width="64" height="40" viewBox="0 0 32 20" shape-rendering="crispEdges">
+        <rect x="12" y="0" width="8" height="2" fill="var(--terra)"/>
+        <rect x="8" y="2" width="16" height="2" fill="var(--terra)"/>
+        <rect x="4" y="4" width="24" height="2" fill="var(--terra)"/>
+        <rect x="2" y="6" width="28" height="4" fill="var(--terra)"/>
+        <rect x="12" y="6" width="8" height="4" fill="var(--gold)"/>
+        <rect x="6" y="10" width="20" height="2" fill="var(--teal)"/>
+        <rect x="0" y="12" width="32" height="2" fill="var(--teal)"/>
+        <rect x="4" y="14" width="24" height="2" fill="var(--teal)"/>
+        <rect x="10" y="16" width="12" height="2" fill="var(--teal)"/>
+      </svg>
+      <!-- Pixel Boat (center) -->
+      <svg class="hero-boat" width="180" height="100" viewBox="0 0 48 28" shape-rendering="crispEdges">
+        <rect x="22" y="0" width="2" height="18" fill="var(--ink)"/>
+        <rect x="24" y="2" width="10" height="2" fill="var(--sand)"/>
+        <rect x="24" y="4" width="12" height="2" fill="var(--sand)"/>
+        <rect x="24" y="6" width="14" height="2" fill="var(--sand)"/>
+        <rect x="24" y="8" width="12" height="2" fill="var(--sand)"/>
+        <rect x="24" y="10" width="10" height="2" fill="var(--sand)"/>
+        <rect x="6" y="16" width="36" height="2" fill="var(--ink)"/>
+        <rect x="4" y="18" width="40" height="4" fill="var(--terra)"/>
+        <rect x="8" y="18" width="4" height="4" fill="var(--gold)"/>
+        <rect x="36" y="18" width="4" height="4" fill="var(--gold)"/>
+        <rect x="2" y="22" width="44" height="2" fill="var(--ink)"/>
+        <rect x="0" y="24" width="48" height="2" fill="var(--teal)"/>
+        <rect x="2" y="26" width="44" height="2" fill="var(--teal)"/>
+      </svg>
+      <!-- Pixel Lantern (right) -->
+      <svg class="hero-lantern" width="32" height="64" viewBox="0 0 12 24" shape-rendering="crispEdges">
+        <rect x="5" y="0" width="2" height="4" fill="var(--ink3)"/>
+        <rect x="3" y="4" width="6" height="2" fill="var(--gold)"/>
+        <rect x="2" y="6" width="8" height="2" fill="var(--terra)"/>
+        <rect x="2" y="8" width="8" height="4" fill="var(--terra)"/>
+        <rect x="4" y="8" width="4" height="4" fill="var(--gold)"/>
+        <rect x="2" y="12" width="8" height="2" fill="var(--terra)"/>
+        <rect x="3" y="14" width="6" height="2" fill="var(--gold)"/>
+        <rect x="4" y="16" width="4" height="2" fill="var(--gold)"/>
+        <rect x="5" y="18" width="2" height="2" fill="var(--ink3)"/>
+      </svg>
+    </div>
+
+    <h1>IKSIR</h1>
+    <h2>ইকসির</h2>
+    <div class="hero-tag"><i class="ph ph-pixel-logo"></i>&ensp;Bengali + Latin · Pixel Perfect Harmony</div>
+    <p class="hero-desc">A pixel-perfect bitmap typeface capturing the nostalgia of classic 8-bit systems while preserving the intricate beauty of the Bengali script.</p>
+  </div>
+</header>
+
+<!-- STATS -->
+<div class="w">
+  <div class="stats">
+    <div class="stat">
+      <div class="stat-ico"><i class="ph ph-text-aa"></i></div>
+      <div class="stat-n">426</div>
+      <div class="stat-l">Hand-Drawn Glyphs</div>
+    </div>
+    <div class="stat">
+      <div class="stat-ico"><i class="ph ph-puzzle-piece"></i></div>
+      <div class="stat-n">119</div>
+      <div class="stat-l">Bengali Conjuncts</div>
+    </div>
+    <div class="stat">
+      <div class="stat-ico"><i class="ph ph-grid-four"></i></div>
+      <div class="stat-n">100%</div>
+      <div class="stat-l">Strictly Aliased</div>
+    </div>
+    <div class="stat">
+      <div class="stat-ico"><i class="ph ph-cube"></i></div>
+      <div class="stat-n">1000</div>
+      <div class="stat-l">Units Per Em</div>
+    </div>
+  </div>
+</div>
+
+<!-- WAVE DIVIDER -->
+<div class="wave-div">
+  <svg width="240" height="12" viewBox="0 0 120 6" shape-rendering="crispEdges" fill="var(--teal)">
+    <rect x="0" y="4" width="4" height="2"/><rect x="4" y="2" width="4" height="2"/><rect x="8" y="0" width="4" height="2"/>
+    <rect x="12" y="2" width="4" height="2"/><rect x="16" y="4" width="4" height="2"/><rect x="20" y="2" width="4" height="2"/>
+    <rect x="24" y="0" width="4" height="2"/><rect x="28" y="2" width="4" height="2"/><rect x="32" y="4" width="4" height="2"/>
+    <rect x="36" y="2" width="4" height="2"/><rect x="40" y="0" width="4" height="2"/><rect x="44" y="2" width="4" height="2"/>
+    <rect x="48" y="4" width="4" height="2"/><rect x="52" y="2" width="4" height="2"/><rect x="56" y="0" width="4" height="2"/>
+    <rect x="60" y="2" width="4" height="2"/><rect x="64" y="4" width="4" height="2"/><rect x="68" y="2" width="4" height="2"/>
+    <rect x="72" y="0" width="4" height="2"/><rect x="76" y="2" width="4" height="2"/><rect x="80" y="4" width="4" height="2"/>
+    <rect x="84" y="2" width="4" height="2"/><rect x="88" y="0" width="4" height="2"/><rect x="92" y="2" width="4" height="2"/>
+    <rect x="96" y="4" width="4" height="2"/><rect x="100" y="2" width="4" height="2"/><rect x="104" y="0" width="4" height="2"/>
+    <rect x="108" y="2" width="4" height="2"/><rect x="112" y="4" width="4" height="2"/><rect x="116" y="2" width="4" height="2"/>
+  </svg>
+</div>
+
+<main class="w">
+
+  <!-- BENGALI SHOWCASE -->
+  <section>
+    <div class="sec-hd">
+      <!-- Pixel Padma (lotus) section icon -->
+      <svg viewBox="0 0 16 16" shape-rendering="crispEdges">
+        <rect x="6" y="0" width="4" height="4" fill="var(--terra)"/>
+        <rect x="2" y="4" width="12" height="4" fill="var(--terra)"/>
+        <rect x="0" y="8" width="16" height="2" fill="var(--teal)"/>
+        <rect x="4" y="10" width="8" height="2" fill="var(--teal)"/>
+      </svg>
+      <h3 class="sec-t">বাংলা · Bengali</h3>
+    </div>
+    <div class="dark-card">
+      <div class="dc-big">ইকসির: পিক্সেল আর্ট</div>
+      <div class="dc-sm">বাংলা লিপির এক নিখুঁত সম্মেলন</div>
+    </div>
+    <p style="font-size:.95rem;color:var(--ink2);line-height:1.85;margin-top:1.5rem">
+      ইকসির একটি অনন্য পিক্সেল আর্ট বাংলা টাইপফেস। ক্লাসিক ৮-বিট ভিডিও গেম এবং রেট্রো কনসোলের নস্টালজিয়া ধারণ করে এই ফন্ট।
+      জটিল বাংলা যুক্তাক্ষরকে কঠোর পিক্সেল গ্রিডে রূপান্তরিত করা একটি অসাধারণ টাইপোগ্রাফিক কৃতিত্ব, এবং ইকসির তা নিখুঁতভাবে সম্পন্ন করেছে।
+    </p>
+  </section>
+
+  <!-- SIZE WATERFALL -->
+  <section>
+    <div class="sec-hd">
+      <svg viewBox="0 0 16 16" shape-rendering="crispEdges">
+        <rect x="2" y="0" width="12" height="3" fill="var(--ink)"/>
+        <rect x="2" y="5" width="10" height="2" fill="var(--ink2)"/>
+        <rect x="2" y="9" width="8" height="2" fill="var(--ink3)"/>
+        <rect x="2" y="13" width="5" height="2" fill="var(--sand)"/>
+      </svg>
+      <h3 class="sec-t">Size Waterfall</h3>
+    </div>
+    <p style="font-size:3.2rem;line-height:1.2;margin-bottom:.5rem">ইকসির Iksir 48px</p>
+    <p style="font-size:2.2rem;line-height:1.3;margin-bottom:.5rem">ইকসির Iksir 36px</p>
+    <p style="font-size:1.6rem;line-height:1.35;margin-bottom:.5rem">ইকসির Iksir 24px</p>
+    <p style="font-size:1.1rem;line-height:1.5;margin-bottom:.5rem">ইকসির Iksir — 20px readable body text</p>
+    <p style="font-size:1rem;line-height:1.6;margin-bottom:.5rem">ইকসির Iksir — 18px standard paragraph text</p>
+    <p style="font-size:.78rem;line-height:1.7;margin-bottom:.5rem;color:var(--ink2)">ইকসির Iksir — 14px caption and fine-print setting</p>
+    <p style="font-size:.67rem;line-height:1.8;color:var(--ink3)">ইকসির Iksir — 12px smallest recommended size</p>
+  </section>
+
+  <!-- STYLE COMPARISON -->
+  <section>
+    <div class="sec-hd">
+      <!-- Pixel Book icon -->
+      <svg viewBox="0 0 16 16" shape-rendering="crispEdges">
+        <rect x="2" y="1" width="12" height="14" fill="var(--sand)"/>
+        <rect x="3" y="2" width="10" height="12" fill="var(--bg)"/>
+        <rect x="5" y="4" width="6" height="2" fill="var(--terra)"/>
+        <rect x="5" y="7" width="6" height="1" fill="var(--ink3)"/>
+        <rect x="5" y="9" width="6" height="1" fill="var(--ink3)"/>
+        <rect x="5" y="11" width="4" height="1" fill="var(--ink3)"/>
+      </svg>
+      <h3 class="sec-t">Style Comparison</h3>
+    </div>
+    <div class="style-grid">
+      <div class="style-card">
+        <div class="style-lbl"><i class="ph ph-text-t"></i> Regular 400</div>
+        <p style="font-size:1.8rem;line-height:1.4;margin-bottom:.8rem">অন্ধকারে আলো জ্বলে</p>
+        <p style="font-size:.95rem;line-height:1.75">The quick brown fox jumps over the lazy dog. Pixel by pixel, legibility emerges from the grid.</p>
+      </div>
+      <div class="style-card">
+        <div class="style-lbl"><i class="ph ph-text-italic"></i> Italic 400</div>
+        <p style="font-size:1.8rem;font-style:italic;line-height:1.4;margin-bottom:.8rem">অন্ধকারে আলো জ্বলে</p>
+        <p style="font-size:.95rem;font-style:italic;line-height:1.75">The quick brown fox jumps over the lazy dog. Pixel by pixel, legibility emerges from the grid.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PARAGRAPH -->
+  <section>
+    <div class="sec-hd">
+      <svg viewBox="0 0 16 16" shape-rendering="crispEdges">
+        <rect x="1" y="2" width="14" height="2" fill="var(--ink)"/>
+        <rect x="1" y="6" width="14" height="1" fill="var(--ink3)"/>
+        <rect x="1" y="8" width="14" height="1" fill="var(--ink3)"/>
+        <rect x="1" y="10" width="14" height="1" fill="var(--ink3)"/>
+        <rect x="1" y="12" width="10" height="1" fill="var(--ink3)"/>
+      </svg>
+      <h3 class="sec-t">Paragraph Setting</h3>
+    </div>
+    <p style="font-size:.95rem;line-height:1.85;margin-bottom:1.3rem">
+      বাংলাদেশের সবুজ প্রান্তরে ধানের শীষ দোলে, নদীর স্রোতে ভেসে যায় পালতোলা নৌকা।
+      গ্রামের পথে হেঁটে চলা মানুষের জীবনে সরলতা আর সৌন্দর্য এক অনন্য মাত্রা যোগ করে।
+      শীতের সকালে কুয়াশার চাদরে ঢাকা মাঠ, আর বর্ষায় থৈ থৈ পানিতে শিশুদের খেলা — এই দৃশ্যগুলো বাংলার চিরন্তন ছবি।
+    </p>
+    <p style="font-size:.95rem;line-height:1.85;color:var(--ink2)">
+      A typeface is a system of constraints. Iksir embraces the most extreme constraint of all — the pixel grid —
+      and yet manages to render the complex looping strokes and conjunct ligatures of Bengali script with remarkable clarity.
+      Every contour is hand-drawn, every conjunct pre-composed, every edge deliberately aliased. No composites, no shortcuts.
+    </p>
+  </section>
+
+  <!-- WAVE DIVIDER 2 -->
+  <div class="wave-div">
+    <svg width="200" height="12" viewBox="0 0 100 6" shape-rendering="crispEdges" fill="var(--gold)">
+      <rect x="0" y="4" width="4" height="2"/><rect x="4" y="2" width="4" height="2"/><rect x="8" y="0" width="4" height="2"/>
+      <rect x="12" y="2" width="4" height="2"/><rect x="16" y="4" width="4" height="2"/><rect x="20" y="2" width="4" height="2"/>
+      <rect x="24" y="0" width="4" height="2"/><rect x="28" y="2" width="4" height="2"/><rect x="32" y="4" width="4" height="2"/>
+      <rect x="36" y="2" width="4" height="2"/><rect x="40" y="0" width="4" height="2"/><rect x="44" y="2" width="4" height="2"/>
+      <rect x="48" y="4" width="4" height="2"/><rect x="52" y="2" width="4" height="2"/><rect x="56" y="0" width="4" height="2"/>
+      <rect x="60" y="2" width="4" height="2"/><rect x="64" y="4" width="4" height="2"/><rect x="68" y="2" width="4" height="2"/>
+      <rect x="72" y="0" width="4" height="2"/><rect x="76" y="2" width="4" height="2"/><rect x="80" y="4" width="4" height="2"/>
+      <rect x="84" y="2" width="4" height="2"/><rect x="88" y="0" width="4" height="2"/><rect x="92" y="2" width="4" height="2"/>
+      <rect x="96" y="4" width="4" height="2"/>
+    </svg>
+  </div>
+
+  <!-- BENGALI CHARACTERS -->
+  <section>
+    <div class="sec-hd">
+      <!-- Pixel Star icon -->
+      <svg viewBox="0 0 16 16" shape-rendering="crispEdges">
+        <rect x="6" y="0" width="4" height="4" fill="var(--gold)"/>
+        <rect x="0" y="6" width="16" height="4" fill="var(--gold)"/>
+        <rect x="4" y="4" width="8" height="8" fill="var(--gold)"/>
+        <rect x="6" y="6" width="4" height="4" fill="var(--bg)"/>
+        <rect x="2" y="12" width="4" height="4" fill="var(--gold)"/>
+        <rect x="10" y="12" width="4" height="4" fill="var(--gold)"/>
+      </svg>
+      <h3 class="sec-t">বাংলা অক্ষর · Bengali Characters</h3>
+    </div>
+    <div class="gpill-wrap">
+      <div class="gpill">অ</div><div class="gpill">আ</div><div class="gpill">ই</div><div class="gpill">ঈ</div>
+      <div class="gpill">উ</div><div class="gpill">ঊ</div><div class="gpill">ঋ</div><div class="gpill">এ</div>
+      <div class="gpill">ঐ</div><div class="gpill">ও</div><div class="gpill">ঔ</div><div class="gpill">ক</div>
+      <div class="gpill">খ</div><div class="gpill">গ</div><div class="gpill">ঘ</div><div class="gpill">ঙ</div>
+      <div class="gpill">চ</div><div class="gpill">ছ</div><div class="gpill">জ</div><div class="gpill">ঝ</div>
+      <div class="gpill">ঞ</div><div class="gpill">ট</div><div class="gpill">ঠ</div><div class="gpill">ড</div>
+      <div class="gpill">ঢ</div><div class="gpill">ণ</div><div class="gpill">ত</div><div class="gpill">থ</div>
+      <div class="gpill">দ</div><div class="gpill">ধ</div><div class="gpill">ন</div><div class="gpill">প</div>
+      <div class="gpill">ফ</div><div class="gpill">ব</div><div class="gpill">ভ</div><div class="gpill">ম</div>
+      <div class="gpill">য</div><div class="gpill">র</div><div class="gpill">ল</div><div class="gpill">শ</div>
+      <div class="gpill">ষ</div><div class="gpill">স</div><div class="gpill">হ</div><div class="gpill">ড়</div>
+      <div class="gpill">ঢ়</div><div class="gpill">য়</div><div class="gpill">ৎ</div><div class="gpill">ং</div>
+      <div class="gpill">ঃ</div><div class="gpill">ঁ</div><div class="gpill">৳</div>
+    </div>
+  </section>
+
+  <!-- CONJUNCTS -->
+  <section>
+    <div class="sec-hd">
+      <svg viewBox="0 0 16 16" shape-rendering="crispEdges">
+        <rect x="0" y="4" width="6" height="8" fill="var(--terra)"/>
+        <rect x="4" y="0" width="8" height="6" fill="var(--terra)"/>
+        <rect x="10" y="4" width="6" height="8" fill="var(--terra)"/>
+        <rect x="4" y="10" width="8" height="6" fill="var(--terra)"/>
+        <rect x="5" y="5" width="6" height="6" fill="var(--bg)"/>
+      </svg>
+      <h3 class="sec-t">যুক্তাক্ষর · Conjuncts</h3>
+    </div>
+    <p style="font-size:2.2rem;line-height:2;letter-spacing:.08em;text-align:center">ক্ষ ক্ত ক্ক জ্ঞ ঞ্চ ঞ্জ ত্র ন্ত ন্দ ম্ভ ষ্ট ষ্ঠ স্ত্র ক্ষ্ম</p>
+    <p style="font-size:1.4rem;line-height:2;color:var(--ink2);text-align:center;margin-top:.4rem">ন্ধ ল্ক ল্প শ্চ শ্ন দ্ধ দ্ভ গ্ধ ঙ্ক ঙ্গ ম্প ম্ব ন্ন স্ক স্প স্ফ</p>
+  </section>
+
+  <!-- LATIN CHARACTERS -->
+  <section>
+    <div class="sec-hd">
+      <svg viewBox="0 0 16 16" shape-rendering="crispEdges">
+        <rect x="2" y="2" width="4" height="12" fill="var(--teal)"/>
+        <rect x="6" y="2" width="4" height="4" fill="var(--teal)"/>
+        <rect x="10" y="6" width="4" height="4" fill="var(--teal)"/>
+        <rect x="6" y="10" width="4" height="4" fill="var(--teal)"/>
+      </svg>
+      <h3 class="sec-t">Latin Characters</h3>
+    </div>
+    <div class="gpill-wrap">
+      <div class="gpill">A</div><div class="gpill">B</div><div class="gpill">C</div><div class="gpill">D</div>
+      <div class="gpill">E</div><div class="gpill">F</div><div class="gpill">G</div><div class="gpill">H</div>
+      <div class="gpill">I</div><div class="gpill">J</div><div class="gpill">K</div><div class="gpill">L</div>
+      <div class="gpill">M</div><div class="gpill">N</div><div class="gpill">O</div><div class="gpill">P</div>
+      <div class="gpill">Q</div><div class="gpill">R</div><div class="gpill">S</div><div class="gpill">T</div>
+      <div class="gpill">U</div><div class="gpill">V</div><div class="gpill">W</div><div class="gpill">X</div>
+      <div class="gpill">Y</div><div class="gpill">Z</div>
+      <div class="gpill">a</div><div class="gpill">b</div><div class="gpill">c</div><div class="gpill">d</div>
+      <div class="gpill">e</div><div class="gpill">f</div><div class="gpill">g</div><div class="gpill">h</div>
+      <div class="gpill">i</div><div class="gpill">j</div><div class="gpill">k</div><div class="gpill">l</div>
+      <div class="gpill">m</div><div class="gpill">n</div><div class="gpill">o</div><div class="gpill">p</div>
+      <div class="gpill">q</div><div class="gpill">r</div><div class="gpill">s</div><div class="gpill">t</div>
+      <div class="gpill">u</div><div class="gpill">v</div><div class="gpill">w</div><div class="gpill">x</div>
+      <div class="gpill">y</div><div class="gpill">z</div>
+    </div>
+  </section>
+
+  <!-- NUMERALS & SYMBOLS -->
+  <section>
+    <div class="sec-hd">
+      <svg viewBox="0 0 16 16" shape-rendering="crispEdges">
+        <rect x="4" y="2" width="8" height="2" fill="var(--ink)"/>
+        <rect x="2" y="4" width="4" height="8" fill="var(--ink)"/>
+        <rect x="10" y="4" width="4" height="8" fill="var(--ink)"/>
+        <rect x="4" y="6" width="8" height="2" fill="var(--ink)"/>
+        <rect x="4" y="12" width="8" height="2" fill="var(--ink)"/>
+      </svg>
+      <h3 class="sec-t">Numerals &amp; Symbols</h3>
+    </div>
+    <p style="font-size:2rem;line-height:1.6;margin-bottom:.7rem;text-align:center">০ ১ ২ ৩ ৪ ৫ ৬ ৭ ৮ ৯ · 0 1 2 3 4 5 6 7 8 9</p>
+    <p style="font-size:1.3rem;line-height:1.8;color:var(--ink2);text-align:center">৳ ₹ . , ; : ! ? ' " ( ) [ ] { } / — – @ # % &amp; * + = &lt; &gt;</p>
+  </section>
+
+  <!-- WAVE DIVIDER 3 -->
+  <div class="wave-div">
+    <svg width="200" height="12" viewBox="0 0 100 6" shape-rendering="crispEdges" fill="var(--terra)">
+      <rect x="0" y="4" width="4" height="2"/><rect x="4" y="2" width="4" height="2"/><rect x="8" y="0" width="4" height="2"/>
+      <rect x="12" y="2" width="4" height="2"/><rect x="16" y="4" width="4" height="2"/><rect x="20" y="2" width="4" height="2"/>
+      <rect x="24" y="0" width="4" height="2"/><rect x="28" y="2" width="4" height="2"/><rect x="32" y="4" width="4" height="2"/>
+      <rect x="36" y="2" width="4" height="2"/><rect x="40" y="0" width="4" height="2"/><rect x="44" y="2" width="4" height="2"/>
+      <rect x="48" y="4" width="4" height="2"/><rect x="52" y="2" width="4" height="2"/><rect x="56" y="0" width="4" height="2"/>
+      <rect x="60" y="2" width="4" height="2"/><rect x="64" y="4" width="4" height="2"/><rect x="68" y="2" width="4" height="2"/>
+      <rect x="72" y="0" width="4" height="2"/><rect x="76" y="2" width="4" height="2"/><rect x="80" y="4" width="4" height="2"/>
+      <rect x="84" y="2" width="4" height="2"/><rect x="88" y="0" width="4" height="2"/><rect x="92" y="2" width="4" height="2"/>
+      <rect x="96" y="4" width="4" height="2"/>
+    </svg>
+  </div>
+
+  <!-- DESIGNED FOR -->
+  <section>
+    <div class="sec-hd">
+      <!-- Pixel Gamepad -->
+      <svg viewBox="0 0 16 16" shape-rendering="crispEdges">
+        <rect x="4" y="4" width="8" height="8" fill="var(--ink)"/>
+        <rect x="2" y="6" width="12" height="4" fill="var(--ink)"/>
+        <rect x="4" y="6" width="2" height="4" fill="var(--teal)"/>
+        <rect x="10" y="6" width="2" height="4" fill="var(--terra)"/>
+        <rect x="6" y="8" width="4" height="2" fill="var(--ink3)"/>
+      </svg>
+      <h3 class="sec-t">Designed For</h3>
+    </div>
+    <div class="use-grid">
+      <div class="use-c"><i class="ph ph-game-controller"></i><div><h4>Retro Games</h4><p>Pixel-art game UIs, dialogue boxes, and HUD elements.</p></div></div>
+      <div class="use-c"><i class="ph ph-monitor"></i><div><h4>UI / UX</h4><p>Nostalgic character for dashboards and interfaces.</p></div></div>
+      <div class="use-c"><i class="ph ph-terminal-window"></i><div><h4>Terminals</h4><p>Grid-aligned and crisp for any monospaced context.</p></div></div>
+      <div class="use-c"><i class="ph ph-printer"></i><div><h4>Print &amp; Display</h4><p>Bold display text for posters and cultural media.</p></div></div>
+      <div class="use-c"><i class="ph ph-heart"></i><div><h4>Cultural Design</h4><p>Celebrates Bengali heritage through a digital lens.</p></div></div>
+      <div class="use-c"><i class="ph ph-code"></i><div><h4>Dev Tools</h4><p>Embed in apps and creative coding projects via OFL.</p></div></div>
+    </div>
+  </section>
+
+  <!-- FONT METADATA -->
+  <section>
+    <div class="sec-hd">
+      <!-- Pixel Scroll icon -->
+      <svg viewBox="0 0 16 16" shape-rendering="crispEdges">
+        <rect x="4" y="0" width="8" height="2" fill="var(--sand)"/>
+        <rect x="2" y="2" width="12" height="12" fill="var(--sand)"/>
+        <rect x="4" y="4" width="8" height="8" fill="var(--bg)"/>
+        <rect x="5" y="5" width="6" height="1" fill="var(--ink3)"/>
+        <rect x="5" y="7" width="6" height="1" fill="var(--ink3)"/>
+        <rect x="5" y="9" width="4" height="1" fill="var(--ink3)"/>
+        <rect x="4" y="14" width="8" height="2" fill="var(--sand)"/>
+      </svg>
+      <h3 class="sec-t">Font Information</h3>
+    </div>
+    <table class="mtbl">
+      <tr><td>Family Name</td><td>Iksir (ইকসির)</td></tr>
+      <tr><td>Designer</td><td>Inan</td></tr>
+      <tr><td>Styles</td><td>Regular 400, Italic 400</td></tr>
+      <tr><td>Scripts</td><td>Bengali, Latin</td></tr>
+      <tr><td>Glyph Count</td><td>426</td></tr>
+      <tr><td>Conjunct Rules (akhn)</td><td>119</td></tr>
+      <tr><td>Units Per Em</td><td>1000</td></tr>
+      <tr><td>Composites</td><td>0 — All hand-drawn</td></tr>
+      <tr><td>Rendering</td><td>100% Aliased, No Anti-aliasing</td></tr>
+      <tr><td>License</td><td>SIL Open Font License 1.1</td></tr>
+      <tr><td>Repository</td><td><a href="https://github.com/InanXR/Iksir">github.com/InanXR/Iksir</a></td></tr>
+    </table>
+  </section>
+
+</main>
+
+<!-- FOOTER -->
+<footer>
+  <div class="w">
+    <!-- Pixel Padma footer emblem -->
+    <svg width="48" height="32" viewBox="0 0 24 16" shape-rendering="crispEdges" style="margin-bottom:.8rem">
+      <rect x="10" y="0" width="4" height="4" fill="var(--terra)"/>
+      <rect x="6" y="2" width="12" height="4" fill="var(--terra)"/>
+      <rect x="4" y="4" width="16" height="4" fill="var(--terra)"/>
+      <rect x="10" y="4" width="4" height="4" fill="var(--gold)"/>
+      <rect x="2" y="8" width="20" height="2" fill="var(--teal)"/>
+      <rect x="6" y="10" width="12" height="2" fill="var(--teal)"/>
+      <rect x="8" y="12" width="8" height="2" fill="var(--teal)"/>
+      <rect x="10" y="14" width="4" height="2" fill="var(--teal)"/>
+    </svg>
+    <div class="ft-glyph">ইকসির</div>
+    <div class="ft-name">IKSIR</div>
+    <div class="ft-sub">Type Specimen · Designed by Inan · OFL 1.1</div>
+    <div class="ft-links">
+      <a href="https://inanxr.me" title="Website"><i class="ph ph-globe-simple"></i></a>
+      <a href="https://github.com/InanXR" title="GitHub"><i class="ph ph-github-logo"></i></a>
+      <a href="mailto:inan@iseer.co" title="Email"><i class="ph ph-envelope-simple"></i></a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

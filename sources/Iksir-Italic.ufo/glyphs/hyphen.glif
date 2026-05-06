@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hyphen" format="2">
+  <advance width="471"/>
+  <unicode hex="002D"/>
+  <outline>
+    <contour>
+      <point x="72" y="388" type="line"/>
+      <point x="72" y="388" type="line"/>
+      <point x="59" y="325" type="line"/>
+      <point x="122" y="325" type="line"/>
+      <point x="135" y="388" type="line"/>
+    </contour>
+    <contour>
+      <point x="135" y="388" type="line"/>
+      <point x="135" y="388" type="line"/>
+      <point x="122" y="325" type="line"/>
+      <point x="184" y="325" type="line"/>
+      <point x="197" y="388" type="line"/>
+    </contour>
+    <contour>
+      <point x="197" y="388" type="line"/>
+      <point x="197" y="388" type="line"/>
+      <point x="184" y="325" type="line"/>
+      <point x="247" y="325" type="line"/>
+      <point x="260" y="388" type="line"/>
+    </contour>
+    <contour>
+      <point x="260" y="388" type="line"/>
+      <point x="260" y="388" type="line"/>
+      <point x="247" y="325" type="line"/>
+      <point x="310" y="325" type="line"/>
+      <point x="323" y="388" type="line"/>
+    </contour>
+    <contour>
+      <point x="323" y="388" type="line"/>
+      <point x="323" y="388" type="line"/>
+      <point x="310" y="325" type="line"/>
+      <point x="372" y="325" type="line"/>
+      <point x="385" y="388" type="line"/>
+    </contour>
+    <contour>
+      <point x="385" y="388" type="line"/>
+      <point x="385" y="388" type="line"/>
+      <point x="372" y="325" type="line"/>
+      <point x="435" y="325" type="line"/>
+      <point x="448" y="388" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>330440b90f5b6ec7dc17d10bd61d0f7b3bd3bc1a5c0546830d006e620875f3f7396bc6e33fb2f6b4f0cbe932689ddc0c3e5a1d6697630fade34ef573cd1e3d3f</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

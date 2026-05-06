@@ -1,0 +1,3408 @@
+languagesystem beng dflt;
+languagesystem DFLT dflt;
+languagesystem bng2 dflt;
+languagesystem latn dflt;
+table GDEF {
+    GlyphClassDef [], [], [], [];
+} GDEF;
+
+    markClass u0981 <anchor -193 660> @Anchor2__Anchor2;
+    markClass u09D7.rphf <anchor -193 676> @Anchor2__Anchor2;
+
+    markClass u0981 <anchor -170 760> @Anchor4__Anchor4;
+
+    markClass u09D7.rphf <anchor -193 676> @Anchor5__Anchor5;
+
+    markClass u09C1 <anchor 9 -36> @Anchor7__Anchor7;
+    markClass u09C2 <anchor 26 -75> @Anchor7__Anchor7;
+    markClass u09C3 <anchor 35 -85> @Anchor7__Anchor7;
+    markClass u09CD <anchor -132 3> @Anchor7__Anchor7;
+    markClass uni09CD09F1.blwf <anchor -61 64> @Anchor7__Anchor7;
+    markClass uni09CD09F0.blwf <anchor 7 62> @Anchor7__Anchor7;
+
+    markClass u09BC <anchor 0 0> @Anchor9__Anchor9;
+
+    markClass u09BC <anchor 0 0> @Anchor11__Anchor11;
+
+    markClass uni09CD09F1.blwf <anchor -60 62> @Anchor15__Anchor15;
+    markClass uni09CD09F0.blwf <anchor 12 60> @Anchor15__Anchor15;
+
+    markClass u09C1 <anchor 9 -36> @Anchor17_Anchor17_;
+    markClass u09C2 <anchor 26 -75> @Anchor17_Anchor17_;
+    markClass u09C3 <anchor 35 -85> @Anchor17_Anchor17_;
+    markClass u09CD <anchor -132 3> @Anchor17_Anchor17_;
+    markClass uni09CD09F1.blwf <anchor -61 64> @Anchor17_Anchor17_;
+    markClass uni09CD09F0.blwf <anchor 7 62> @Anchor17_Anchor17_;
+
+@class1 = [u020C u0248 u0249 u09B0 u09F0 u09F1 uni099609CD09F0.blwf uni099809CD09F0.blwf uni09A309CD09F0.blwf uni09A509CD09F0.blwf uni09A709CD09F0.blwf uni09A809CD09F0.blwf uni09AC09CD09F0.blwf uni09AE09CD09F109CD09F0.blwf uni09AF09CD09F0.blwf uni09B209CD09F0.blwf uni09B609CD09F0.blwf uni09B709CD09F0.blwf uni09B809CD09F0.blwf];
+@class2 = [AEacute Aringacute Oslashacute aringacute oslashacute u01EF u01F1 u01F2 u01F3 u01F4 u01F5 u01F6 u01F7 u01F8 u01F9 u0200 u0201 u0202 u0203 u0205 u0208 u0209 u020A u020B u020C u020D u0213 u0214 u0215 u0217 u0218 u0219 u021B u021C u021D u021E u021F u0220 u0221 u0222 u0223 u0225 u0226 u0228 u0229 u022A u022B u022C u022D u022E u0231 u0232 u0234 u0235 u0237 u0238 u0239 u023A u0240 u0248 u0248.psts u0249 u0995 u0996 u0997 u0998 u0999 u099A u099B u099C u099D u099E u09A1 u09A2 u09A3 u09A4 u09A5 u09A6 u09A7 u09A8 u09AA u09AB u09AC u09AD u09AE u09AF u09B0 u09B2 u09B6 u09B7 u09B8 u09B9 u09CE u09DC u09DD u09DF uni01D601F4.pres uni01D60996.pres uni01D609AE.pres uni01F209CD09F0.blwf uni01F209CD09F1.blwf uni01F509CD09F1.blwf uni01F909CD09F0.blwf uni01FC09CD09F1.blwf uni020809CD09F0.blwf uni020909CD09F1.blwf uni020D09CD09F1.blwf uni021309CD09F1.blwf uni021709CD09F0.blwf uni021809CD09F0.blwf uni021B09CD09F0.blwf uni022109C1.blws uni022109C2.blws uni023409CD09F0.blwf uni099509CD09A8.akhn uni099509CD09B2.akhn uni099509CD09B709CD09A3.akhn uni099509CD09F1.blwf uni099609CD09F0.blwf uni099609CD09F1.blwf uni099709CD09A8.akhn uni099709CD09AE.akhn uni099709CD09B2.akhn uni099709CD09F1.blwf uni099809CD09A8.akhn uni099809CD09F0.blwf uni099809CD09F1.blwf uni099909CD09F0.blwf uni099A09CD099E.akhn uni099A09CD09F0.blwf uni099B09CD09F0.blwf uni099B09CD09F0.blwf.1 uni099B09CD09F1.blwf uni099C09CD09F0.blwf uni099C09CD09F1.blwf uni099D09CD09F0.blwf uni09A109CD09F0.blwf uni09A209CD09F0.blwf uni09A309CD09A2.akhn uni09A309CD09A3.akhn uni09A309CD09AE.akhn uni09A309CD09F0.blwf uni09A309CD09F1.blwf uni09A409CD09A8.akhn uni09A409CD09B2.akhn uni09A409CD09F1.blwf uni09A509CD09B2.akhn uni09A509CD09F0.blwf uni09A509CD09F1.blwf uni09A609CD09A8.akhn uni09A609CD09AD.akhn uni09A609CD09AD09CD09F0.akhn uni09A609CD09F0.blwf uni09A609CD09F0.blwf.1 uni09A609CD09F009C1.blwf uni09A609CD09F009C2.blwf uni09A709CD09A8.akhn uni09A709CD09AE.akhn uni09A709CD09F0.blwf uni09A809CD099C.akhn uni09A809CD09A4.akhn uni09A809CD09A409CD09F0.akhn uni09A809CD09A409CD09F1.akhn uni09A809CD09A5.akhn uni09A809CD09A8.akhn uni09A809CD09AE.akhn uni09A809CD09F0.blwf uni09A809CD09F1.blwf uni09AA09CD09A8.akhn uni09AA09CD09B2.akhn uni09AB09CD09B2.akhn uni09AB09CD09F0.blwf uni09AC09CD09B2.akhn uni09AC09CD09F0.blwf uni09AD09CD09B2.akhn uni09AE09CD09AD.akhn uni09AE09CD09AD09CD09F0.akhn uni09AE09CD09AE.akhn uni09AE09CD09B2.akhn uni09AE09CD09F0.blwf uni09AE09CD09F1.blwf uni09AE09CD09F109CD09F0.blwf uni09AF09CD09F0.blwf uni09B209CD09AD.akhn uni09B209CD09AE.akhn uni09B209CD09B2.akhn uni09B209CD09B8.akhn uni09B209CD09F0.blwf uni09B209CD09F1.blwf uni09B609CD09A8.akhn uni09B609CD09AE.akhn uni09B609CD09B2.akhn uni09B609CD09F0.blwf uni09B609CD09F1.blwf uni09B709CD0995.akhn uni09B709CD099509CD09F0.akhn uni09B709CD09AE.akhn uni09B709CD09F0.blwf uni09B709CD09F1.blwf uni09B809CD0995.akhn uni09B809CD099509CD09B2.akhn uni09B809CD099509CD09F0.akhn uni09B809CD09A5.akhn uni09B809CD09A8.akhn uni09B809CD09AE.akhn uni09B809CD09B2.akhn uni09B809CD09F0.blwf uni09B809CD09F1.blwf uni09B909CD09A3.akhn uni09B909CD09B2.akhn uni09B909CD09F0.blwf uni09B909CD09F1.blwf];
+@class6 = [u01F0 u0204 u0206 u0207 u0216 u021A u022F u0230 u0233 u099F u09A0 u09BF.psts.2 u09C0 u09C0.psts u09D7 u09D7.psts uni01F009CD09F0.blwf uni022F09CD09F0.blwf uni023309CD09F0.blwf uni099F09CD09AE.akhn uni099F09CD09F0.blwf uni099F09CD09F0.blwf.1 uni099F09CD09F1.blwf uni09A009CD09F0.blwf uni09AB09CD099F.akhn];
+@class9 = [u01EF uni099509CD09A8.akhn uni099509CD09B2.akhn uni099709CD09B2.akhn uni099809CD09A8.akhn uni099A09CD09F0.blwf uni099F09CD09F0.blwf uni09A009CD09F0.blwf uni09A209CD09F0.blwf uni09A609CD09A8.akhn uni09A709CD09A8.akhn uni09A809CD09A8.akhn uni09AB09CD09B2.akhn uni09AC09CD09B2.akhn uni09AE09CD09B2.akhn uni09AE09CD09F0.blwf uni09B809CD09A8.akhn];
+@class10 = [u01EF uni099509CD09B2.akhn uni099809CD09A8.akhn uni099A09CD09F0.blwf uni099F09CD09F0.blwf uni09A009CD09F0.blwf uni09A209CD09F0.blwf uni09AE09CD09F0.blwf];
+
+lookup LigatureSubstitution1 {
+    lookupflag 0;
+    ;
+    sub u09AC u09CD by uni09CD09F1.blwf;
+    sub u09B0 u09CD by uni09CD09F0.blwf;
+    sub u09F0 u09CD by uni09CD09F0.blwf;
+    sub u09F1 u09CD by uni09CD09F1.blwf;
+} LigatureSubstitution1;
+
+lookup LigatureSubstitution2 {
+    lookupflag 0;
+    ;
+    # Original source: 1 
+    sub u09CD u09AC by uni09CD09F1.blwf;
+    sub u09CD u09B0 by uni09CD09F0.blwf;
+    sub u09CD u09F0 by uni09CD09F0.blwf;
+    sub u09CD u09F1 by uni09CD09F1.blwf;
+} LigatureSubstitution2;
+
+lookup LigatureSubstitution3 {
+    lookupflag 0;
+    ;
+    # Original source: 2 
+    sub u09AF u09CD by uni09CD09AF.rlig;
+} LigatureSubstitution3;
+
+lookup LigatureSubstitution4 {
+    lookupflag 0;
+    ;
+    # Original source: 3 
+    sub u09CD u09AF by uni09CD09AF.rlig;
+} LigatureSubstitution4;
+
+lookup LigatureSubstitution5 {
+    lookupflag 0;
+    ;
+    # Original source: 4 
+    sub u09B0 u09CD by u09D7.rphf;
+    sub u09F0 u09CD by u09D7.rphf;
+} LigatureSubstitution5;
+
+lookup LigatureSubstitution6 {
+    lookupflag 0;
+    ;
+    # Original source: 5 
+    sub u09A1 u09BC by u09DC;
+    sub u09A2 u09BC by u09DD;
+    sub u09AC u09BC by u09B0;
+    sub u09AF u09BC by u09DF;
+} LigatureSubstitution6;
+
+lookup LigatureSubstitution7 {
+    lookupflag 0;
+    ;
+    # Original source: 6 
+    sub u0985 u0983 u0983 by u09BD;
+    sub u0986 u0983 u0983 by u0980;
+    sub u0995 u09CD u09B7 u09CD u09A3 by uni099509CD09B709CD09A3.akhn;
+    sub u0995 u09CD u09B7 u09CD u09AE by u01F1;
+    sub u0995 u09CD u0995 by u01EF;
+    sub u0995 u09CD u099F by u01F0;
+    sub u0995 u09CD u09A4 by u01F2;
+    sub u0995 u09CD u09A8 by uni099509CD09A8.akhn;
+    sub u0995 u09CD u09AE by u01F3;
+    sub u0995 u09CD u09B2 by uni099509CD09B2.akhn;
+    sub u0995 u09CD u09B7 by u01F5;
+    sub u0995 u09CD u09B8 by u0240;
+    sub u0997 u09CD u0997 by u01F7;
+    sub u0997 u09CD u09A6 by u01F8;
+    sub u0997 u09CD u09A7 by u01F9;
+    sub u0997 u09CD u09A8 by uni099709CD09A8.akhn;
+    sub u0997 u09CD u09AE by uni099709CD09AE.akhn;
+    sub u0997 u09CD u09B2 by uni099709CD09B2.akhn;
+    sub u0998 u09CD u09A8 by uni099809CD09A8.akhn;
+    sub u099A u09CD u099E by uni099A09CD099E.akhn;
+    sub u099C u09CD u099C by AEacute;
+    sub u099C u09CD u099D by Oslashacute;
+    sub u099C u09CD u099E by oslashacute;
+    sub u099E u09CD u099A by u0200;
+    sub u099E u09CD u099B by u0201;
+    sub u099E u09CD u099C by u0202;
+    sub u099E u09CD u099D by u0203;
+    sub u099F u09CD u099F by u0204;
+    sub u099F u09CD u09AE by uni099F09CD09AE.akhn;
+    sub u09A1 u09CD u09A1 by u0205;
+    sub u09A3 u09CD u099F by u0206;
+    sub u09A3 u09CD u09A0 by u0207;
+    sub u09A3 u09CD u09A1 by u0208;
+    sub u09A3 u09CD u09A2 by uni09A309CD09A2.akhn;
+    sub u09A3 u09CD u09A3 by uni09A309CD09A3.akhn;
+    sub u09A3 u09CD u09A8 by uni09A309CD09A3.akhn;
+    sub u09A3 u09CD u09AE by uni09A309CD09AE.akhn;
+    sub u09A4 u09CD u09A4 by u0209;
+    sub u09A4 u09CD u09A5 by u020A;
+    sub u09A4 u09CD u09A8 by uni09A409CD09A8.akhn;
+    sub u09A4 u09CD u09AE by u020B;
+    sub u09A4 u09CD u09B2 by uni09A409CD09B2.akhn;
+    sub u09A5 u09CD u09B2 by uni09A509CD09B2.akhn;
+    sub u09A6 u09CD u09A6 by u020D;
+    sub u09A6 u09CD u09A7 by u0213;
+    sub u09A6 u09CD u09A8 by uni09A609CD09A8.akhn;
+    sub u09A6 u09CD u09AD by uni09A609CD09AD.akhn;
+    sub u09A6 u09CD u09AE by u0215;
+    sub u09A7 u09CD u09A8 by uni09A709CD09A8.akhn;
+    sub u09A7 u09CD u09AE by uni09A709CD09AE.akhn;
+    sub u09A8 u09CD u099C by uni09A809CD099C.akhn;
+    sub u09A8 u09CD u09A0 by u0216;
+    sub u09A8 u09CD u09A1 by u0217;
+    sub u09A8 u09CD u09A4 by uni09A809CD09A4.akhn;
+    sub u09A8 u09CD u09A5 by uni09A809CD09A5.akhn;
+    sub u09A8 u09CD u09A7 by u0218;
+    sub u09A8 u09CD u09A8 by uni09A809CD09A8.akhn;
+    sub u09A8 u09CD u09AE by uni09A809CD09AE.akhn;
+    sub u09A8 u09CD u09B8 by u0219;
+    sub u09AA u09CD u099F by u021A;
+    sub u09AA u09CD u09A4 by u021B;
+    sub u09AA u09CD u09A8 by uni09AA09CD09A8.akhn;
+    sub u09AA u09CD u09AA by u021C;
+    sub u09AA u09CD u09B2 by uni09AA09CD09B2.akhn;
+    sub u09AA u09CD u09B8 by u021D;
+    sub u09AB u09CD u099F by uni09AB09CD099F.akhn;
+    sub u09AB u09CD u09B2 by uni09AB09CD09B2.akhn;
+    sub u09AC u09CD u099C by u021E;
+    sub u09AC u09CD u09A6 by u021F;
+    sub u09AC u09CD u09A7 by u0220;
+    sub u09AC u09CD u09B2 by uni09AC09CD09B2.akhn;
+    sub u09AD u09CD u09B2 by uni09AD09CD09B2.akhn;
+    sub u09AE u09BE u09BE u09BE by uni09AE09BE09BE09BE.rlig;
+    sub u09AE u09BE u09BE by uni09AE09BE09BE.rlig;
+    sub u09AE u09CD u09A8 by u0222;
+    sub u09AE u09CD u09AB by u0223;
+    sub u09AE u09CD u09AD by uni09AE09CD09AD.akhn;
+    sub u09AE u09CD u09AE by uni09AE09CD09AE.akhn;
+    sub u09AE u09CD u09B2 by uni09AE09CD09B2.akhn;
+    sub u09B2 u09CD u0995 by u0225;
+    sub u09B2 u09CD u0997 by u0226;
+    sub u09B2 u09CD u09A1 by u0228;
+    sub u09B2 u09CD u09AA by u0229;
+    sub u09B2 u09CD u09AB by u022A;
+    sub u09B2 u09CD u09AD by uni09B209CD09AD.akhn;
+    sub u09B2 u09CD u09AE by uni09B209CD09AE.akhn;
+    sub u09B2 u09CD u09B2 by uni09B209CD09B2.akhn;
+    sub u09B2 u09CD u09B8 by uni09B209CD09B8.akhn;
+    sub u09B6 u09CD u099A by u022C;
+    sub u09B6 u09CD u099B by u022D;
+    sub u09B6 u09CD u09A8 by uni09B609CD09A8.akhn;
+    sub u09B6 u09CD u09AE by uni09B609CD09AE.akhn;
+    sub u09B6 u09CD u09B2 by uni09B609CD09B2.akhn;
+    sub u09B7 u09CD u0995 by uni09B709CD0995.akhn;
+    sub u09B7 u09CD u099F by u022F;
+    sub u09B7 u09CD u09A0 by u0230;
+    sub u09B7 u09CD u09A3 by u022E;
+    sub u09B7 u09CD u09AB by u0231;
+    sub u09B7 u09CD u09AE by uni09B709CD09AE.akhn;
+    sub u09B8 u09CD u0995 u09CD u09B2 by uni09B809CD099509CD09B2.akhn;
+    sub u09B8 u09BE u0983 u0983 by uFDFA;
+    sub u09B8 u09CD u0995 by uni09B809CD0995.akhn;
+    sub u09B8 u09CD u0996 by u0232;
+    sub u09B8 u09CD u099F by u0233;
+    sub u09B8 u09CD u09A4 by u0234;
+    sub u09B8 u09CD u09A5 by uni09B809CD09A5.akhn;
+    sub u09B8 u09CD u09A8 by uni09B809CD09A8.akhn;
+    sub u09B8 u09CD u09AB by u0235;
+    sub u09B8 u09CD u09AE by uni09B809CD09AE.akhn;
+    sub u09B8 u09CD u09B2 by uni09B809CD09B2.akhn;
+    sub u09B9 u09CD u09A3 by uni09B909CD09A3.akhn;
+    sub u09B9 u09CD u09A8 by u0239;
+    sub u09B9 u09CD u09AE by u023A;
+    sub u09B9 u09CD u09B2 by uni09B909CD09B2.akhn;
+} LigatureSubstitution7;
+
+lookup LigatureSubstitution8 {
+    lookupflag 0;
+    ;
+    # Original source: 7 
+    sub u0997 u09CD by uni099709CD.half;
+    sub u0999 u09CD by u01D6;
+    sub u099A u09CD by u01D5;
+    sub u09A3 u09CD by uni09A309CD.half;
+    sub u09A6 u09CD by uni09A609CD.half;
+    sub u09A8 u09CD by uni09A809CD.half;
+    sub u09AA u09CD by uni09AA09CD.half;
+    sub u09AE u09CD by uni09AE09CD.half;
+    sub u09B2 u09CD by uni09B209CD.half;
+    sub u09B6 u09CD by uni09B609CD.half;
+    sub u09B7 u09CD by uni09B709CD.half;
+    sub u09B8 u09CD by uni09B809CD.half;
+    sub u09DC u09CD by uni09DC09CD.half;
+} LigatureSubstitution8;
+
+lookup LigatureSubstitution9 {
+    lookupflag 0;
+    ;
+    # Original source: 8 
+    sub u01D6 u0995 by Aringacute;
+    sub u01D6 u0996 by uni01D60996.pres;
+    sub u01D6 u0997 by aringacute;
+    sub u01D6 u09AE by uni01D609AE.pres;
+    sub u01D6 u01F4 by uni01D601F4.pres;
+} LigatureSubstitution9;
+
+lookup LigatureSubstitution10 {
+    lookupflag 0;
+    ;
+    # Original source: 9 
+    sub u0995 uni09CD09F0.blwf by u01F4;
+    sub u0996 uni09CD09F0.blwf by uni099609CD09F0.blwf;
+    sub u0997 uni09CD09F0.blwf by u0249;
+    sub u0998 uni09CD09F0.blwf by uni099809CD09F0.blwf;
+    sub u0999 uni09CD09F0.blwf by uni099909CD09F0.blwf;
+    sub u099A uni09CD09F0.blwf by uni099A09CD09F0.blwf;
+    sub u099B uni09CD09F0.blwf by uni099B09CD09F0.blwf;
+    sub u099C uni09CD09F0.blwf by uni099C09CD09F0.blwf;
+    sub u099D uni09CD09F0.blwf by uni099D09CD09F0.blwf;
+    sub u099F uni09CD09F0.blwf by uni099F09CD09F0.blwf;
+    sub u09A0 uni09CD09F0.blwf by uni09A009CD09F0.blwf;
+    sub u09A1 uni09CD09F0.blwf by uni09A109CD09F0.blwf;
+    sub u09A2 uni09CD09F0.blwf by uni09A209CD09F0.blwf;
+    sub u09A3 uni09CD09F0.blwf by uni09A309CD09F0.blwf;
+    sub u09A4 uni09CD09F0.blwf by u020C;
+    sub u09A5 uni09CD09F0.blwf by uni09A509CD09F0.blwf;
+    sub u09A6 uni09CD09F0.blwf by uni09A609CD09F0.blwf;
+    sub u09A7 uni09CD09F0.blwf by uni09A709CD09F0.blwf;
+    sub u09A8 uni09CD09F0.blwf by uni09A809CD09F0.blwf;
+    sub u09AA uni09CD09F0.blwf by u0248;
+    sub u09AB uni09CD09F0.blwf by uni09AB09CD09F0.blwf;
+    sub u09AC uni09CD09F0.blwf by uni09AC09CD09F0.blwf;
+    sub u09AD uni09CD09F0.blwf by u0221;
+    sub u09AE uni09CD09F1.blwf uni09CD09F0.blwf by uni09AE09CD09F109CD09F0.blwf;
+    sub u09AE uni09CD09F0.blwf by uni09AE09CD09F0.blwf;
+    sub u09AF uni09CD09F0.blwf by uni09AF09CD09F0.blwf;
+    sub u09B2 uni09CD09F0.blwf by uni09B209CD09F0.blwf;
+    sub u09B6 uni09CD09F0.blwf by uni09B609CD09F0.blwf;
+    sub u09B7 uni09CD09F0.blwf by uni09B709CD09F0.blwf;
+    sub u09B8 uni09CD09F0.blwf by uni09B809CD09F0.blwf;
+    sub u09DD uni09CD09F0.blwf by uni09DD09CD09F0.blwf;
+    sub u01F0 uni09CD09F0.blwf by uni01F009CD09F0.blwf;
+    sub u01F2 uni09CD09F0.blwf by uni01F209CD09F0.blwf;
+    sub u01F9 uni09CD09F0.blwf by uni01F909CD09F0.blwf;
+    sub Aringacute uni09CD09F0.blwf by uni01D601F4.pres;
+    sub u0208 uni09CD09F0.blwf by uni020809CD09F0.blwf;
+    sub uni09A609CD09AD.akhn uni09CD09F0.blwf by uni09A609CD09AD09CD09F0.akhn;
+    sub u0217 uni09CD09F0.blwf by uni021709CD09F0.blwf;
+    sub uni09A809CD09A4.akhn uni09CD09F0.blwf by uni09A809CD09A409CD09F0.akhn;
+    sub u0218 uni09CD09F0.blwf by uni021809CD09F0.blwf;
+    sub u021B uni09CD09F0.blwf by uni021B09CD09F0.blwf;
+    sub uni09AE09CD09F1.blwf uni09CD09F0.blwf by uni09AE09CD09F109CD09F0.blwf;
+    sub uni09AE09CD09AD.akhn uni09CD09F0.blwf by uni09AE09CD09AD09CD09F0.akhn;
+    sub uni09B709CD0995.akhn uni09CD09F0.blwf by uni09B709CD099509CD09F0.akhn;
+    sub u022F uni09CD09F0.blwf by uni022F09CD09F0.blwf;
+    sub uni09B809CD0995.akhn uni09CD09F0.blwf by uni09B809CD099509CD09F0.akhn;
+    sub u0233 uni09CD09F0.blwf by uni023309CD09F0.blwf;
+    sub u0234 uni09CD09F0.blwf by uni023409CD09F0.blwf;
+} LigatureSubstitution10;
+
+lookup LigatureSubstitution11 {
+    lookupflag 0;
+    ;
+    # Original source: 10 
+    sub u0995 uni09CD09F1.blwf by uni099509CD09F1.blwf;
+    sub u0996 uni09CD09F1.blwf by uni099609CD09F1.blwf;
+    sub u0997 u09C1 by u01F6;
+    sub u0997 uni09CD09F1.blwf by uni099709CD09F1.blwf;
+    sub u0998 uni09CD09F1.blwf by uni099809CD09F1.blwf;
+    sub u099B uni09CD09F1.blwf by uni099B09CD09F1.blwf;
+    sub u099C uni09CD09F1.blwf by uni099C09CD09F1.blwf;
+    sub u099F uni09CD09F1.blwf by uni099F09CD09F1.blwf;
+    sub u09A3 uni09CD09F1.blwf by uni09A309CD09F1.blwf;
+    sub u09A4 uni09CD09F1.blwf by uni09A409CD09F1.blwf;
+    sub u09A5 uni09CD09F1.blwf by uni09A509CD09F1.blwf;
+    sub u09A6 uni09CD09F1.blwf by u0214;
+    sub u09A8 uni09CD09F1.blwf by uni09A809CD09F1.blwf;
+    sub u09AE uni09CD09F1.blwf by uni09AE09CD09F1.blwf;
+    sub u09B2 uni09CD09F1.blwf by uni09B209CD09F1.blwf;
+    sub u09B6 u09C1 by u022B;
+    sub u09B6 uni09CD09F1.blwf by uni09B609CD09F1.blwf;
+    sub u09B7 uni09CD09F1.blwf by uni09B709CD09F1.blwf;
+    sub u09B8 uni09CD09F1.blwf by uni09B809CD09F1.blwf;
+    sub u09B9 u09C1 by u0237;
+    sub u09B9 u09C3 by u0238;
+    sub u09B9 uni09CD09F1.blwf by uni09B909CD09F1.blwf;
+    sub u09B9 uni09CD09F0.blwf by uni09B909CD09F0.blwf;
+    sub u09DC u09C1 by uni09DC09C1.blws;
+    sub u09DC u09C2 by uni09DC09C2.blws;
+    sub u09DD u09C1 by uni09DD09C1.blws;
+    sub u09DD u09C2 by uni09DD09C2.blws;
+    sub u09DF u09C1 by uni09DF09C1.blws;
+    sub u09DF u09C2 by uni09DF09C2.blws;
+    sub u01F2 uni09CD09F1.blwf by uni01F209CD09F1.blwf;
+    sub u01F5 uni09CD09F1.blwf by uni01F509CD09F1.blwf;
+    sub AEacute uni09CD09F1.blwf by uni01FC09CD09F1.blwf;
+    sub u0209 uni09CD09F1.blwf by uni020909CD09F1.blwf;
+    sub u020D uni09CD09F1.blwf by uni020D09CD09F1.blwf;
+    sub u0213 uni09CD09F1.blwf by uni021309CD09F1.blwf;
+    sub uni09A609CD09F0.blwf u09C1 by uni09A609CD09F009C1.blwf;
+    sub uni09A609CD09F0.blwf u09C2 by uni09A609CD09F009C2.blwf;
+    sub uni09A609CD09F0.blwf u09C1.psts by uni09A609CD09F009C1.blwf;
+    sub uni09A609CD09F0.blwf u09C2.psts by uni09A609CD09F009C2.blwf;
+    sub uni09A809CD09A4.akhn uni09CD09F1.blwf by uni09A809CD09A409CD09F1.akhn;
+    sub u0221 u09C1 by uni022109C1.blws;
+    sub u0221 u09C2 by uni022109C2.blws;
+    sub u0221 u09C1.psts by uni022109C1.blws;
+    sub u0221 u09C2.psts by uni022109C2.blws;
+} LigatureSubstitution11;
+
+lookup SingleSubstitution24 {
+    lookupflag 0;
+    ;
+    # Original source: 23 
+    sub uni09CD09F1.blwf by uni09CD09F1.blwf.1;
+} SingleSubstitution24;
+
+lookup ChainedContextualGSUB12 {
+    lookupflag 0;
+    ;
+    # Original source: 11 
+    sub [u09A7 u09AC u09B9] uni09CD09F1.blwf' lookup SingleSubstitution24;
+} ChainedContextualGSUB12;
+
+lookup SingleSubstitution22 {
+    lookupflag 0;
+    ;
+    # Original source: 21 
+    sub u09C1 by u09C1.psts;
+    sub u09C2 by u09C2.psts;
+} SingleSubstitution22;
+
+lookup ChainedContextualGSUB13 {
+    lookupflag 0;
+    ;
+    # Original source: 12 
+    sub @class1 [u09C1 u09C2]' lookup SingleSubstitution22;
+} ChainedContextualGSUB13;
+
+lookup MultipleSubstitution30 {
+    lookupflag 0;
+    ;
+    # Original source: 29 
+    sub u09DC by u09A1 u09BC;
+    sub u09DD by u09A2 u09BC;
+    sub u09DF by u09AF u09BC;
+} MultipleSubstitution30;
+
+lookup ChainedContextualGSUB14 {
+    lookupflag 0;
+    ;
+    # Original source: 13 
+    sub [u09DC u09DD u09DF]' lookup MultipleSubstitution30 [u09C1 u09C2]';
+} ChainedContextualGSUB14;
+
+lookup SingleSubstitution26 {
+    lookupflag 0;
+    ;
+    # Original source: 25 
+    sub u09BF by u09BF.psts;
+} SingleSubstitution26;
+
+lookup ChainedContextualGSUB15 {
+    lookupflag 0;
+    ;
+    # Original source: 14 
+    sub u09BF' lookup SingleSubstitution26 @class2 u0981;
+} ChainedContextualGSUB15;
+
+lookup SingleSubstitution28 {
+    lookupflag 0;
+    ;
+    # Original source: 27 
+    sub u0981 by u0000;
+    sub u09D7.rphf by u0000;
+} SingleSubstitution28;
+
+lookup ChainedContextualGSUB16 {
+    lookupflag 0;
+    ;
+    # Original source: 15 
+    sub u09BF.psts @class2 u0981' lookup SingleSubstitution28;
+} ChainedContextualGSUB16;
+
+lookup SingleSubstitution27 {
+    lookupflag 0;
+    ;
+    # Original source: 26 
+    sub u09BF by u09BF.psts.1;
+} SingleSubstitution27;
+
+lookup ChainedContextualGSUB17 {
+    lookupflag 0;
+    ;
+    # Original source: 16 
+    sub u09BF' lookup SingleSubstitution27 @class2 u09D7.rphf;
+} ChainedContextualGSUB17;
+
+lookup ChainedContextualGSUB18 {
+    lookupflag 0;
+    ;
+    # Original source: 17 
+    sub u09BF.psts.1 @class2 u09D7.rphf' lookup SingleSubstitution28;
+} ChainedContextualGSUB18;
+
+lookup SingleSubstitution23 {
+    lookupflag 0;
+    ;
+    # Original source: 22 
+    sub u09C0 by u09D7.rphf;
+    sub u09D7.rphf by u09C0;
+} SingleSubstitution23;
+
+lookup ChainedContextualGSUB19 {
+    lookupflag 0;
+    ;
+    # Original source: 18 
+    sub u09D7.rphf' lookup SingleSubstitution23 u09C0' lookup SingleSubstitution23;
+} ChainedContextualGSUB19;
+
+lookup SingleSubstitution25 {
+    lookupflag 0;
+    ;
+    # Original source: 24 
+    sub u09D7 by u09D7.rphf;
+    sub u09D7.rphf by u09D7;
+} SingleSubstitution25;
+
+lookup ChainedContextualGSUB20 {
+    lookupflag 0;
+    ;
+    # Original source: 19 
+    sub u09D7.rphf' lookup SingleSubstitution25 u09D7' lookup SingleSubstitution25;
+} ChainedContextualGSUB20;
+
+lookup SingleSubstitution21 {
+    lookupflag 0;
+    ;
+    # Original source: 20 
+    sub u09C7 by u09C7.init;
+    sub u09C8 by u09C8.init;
+} SingleSubstitution21;
+
+lookup SingleSubstitution29 {
+    lookupflag 0;
+    ;
+    # Original source: 28 
+    sub uni099B09CD09F0.blwf by uni099B09CD09F0.blwf.1;
+    sub uni099F09CD09F0.blwf by uni099F09CD09F0.blwf.1;
+    sub uni09A609CD09F0.blwf by uni09A609CD09F0.blwf.1;
+    sub u0248 by u0248.psts;
+} SingleSubstitution29;
+
+lookup ChainedContextualGSUB31 {
+    lookupflag 0;
+    ;
+    # Original source: 30 
+    sub [uni09AE09CD.half uni09B709CD.half uni09B809CD.half] u0248' lookup SingleSubstitution29;
+} ChainedContextualGSUB31;
+
+lookup ChainedContextualGSUB32 {
+    lookupflag 0;
+    ;
+    # Original source: 31 
+    sub [uni09A809CD.half uni09B209CD.half] [uni099F09CD09F0.blwf uni09A609CD09F0.blwf]' lookup SingleSubstitution29;
+} ChainedContextualGSUB32;
+
+lookup ChainedContextualGSUB33 {
+    lookupflag 0;
+    ;
+    # Original source: 32 
+    sub u01D5 uni099B09CD09F0.blwf' lookup SingleSubstitution29;
+} ChainedContextualGSUB33;
+
+lookup LigatureSubstitution34 {
+    lookupflag 0;
+    ;
+    # Original source: 33 
+    sub u0985 u0983 u0983 by u09BD;
+    sub u0986 u0983 u0983 by u0980;
+    sub u09AE u09BE u09BE u09BE by uni09AE09BE09BE09BE.rlig;
+    sub u09AE u09BE u09BE by uni09AE09BE09BE.rlig;
+    sub u09B8 u09BE u0983 u0983 by uFDFA;
+    sub u09CD u09AF by uni09CD09AF.rlig;
+} LigatureSubstitution34;
+
+lookup SingleSubstitution38 {
+    lookupflag 0;
+    ;
+    # Original source: 37 
+    sub u09BF by u09BF.psts.2;
+    sub u09C0 by u09C0.psts;
+    sub u09D7 by u09D7.psts;
+} SingleSubstitution38;
+
+lookup ChainedContextualGSUB35 {
+    lookupflag 0;
+    ;
+    # Original source: 34 
+    sub u09BF' lookup SingleSubstitution38 @class6;
+} ChainedContextualGSUB35;
+
+lookup ChainedContextualGSUB36 {
+    lookupflag 0;
+    ;
+    # Original source: 35 
+    sub @class6 u09C0' lookup SingleSubstitution38;
+} ChainedContextualGSUB36;
+
+lookup ChainedContextualGSUB37 {
+    lookupflag 0;
+    ;
+    # Original source: 36 
+    sub @class6 u09D7' lookup SingleSubstitution38;
+} ChainedContextualGSUB37;
+
+lookup SingleSubstitution40 {
+    lookupflag 0;
+    ;
+    # Original source: 39 
+    sub u09C0 by u09C0.psts;
+} SingleSubstitution40;
+
+lookup ChainedContextualGSUB39 {
+    lookupflag 0;
+    ;
+    # Original source: 38 
+    sub [u09A7 uni09A709CD09A8.akhn uni09A709CD09AE.akhn uni09A709CD09F0.blwf] u09C0' lookup SingleSubstitution40;
+} ChainedContextualGSUB39;
+
+lookup ChainedContextualGSUB41 {
+    lookupflag 0;
+    ;
+    # Original source: 40 
+    sub u09AE' lookup LigatureSubstitution7 u09BE' u09BE';
+} ChainedContextualGSUB41;
+
+lookup ChainedContextualGSUB42 {
+    lookupflag 0;
+    ;
+    # Original source: 41 
+    sub u09AE' lookup LigatureSubstitution7 u09BE' u09BE' u09BE';
+} ChainedContextualGSUB42;
+
+lookup ChainedContextualGSUB43 {
+    lookupflag 0;
+    ;
+    # Original source: 42 
+    sub u09B8' lookup LigatureSubstitution7 u09BE' u0983' u0983';
+} ChainedContextualGSUB43;
+
+lookup ChainedContextualGSUB44 {
+    lookupflag 0;
+    ;
+    # Original source: 43 
+    sub u0985' lookup LigatureSubstitution7 u0983' u0983';
+} ChainedContextualGSUB44;
+
+lookup ChainedContextualGSUB45 {
+    lookupflag 0;
+    ;
+    # Original source: 44 
+    sub u0986' lookup LigatureSubstitution6 lookup LigatureSubstitution7 u0983' u0983';
+} ChainedContextualGSUB45;
+
+lookup ChainedContextualGSUB46 {
+    lookupflag 0;
+    ;
+    # Original source: 45 
+    ignore sub [u09C7 u09C7.init u09C8 u09C8.init]' @class9;
+} ChainedContextualGSUB46;
+
+lookup ChainedContextualGSUB47 {
+    lookupflag 0;
+    ;
+    # Original source: 46 
+    ignore sub [u09C7 u09C7.init u09C8 u09C8.init]' u09DF @class10 u01EF;
+} ChainedContextualGSUB47;
+
+lookup MarkToBase1 {
+    lookupflag 0;
+    ;
+            pos base u0985
+            <anchor 684 700> mark @Anchor2__Anchor2;
+        pos base u0986
+            <anchor 954 700> mark @Anchor2__Anchor2;
+        pos base u0987
+            <anchor 527 861> mark @Anchor2__Anchor2;
+        pos base u0988
+            <anchor 741 872> mark @Anchor2__Anchor2;
+        pos base u0989
+            <anchor 766 854> mark @Anchor2__Anchor2;
+        pos base u098A
+            <anchor 813 849> mark @Anchor2__Anchor2;
+        pos base u098B
+            <anchor 815 705> mark @Anchor2__Anchor2;
+        pos base u098F
+            <anchor 585 700> mark @Anchor2__Anchor2;
+        pos base u0990
+            <anchor 709 894> mark @Anchor2__Anchor2;
+        pos base u0993
+            <anchor 600 695> mark @Anchor2__Anchor2;
+        pos base u0994
+            <anchor 717 884> mark @Anchor2__Anchor2;
+        pos base [u0995 uni09A609CD09F0.blwf.1]
+            <anchor 506 697> mark @Anchor2__Anchor2;
+        pos base u0996
+            <anchor 693 697> mark @Anchor2__Anchor2;
+        pos base [u0997 u09AA]
+            <anchor 695 700> mark @Anchor2__Anchor2;
+        pos base u0998
+            <anchor 505 697> mark @Anchor2__Anchor2;
+        pos base [u0999 uni099709CD09A8.akhn]
+            <anchor 507 697> mark @Anchor2__Anchor2;
+        pos base u099A
+            <anchor 332 694> mark @Anchor2__Anchor2;
+        pos base u099B
+            <anchor 457 700> mark @Anchor2__Anchor2;
+        pos base u099C
+            <anchor 689 697> mark @Anchor2__Anchor2;
+        pos base u099D
+            <anchor 753 700> mark @Anchor2__Anchor2;
+        pos base u099E
+            <anchor 782 637> mark @Anchor2__Anchor2;
+        pos base u09A1
+            <anchor 633 694> mark @Anchor2__Anchor2;
+        pos base u09A2
+            <anchor 328 697> mark @Anchor2__Anchor2;
+        pos base u09A3
+            <anchor 572 760> mark @Anchor2__Anchor2;
+        pos base u09A4
+            <anchor 688 697> mark @Anchor2__Anchor2;
+        pos base [u09A5 u09B6]
+            <anchor 570 700> mark @Anchor2__Anchor2;
+        pos base u09A6
+            <anchor 478 700> mark @Anchor2__Anchor2;
+        pos base u09A7
+            <anchor 571 697> mark @Anchor2__Anchor2;
+        pos base u09A8
+            <anchor 578 700> mark @Anchor2__Anchor2;
+        pos base u09AB
+            <anchor 557 697> mark @Anchor2__Anchor2;
+        pos base u09AC
+            <anchor 514 700> mark @Anchor2__Anchor2;
+        pos base u09AD
+            <anchor 599 697> mark @Anchor2__Anchor2;
+        pos base u09AE
+            <anchor 577 700> mark @Anchor2__Anchor2;
+        pos base u09AF
+            <anchor 572 700> mark @Anchor2__Anchor2;
+        pos base u09B0
+            <anchor 509 700> mark @Anchor2__Anchor2;
+        pos base u09B2
+            <anchor 576 697> mark @Anchor2__Anchor2;
+        pos base [u09B7 uni09AF09CD09F0.blwf]
+            <anchor 574 697> mark @Anchor2__Anchor2;
+        pos base u09B8
+            <anchor 638 697> mark @Anchor2__Anchor2;
+        pos base u09B9
+            <anchor 475 697> mark @Anchor2__Anchor2;
+        pos base u09DC
+            <anchor 655 697> mark @Anchor2__Anchor2;
+        pos base u09DD
+            <anchor 344 697> mark @Anchor2__Anchor2;
+        pos base [u09DF uni09AA09CD09B2.akhn uni09B609CD09A8.akhn]
+            <anchor 569 700> mark @Anchor2__Anchor2;
+        pos base u09CE
+            <anchor 484 697> mark @Anchor2__Anchor2;
+        pos base u01EF
+            <anchor 513 697> mark @Anchor2__Anchor2;
+        pos base u01F2
+            <anchor 537 697> mark @Anchor2__Anchor2;
+        pos base [uni01F209CD09F1.blwf u0229]
+            <anchor 498 697> mark @Anchor2__Anchor2;
+        pos base [uni01F209CD09F0.blwf uni09A609CD09A8.akhn]
+            <anchor 489 697> mark @Anchor2__Anchor2;
+        pos base uni099509CD09A8.akhn
+            <anchor 536 697> mark @Anchor2__Anchor2;
+        pos base uni099509CD09F1.blwf
+            <anchor 540 694> mark @Anchor2__Anchor2;
+        pos base u01F3
+            <anchor 956 697> mark @Anchor2__Anchor2;
+        pos base u01F4
+            <anchor 613 694> mark @Anchor2__Anchor2;
+        pos base uni099509CD09B2.akhn
+            <anchor 535 697> mark @Anchor2__Anchor2;
+        pos base [u01F5 uni099909CD09F0.blwf]
+            <anchor 650 697> mark @Anchor2__Anchor2;
+        pos base uni099509CD09B709CD09A3.akhn
+            <anchor 658 694> mark @Anchor2__Anchor2;
+        pos base uni01F509CD09F1.blwf
+            <anchor 658 697> mark @Anchor2__Anchor2;
+        pos base u01F1
+            <anchor 1215 694> mark @Anchor2__Anchor2;
+        pos base u0240
+            <anchor 975 697> mark @Anchor2__Anchor2;
+        pos base uni099609CD09F1.blwf
+            <anchor 706 697> mark @Anchor2__Anchor2;
+        pos base uni099609CD09F0.blwf
+            <anchor 700 700> mark @Anchor2__Anchor2;
+        pos base u01F6
+            <anchor 830 700> mark @Anchor2__Anchor2;
+        pos base u01F7
+            <anchor 895 700> mark @Anchor2__Anchor2;
+        pos base u01F8
+            <anchor 884 697> mark @Anchor2__Anchor2;
+        pos base u01F9
+            <anchor 626 697> mark @Anchor2__Anchor2;
+        pos base [uni01F909CD09F0.blwf u0201]
+            <anchor 552 694> mark @Anchor2__Anchor2;
+        pos base [uni099709CD09F1.blwf uni09B209CD09F1.blwf]
+            <anchor 507 700> mark @Anchor2__Anchor2;
+        pos base uni099709CD09AE.akhn
+            <anchor 766 697> mark @Anchor2__Anchor2;
+        pos base u0249
+            <anchor 694 700> mark @Anchor2__Anchor2;
+        pos base uni099709CD09B2.akhn
+            <anchor 510 697> mark @Anchor2__Anchor2;
+        pos base uni099809CD09A8.akhn
+            <anchor 583 697> mark @Anchor2__Anchor2;
+        pos base [uni099809CD09F1.blwf u020C]
+            <anchor 579 697> mark @Anchor2__Anchor2;
+        pos base uni099809CD09F0.blwf
+            <anchor 511 697> mark @Anchor2__Anchor2;
+        pos base Aringacute
+            <anchor 581 694> mark @Anchor2__Anchor2;
+        pos base uni01D601F4.pres
+            <anchor 585 694> mark @Anchor2__Anchor2;
+        pos base uni01D60996.pres
+            <anchor 1000 694> mark @Anchor2__Anchor2;
+        pos base [aringacute uni09AA09CD09A8.akhn uni09B609CD09F0.blwf]
+            <anchor 570 697> mark @Anchor2__Anchor2;
+        pos base uni01D609AE.pres
+            <anchor 726 697> mark @Anchor2__Anchor2;
+        pos base uni099A09CD099E.akhn
+            <anchor 866 697> mark @Anchor2__Anchor2;
+        pos base uni099A09CD09F0.blwf
+            <anchor 414 694> mark @Anchor2__Anchor2;
+        pos base uni099B09CD09F1.blwf
+            <anchor 501 694> mark @Anchor2__Anchor2;
+        pos base uni099B09CD09F0.blwf
+            <anchor 527 697> mark @Anchor2__Anchor2;
+        pos base uni099B09CD09F0.blwf.1
+            <anchor 507 694> mark @Anchor2__Anchor2;
+        pos base AEacute
+            <anchor 882 697> mark @Anchor2__Anchor2;
+        pos base uni01FC09CD09F1.blwf
+            <anchor 889 697> mark @Anchor2__Anchor2;
+        pos base Oslashacute
+            <anchor 867 697> mark @Anchor2__Anchor2;
+        pos base oslashacute
+            <anchor 756 694> mark @Anchor2__Anchor2;
+        pos base uni099C09CD09F1.blwf
+            <anchor 734 697> mark @Anchor2__Anchor2;
+        pos base [uni099C09CD09F0.blwf uni09B209CD09AE.akhn]
+            <anchor 762 697> mark @Anchor2__Anchor2;
+        pos base uni099D09CD09F0.blwf
+            <anchor 758 697> mark @Anchor2__Anchor2;
+        pos base u0200
+            <anchor 501 697> mark @Anchor2__Anchor2;
+        pos base u0202
+            <anchor 680 697> mark @Anchor2__Anchor2;
+        pos base u0203
+            <anchor 636 700> mark @Anchor2__Anchor2;
+        pos base u0205
+            <anchor 819 694> mark @Anchor2__Anchor2;
+        pos base uni09A109CD09F0.blwf
+            <anchor 450 697> mark @Anchor2__Anchor2;
+        pos base uni09A209CD09F0.blwf
+            <anchor 348 697> mark @Anchor2__Anchor2;
+        pos base u0208
+            <anchor 754 697> mark @Anchor2__Anchor2;
+        pos base uni020809CD09F0.blwf
+            <anchor 752 697> mark @Anchor2__Anchor2;
+        pos base uni09A309CD09A2.akhn
+            <anchor 918 694> mark @Anchor2__Anchor2;
+        pos base uni09A309CD09A3.akhn
+            <anchor 629 763> mark @Anchor2__Anchor2;
+        pos base uni09A309CD09F1.blwf
+            <anchor 627 763> mark @Anchor2__Anchor2;
+        pos base uni09A309CD09AE.akhn
+            <anchor 842 697> mark @Anchor2__Anchor2;
+        pos base uni09A309CD09F0.blwf
+            <anchor 565 763> mark @Anchor2__Anchor2;
+        pos base u0209
+            <anchor 528 700> mark @Anchor2__Anchor2;
+        pos base uni020909CD09F1.blwf
+            <anchor 471 694> mark @Anchor2__Anchor2;
+        pos base u020A
+            <anchor 756 697> mark @Anchor2__Anchor2;
+        pos base [uni09A409CD09A8.akhn u0218 uni09B809CD09F1.blwf]
+            <anchor 633 697> mark @Anchor2__Anchor2;
+        pos base uni09A409CD09F1.blwf
+            <anchor 628 697> mark @Anchor2__Anchor2;
+        pos base uni09A409CD09B2.akhn
+            <anchor 634 697> mark @Anchor2__Anchor2;
+        pos base u020B
+            <anchor 1026 697> mark @Anchor2__Anchor2;
+        pos base uni09A509CD09F1.blwf
+            <anchor 567 700> mark @Anchor2__Anchor2;
+        pos base uni09A509CD09F0.blwf
+            <anchor 562 700> mark @Anchor2__Anchor2;
+        pos base uni09A509CD09B2.akhn
+            <anchor 563 700> mark @Anchor2__Anchor2;
+        pos base u020D
+            <anchor 736 700> mark @Anchor2__Anchor2;
+        pos base uni020D09CD09F1.blwf
+            <anchor 736 697> mark @Anchor2__Anchor2;
+        pos base u0213
+            <anchor 625 697> mark @Anchor2__Anchor2;
+        pos base uni021309CD09F1.blwf
+            <anchor 645 697> mark @Anchor2__Anchor2;
+        pos base u0214
+            <anchor 402 697> mark @Anchor2__Anchor2;
+        pos base uni09A609CD09AD.akhn
+            <anchor 788 694> mark @Anchor2__Anchor2;
+        pos base uni09A609CD09AD09CD09F0.akhn
+            <anchor 518 697> mark @Anchor2__Anchor2;
+        pos base u0215
+            <anchor 769 697> mark @Anchor2__Anchor2;
+        pos base uni09A609CD09F0.blwf
+            <anchor 498 694> mark @Anchor2__Anchor2;
+        pos base uni09A609CD09F009C1.blwf
+            <anchor 684 697> mark @Anchor2__Anchor2;
+        pos base uni09A609CD09F009C2.blwf
+            <anchor 666 697> mark @Anchor2__Anchor2;
+        pos base uni09A709CD09A8.akhn
+            <anchor 627 697> mark @Anchor2__Anchor2;
+        pos base uni09A709CD09AE.akhn
+            <anchor 876 697> mark @Anchor2__Anchor2;
+        pos base uni09A709CD09F0.blwf
+            <anchor 627 700> mark @Anchor2__Anchor2;
+        pos base uni09A809CD099C.akhn
+            <anchor 936 700> mark @Anchor2__Anchor2;
+        pos base [u0217 uni09AE09CD09AD.akhn]
+            <anchor 692 697> mark @Anchor2__Anchor2;
+        pos base uni021709CD09F0.blwf
+            <anchor 672 697> mark @Anchor2__Anchor2;
+        pos base uni09A809CD09A4.akhn
+            <anchor 783 694> mark @Anchor2__Anchor2;
+        pos base uni09A809CD09A409CD09F1.akhn
+            <anchor 769 694> mark @Anchor2__Anchor2;
+        pos base uni09A809CD09A409CD09F0.akhn
+            <anchor 520 697> mark @Anchor2__Anchor2;
+        pos base uni09A809CD09A5.akhn
+            <anchor 586 697> mark @Anchor2__Anchor2;
+        pos base uni021809CD09F0.blwf
+            <anchor 618 697> mark @Anchor2__Anchor2;
+        pos base [uni09A809CD09A8.akhn uni021B09CD09F0.blwf]
+            <anchor 569 697> mark @Anchor2__Anchor2;
+        pos base uni09A809CD09F1.blwf
+            <anchor 508 697> mark @Anchor2__Anchor2;
+        pos base uni09A809CD09AE.akhn
+            <anchor 814 697> mark @Anchor2__Anchor2;
+        pos base [uni09A809CD09F0.blwf u0221]
+            <anchor 572 697> mark @Anchor2__Anchor2;
+        pos base u0219
+            <anchor 886 697> mark @Anchor2__Anchor2;
+        pos base [u021B u0248]
+            <anchor 694 697> mark @Anchor2__Anchor2;
+        pos base u021C
+            <anchor 937 700> mark @Anchor2__Anchor2;
+        pos base u0248.psts
+            <anchor 753 697> mark @Anchor2__Anchor2;
+        pos base u021D
+            <anchor 1006 697> mark @Anchor2__Anchor2;
+        pos base uni09AB09CD09F0.blwf
+            <anchor 570 694> mark @Anchor2__Anchor2;
+        pos base uni09AB09CD09B2.akhn
+            <anchor 521 697> mark @Anchor2__Anchor2;
+        pos base u021E
+            <anchor 701 697> mark @Anchor2__Anchor2;
+        pos base u021F
+            <anchor 700 697> mark @Anchor2__Anchor2;
+        pos base u0220
+            <anchor 662 697> mark @Anchor2__Anchor2;
+        pos base uni09AC09CD09F0.blwf
+            <anchor 512 697> mark @Anchor2__Anchor2;
+        pos base uni09AC09CD09B2.akhn
+            <anchor 580 697> mark @Anchor2__Anchor2;
+        pos base uni022109C1.blws
+            <anchor 707 697> mark @Anchor2__Anchor2;
+        pos base uni022109C2.blws
+            <anchor 680 694> mark @Anchor2__Anchor2;
+        pos base uni09AD09CD09B2.akhn
+            <anchor 517 697> mark @Anchor2__Anchor2;
+        pos base u0222
+            <anchor 515 697> mark @Anchor2__Anchor2;
+        pos base u0223
+            <anchor 734 694> mark @Anchor2__Anchor2;
+        pos base uni09AE09CD09F1.blwf
+            <anchor 516 697> mark @Anchor2__Anchor2;
+        pos base uni09AE09CD09F109CD09F0.blwf
+            <anchor 528 694> mark @Anchor2__Anchor2;
+        pos base uni09AE09CD09AD09CD09F0.akhn
+            <anchor 503 700> mark @Anchor2__Anchor2;
+        pos base uni09AE09CD09AE.akhn
+            <anchor 746 697> mark @Anchor2__Anchor2;
+        pos base [uni09AE09CD09F0.blwf uni09B209CD09F0.blwf]
+            <anchor 565 697> mark @Anchor2__Anchor2;
+        pos base uni09AE09CD09B2.akhn
+            <anchor 524 697> mark @Anchor2__Anchor2;
+        pos base u0225
+            <anchor 608 697> mark @Anchor2__Anchor2;
+        pos base u0226
+            <anchor 514 697> mark @Anchor2__Anchor2;
+        pos base u0228
+            <anchor 801 697> mark @Anchor2__Anchor2;
+        pos base u022A
+            <anchor 979 700> mark @Anchor2__Anchor2;
+        pos base uni09B209CD09AD.akhn
+            <anchor 750 697> mark @Anchor2__Anchor2;
+        pos base uni09B209CD09B2.akhn
+            <anchor 497 697> mark @Anchor2__Anchor2;
+        pos base uni09B209CD09B8.akhn
+            <anchor 940 697> mark @Anchor2__Anchor2;
+        pos base u022B
+            <anchor 799 697> mark @Anchor2__Anchor2;
+        pos base u022C
+            <anchor 805 694> mark @Anchor2__Anchor2;
+        pos base u022D
+            <anchor 994 697> mark @Anchor2__Anchor2;
+        pos base uni09B609CD09F1.blwf
+            <anchor 564 697> mark @Anchor2__Anchor2;
+        pos base uni09B609CD09AE.akhn
+            <anchor 816 700> mark @Anchor2__Anchor2;
+        pos base uni09B609CD09B2.akhn
+            <anchor 560 697> mark @Anchor2__Anchor2;
+        pos base uni09B709CD0995.akhn
+            <anchor 532 700> mark @Anchor2__Anchor2;
+        pos base uni09B709CD099509CD09F0.akhn
+            <anchor 886 703> mark @Anchor2__Anchor2;
+        pos base u022E
+            <anchor 579 700> mark @Anchor2__Anchor2;
+        pos base u0231
+            <anchor 696 694> mark @Anchor2__Anchor2;
+        pos base [uni09B709CD09F1.blwf uni09B709CD09F0.blwf]
+            <anchor 577 697> mark @Anchor2__Anchor2;
+        pos base uni09B709CD09AE.akhn
+            <anchor 623 697> mark @Anchor2__Anchor2;
+        pos base uni09B809CD0995.akhn
+            <anchor 629 700> mark @Anchor2__Anchor2;
+        pos base [uni09B809CD099509CD09F0.akhn uni09B809CD09B2.akhn]
+            <anchor 639 697> mark @Anchor2__Anchor2;
+        pos base uni09B809CD099509CD09B2.akhn
+            <anchor 633 700> mark @Anchor2__Anchor2;
+        pos base u0232
+            <anchor 892 697> mark @Anchor2__Anchor2;
+        pos base u0234
+            <anchor 630 697> mark @Anchor2__Anchor2;
+        pos base uni023409CD09F0.blwf
+            <anchor 786 700> mark @Anchor2__Anchor2;
+        pos base uni09B809CD09A5.akhn
+            <anchor 640 703> mark @Anchor2__Anchor2;
+        pos base uni09B809CD09A8.akhn
+            <anchor 642 700> mark @Anchor2__Anchor2;
+        pos base u0235
+            <anchor 778 700> mark @Anchor2__Anchor2;
+        pos base uni09B809CD09AE.akhn
+            <anchor 820 694> mark @Anchor2__Anchor2;
+        pos base uni09B809CD09F0.blwf
+            <anchor 643 697> mark @Anchor2__Anchor2;
+        pos base u0237
+            <anchor 571 700> mark @Anchor2__Anchor2;
+        pos base u0238
+            <anchor 578 697> mark @Anchor2__Anchor2;
+        pos base uni09B909CD09A3.akhn
+            <anchor 447 697> mark @Anchor2__Anchor2;
+        pos base u0239
+            <anchor 538 694> mark @Anchor2__Anchor2;
+        pos base u023A
+            <anchor 654 694> mark @Anchor2__Anchor2;
+        pos base uni09B909CD09F0.blwf
+            <anchor 426 697> mark @Anchor2__Anchor2;
+        pos base uni09B909CD09B2.akhn
+            <anchor 431 700> mark @Anchor2__Anchor2;
+        pos base uni09B909CD09F1.blwf
+            <anchor 961 697> mark @Anchor2__Anchor2;
+        pos base uni09DD09CD09F0.blwf
+            <anchor 469 669> mark @Anchor2__Anchor2;
+        pos base uni09CD09F1.blwf.1
+            <anchor 360 697> mark @Anchor2__Anchor2;
+        pos base u09F0
+            <anchor 487 700> mark @Anchor2__Anchor2;
+        pos base u09F1
+            <anchor 495 697> mark @Anchor2__Anchor2;
+        pos base uni09DC09C1.blws
+            <anchor 614 697> mark @Anchor2__Anchor2;
+        pos base uni09DC09C2.blws
+            <anchor 617 694> mark @Anchor2__Anchor2;
+        pos base uni09DD09C1.blws
+            <anchor 376 694> mark @Anchor2__Anchor2;
+        pos base uni09DD09C2.blws
+            <anchor 385 697> mark @Anchor2__Anchor2;
+        pos base [uni09DF09C1.blws uni09DF09C2.blws]
+            <anchor 568 697> mark @Anchor2__Anchor2;
+
+} MarkToBase1;
+
+lookup MarkToBase3 {
+    lookupflag 0;
+    ;
+    # Original source: 1 
+            pos base u099F
+            <anchor 463 927> mark @Anchor4__Anchor4;
+        pos base u09A0
+            <anchor 686 894> mark @Anchor4__Anchor4;
+        pos base u09C0
+            <anchor 100 974> mark @Anchor4__Anchor4;
+        pos base u09D7
+            <anchor 272 909> mark @Anchor4__Anchor4;
+        pos base u01F0
+            <anchor 652 902> mark @Anchor4__Anchor4;
+        pos base uni01F009CD09F0.blwf
+            <anchor 730 917> mark @Anchor4__Anchor4;
+        pos base u0204
+            <anchor 757 916> mark @Anchor4__Anchor4;
+        pos base uni099F09CD09F1.blwf
+            <anchor 509 916> mark @Anchor4__Anchor4;
+        pos base uni099F09CD09AE.akhn
+            <anchor 655 914> mark @Anchor4__Anchor4;
+        pos base uni099F09CD09F0.blwf
+            <anchor 529 923> mark @Anchor4__Anchor4;
+        pos base uni099F09CD09F0.blwf.1
+            <anchor 507 913> mark @Anchor4__Anchor4;
+        pos base uni09A009CD09F0.blwf
+            <anchor 728 824> mark @Anchor4__Anchor4;
+        pos base u0206
+            <anchor 1313 859> mark @Anchor4__Anchor4;
+        pos base u0207
+            <anchor 816 905> mark @Anchor4__Anchor4;
+        pos base u0216
+            <anchor 808 906> mark @Anchor4__Anchor4;
+        pos base u021A
+            <anchor 1163 914> mark @Anchor4__Anchor4;
+        pos base uni09AB09CD099F.akhn
+            <anchor 952 897> mark @Anchor4__Anchor4;
+        pos base u022F
+            <anchor 675 856> mark @Anchor4__Anchor4;
+        pos base uni022F09CD09F0.blwf
+            <anchor 679 851> mark @Anchor4__Anchor4;
+        pos base u0230
+            <anchor 798 815> mark @Anchor4__Anchor4;
+        pos base u0233
+            <anchor 1041 906> mark @Anchor4__Anchor4;
+        pos base uni023309CD09F0.blwf
+            <anchor 1066 922> mark @Anchor4__Anchor4;
+        pos base u09BF.psts.2
+            <anchor 634 1114> mark @Anchor4__Anchor4;
+        pos base u09C0.psts
+            <anchor 50 1064> mark @Anchor4__Anchor4;
+        pos base u09D7.psts
+            <anchor 234 984> mark @Anchor4__Anchor4;
+
+            pos base u099F
+            <anchor 343 728> mark @Anchor5__Anchor5;
+        pos base u09A0
+            <anchor 447 819> mark @Anchor5__Anchor5;
+        pos base u09C0
+            <anchor -46 718> mark @Anchor5__Anchor5;
+        pos base u09D7
+            <anchor -22 724> mark @Anchor5__Anchor5;
+        pos base u01F0
+            <anchor 568 710> mark @Anchor5__Anchor5;
+        pos base uni01F009CD09F0.blwf
+            <anchor 611 733> mark @Anchor5__Anchor5;
+        pos base u0204
+            <anchor 597 732> mark @Anchor5__Anchor5;
+        pos base uni099F09CD09F1.blwf
+            <anchor 361 724> mark @Anchor5__Anchor5;
+        pos base uni099F09CD09AE.akhn
+            <anchor 335 715> mark @Anchor5__Anchor5;
+        pos base uni099F09CD09F0.blwf
+            <anchor 324 720> mark @Anchor5__Anchor5;
+        pos base uni099F09CD09F0.blwf.1
+            <anchor 342 728> mark @Anchor5__Anchor5;
+        pos base uni09A009CD09F0.blwf
+            <anchor 471 775> mark @Anchor5__Anchor5;
+        pos base u0206
+            <anchor 904 723> mark @Anchor5__Anchor5;
+        pos base u0207
+            <anchor 589 779> mark @Anchor5__Anchor5;
+        pos base u0216
+            <anchor 589 799> mark @Anchor5__Anchor5;
+        pos base u021A
+            <anchor 978 724> mark @Anchor5__Anchor5;
+        pos base uni09AB09CD099F.akhn
+            <anchor 643 715> mark @Anchor5__Anchor5;
+        pos base u022F
+            <anchor 273 720> mark @Anchor5__Anchor5;
+        pos base uni022F09CD09F0.blwf
+            <anchor 285 724> mark @Anchor5__Anchor5;
+        pos base u0230
+            <anchor 524 777> mark @Anchor5__Anchor5;
+        pos base u0233
+            <anchor 853 719> mark @Anchor5__Anchor5;
+        pos base uni023309CD09F0.blwf
+            <anchor 844 731> mark @Anchor5__Anchor5;
+        pos base u09BF.psts.2
+            <anchor 616 870> mark @Anchor5__Anchor5;
+        pos base u09C0.psts
+            <anchor -148 904> mark @Anchor5__Anchor5;
+        pos base u09D7.psts
+            <anchor -46 790> mark @Anchor5__Anchor5;
+
+} MarkToBase3;
+
+lookup MarkToBase6 {
+    lookupflag 0;
+    ;
+    # Original source: 2 
+            pos base u0995
+            <anchor 567 12> mark @Anchor7__Anchor7;
+        pos base u0996
+            <anchor 757 17> mark @Anchor7__Anchor7;
+        pos base u0997
+            <anchor 762 8> mark @Anchor7__Anchor7;
+        pos base u0998
+            <anchor 572 7> mark @Anchor7__Anchor7;
+        pos base u0999
+            <anchor 579 8> mark @Anchor7__Anchor7;
+        pos base u099A
+            <anchor 318 3> mark @Anchor7__Anchor7;
+        pos base u099B
+            <anchor 762 5> mark @Anchor7__Anchor7;
+        pos base u099C
+            <anchor 890 7> mark @Anchor7__Anchor7;
+        pos base u099D
+            <anchor 570 7> mark @Anchor7__Anchor7;
+        pos base u099E
+            <anchor 635 6> mark @Anchor7__Anchor7;
+        pos base u099F
+            <anchor 320 6> mark @Anchor7__Anchor7;
+        pos base u09A0
+            <anchor 570 6> mark @Anchor7__Anchor7;
+        pos base u09A1
+            <anchor 697 9> mark @Anchor7__Anchor7;
+        pos base u09A2
+            <anchor 319 8> mark @Anchor7__Anchor7;
+        pos base u09A3
+            <anchor 635 11> mark @Anchor7__Anchor7;
+        pos base u09A4
+            <anchor 694 8> mark @Anchor7__Anchor7;
+        pos base u09A5
+            <anchor 639 13> mark @Anchor7__Anchor7;
+        pos base [u09A6 u09AB]
+            <anchor 573 0> mark @Anchor7__Anchor7;
+        pos base u09A7
+            <anchor 636 1> mark @Anchor7__Anchor7;
+        pos base u09A8
+            <anchor 635 3> mark @Anchor7__Anchor7;
+        pos base u09AA
+            <anchor 762 1> mark @Anchor7__Anchor7;
+        pos base u09AC
+            <anchor 572 2> mark @Anchor7__Anchor7;
+        pos base u09AD
+            <anchor 699 3> mark @Anchor7__Anchor7;
+        pos base u09AE
+            <anchor 637 0> mark @Anchor7__Anchor7;
+        pos base u09AF
+            <anchor 637 4> mark @Anchor7__Anchor7;
+        pos base u09B0
+            <anchor 572 3> mark @Anchor7__Anchor7;
+        pos base u09B2
+            <anchor 637 -1> mark @Anchor7__Anchor7;
+        pos base u09B6
+            <anchor 637 1> mark @Anchor7__Anchor7;
+        pos base u09B7
+            <anchor 637 2> mark @Anchor7__Anchor7;
+        pos base u09B8
+            <anchor 702 1> mark @Anchor7__Anchor7;
+        pos base u09B9
+            <anchor 636 0> mark @Anchor7__Anchor7;
+        pos base [u09DC u021B]
+            <anchor 699 5> mark @Anchor7__Anchor7;
+        pos base u09DD
+            <anchor 320 0> mark @Anchor7__Anchor7;
+        pos base u09DF
+            <anchor 637 6> mark @Anchor7__Anchor7;
+        pos base u09CE
+            <anchor 763 0> mark @Anchor7__Anchor7;
+        pos base u01EF
+            <anchor 563 -45> mark @Anchor7__Anchor7;
+        pos base u01F0
+            <anchor 735 -98> mark @Anchor7__Anchor7;
+        pos base uni01F009CD09F0.blwf
+            <anchor 766 -322> mark @Anchor7__Anchor7;
+        pos base u01F2
+            <anchor 572 0> mark @Anchor7__Anchor7;
+        pos base uni01F209CD09F1.blwf
+            <anchor 573 -384> mark @Anchor7__Anchor7;
+        pos base uni01F209CD09F0.blwf
+            <anchor 574 -192> mark @Anchor7__Anchor7;
+        pos base uni099509CD09A8.akhn
+            <anchor 579 -198> mark @Anchor7__Anchor7;
+        pos base uni099509CD09F1.blwf
+            <anchor 580 -326> mark @Anchor7__Anchor7;
+        pos base u01F3
+            <anchor 1017 2> mark @Anchor7__Anchor7;
+        pos base u01F4
+            <anchor 642 -6> mark @Anchor7__Anchor7;
+        pos base uni099509CD09B2.akhn
+            <anchor 580 -262> mark @Anchor7__Anchor7;
+        pos base u01F5
+            <anchor 705 -6> mark @Anchor7__Anchor7;
+        pos base uni099509CD09B709CD09A3.akhn
+            <anchor 705 -262> mark @Anchor7__Anchor7;
+        pos base uni01F509CD09F1.blwf
+            <anchor 705 -323> mark @Anchor7__Anchor7;
+        pos base u01F1
+            <anchor 1274 -194> mark @Anchor7__Anchor7;
+        pos base u0240
+            <anchor 1027 -5> mark @Anchor7__Anchor7;
+        pos base uni099609CD09F1.blwf
+            <anchor 772 -324> mark @Anchor7__Anchor7;
+        pos base uni099609CD09F0.blwf
+            <anchor 770 -133> mark @Anchor7__Anchor7;
+        pos base u01F7
+            <anchor 962 -4> mark @Anchor7__Anchor7;
+        pos base u01F8
+            <anchor 1018 3> mark @Anchor7__Anchor7;
+        pos base u01F9
+            <anchor 579 -66> mark @Anchor7__Anchor7;
+        pos base uni01F909CD09F0.blwf
+            <anchor 577 -184> mark @Anchor7__Anchor7;
+        pos base uni099709CD09A8.akhn
+            <anchor 577 -1> mark @Anchor7__Anchor7;
+        pos base uni099709CD09F1.blwf
+            <anchor 579 -67> mark @Anchor7__Anchor7;
+        pos base uni099709CD09AE.akhn
+            <anchor 828 -4> mark @Anchor7__Anchor7;
+        pos base u0249
+            <anchor 763 -125> mark @Anchor7__Anchor7;
+        pos base uni099709CD09B2.akhn
+            <anchor 577 -6> mark @Anchor7__Anchor7;
+        pos base uni099809CD09A8.akhn
+            <anchor 644 -129> mark @Anchor7__Anchor7;
+        pos base uni099809CD09F1.blwf
+            <anchor 643 -195> mark @Anchor7__Anchor7;
+        pos base uni099809CD09F0.blwf
+            <anchor 574 -122> mark @Anchor7__Anchor7;
+        pos base Aringacute
+            <anchor 580 -2> mark @Anchor7__Anchor7;
+        pos base uni01D601F4.pres
+            <anchor 578 -195> mark @Anchor7__Anchor7;
+        pos base uni01D60996.pres
+            <anchor 1028 -1> mark @Anchor7__Anchor7;
+        pos base aringacute
+            <anchor 838 -8> mark @Anchor7__Anchor7;
+        pos base uni01D609AE.pres
+            <anchor 764 -135> mark @Anchor7__Anchor7;
+        pos base uni099909CD09F0.blwf
+            <anchor 698 -179> mark @Anchor7__Anchor7;
+        pos base uni099A09CD099E.akhn
+            <anchor 892 -121> mark @Anchor7__Anchor7;
+        pos base uni099A09CD09F0.blwf
+            <anchor 511 -258> mark @Anchor7__Anchor7;
+        pos base uni099B09CD09F1.blwf
+            <anchor 701 -317> mark @Anchor7__Anchor7;
+        pos base [uni099B09CD09F0.blwf uni099B09CD09F0.blwf.1]
+            <anchor 699 -191> mark @Anchor7__Anchor7;
+        pos base AEacute
+            <anchor 1087 0> mark @Anchor7__Anchor7;
+        pos base uni01FC09CD09F1.blwf
+            <anchor 1091 -324> mark @Anchor7__Anchor7;
+        pos base Oslashacute
+            <anchor 892 -314> mark @Anchor7__Anchor7;
+        pos base oslashacute
+            <anchor 444 6> mark @Anchor7__Anchor7;
+        pos base uni099C09CD09F1.blwf
+            <anchor 892 -311> mark @Anchor7__Anchor7;
+        pos base uni099C09CD09F0.blwf
+            <anchor 887 -183> mark @Anchor7__Anchor7;
+        pos base uni099D09CD09F0.blwf
+            <anchor 571 -112> mark @Anchor7__Anchor7;
+        pos base u0200
+            <anchor 568 8> mark @Anchor7__Anchor7;
+        pos base u0201
+            <anchor 937 -231> mark @Anchor7__Anchor7;
+        pos base u0202
+            <anchor 1055 -103> mark @Anchor7__Anchor7;
+        pos base u0203
+            <anchor 638 -309> mark @Anchor7__Anchor7;
+        pos base u0204
+            <anchor 638 -189> mark @Anchor7__Anchor7;
+        pos base uni099F09CD09F1.blwf
+            <anchor 381 -312> mark @Anchor7__Anchor7;
+        pos base uni099F09CD09AE.akhn
+            <anchor 705 -126> mark @Anchor7__Anchor7;
+        pos base uni099F09CD09F0.blwf
+            <anchor 448 -245> mark @Anchor7__Anchor7;
+        pos base uni099F09CD09F0.blwf.1
+            <anchor 448 -247> mark @Anchor7__Anchor7;
+        pos base uni09A009CD09F0.blwf
+            <anchor 637 -237> mark @Anchor7__Anchor7;
+        pos base u0205
+            <anchor 1011 8> mark @Anchor7__Anchor7;
+        pos base uni09A109CD09F0.blwf
+            <anchor 699 -184> mark @Anchor7__Anchor7;
+        pos base uni09A209CD09F0.blwf
+            <anchor 446 -247> mark @Anchor7__Anchor7;
+        pos base u0206
+            <anchor 887 0> mark @Anchor7__Anchor7;
+        pos base u0207
+            <anchor 634 -60> mark @Anchor7__Anchor7;
+        pos base u0208
+            <anchor 948 11> mark @Anchor7__Anchor7;
+        pos base uni020809CD09F0.blwf
+            <anchor 949 -181> mark @Anchor7__Anchor7;
+        pos base uni09A309CD09A2.akhn
+            <anchor 885 9> mark @Anchor7__Anchor7;
+        pos base uni09A309CD09A3.akhn
+            <anchor 695 11> mark @Anchor7__Anchor7;
+        pos base uni09A309CD09F1.blwf
+            <anchor 694 13> mark @Anchor7__Anchor7;
+        pos base uni09A309CD09AE.akhn
+            <anchor 949 6> mark @Anchor7__Anchor7;
+        pos base uni09A309CD09F0.blwf
+            <anchor 632 11> mark @Anchor7__Anchor7;
+        pos base u0209
+            <anchor 573 7> mark @Anchor7__Anchor7;
+        pos base uni020909CD09F1.blwf
+            <anchor 573 -369> mark @Anchor7__Anchor7;
+        pos base [u020A u021F]
+            <anchor 820 11> mark @Anchor7__Anchor7;
+        pos base uni09A409CD09A8.akhn
+            <anchor 693 -303> mark @Anchor7__Anchor7;
+        pos base uni09A409CD09F1.blwf
+            <anchor 695 -375> mark @Anchor7__Anchor7;
+        pos base uni09A409CD09B2.akhn
+            <anchor 758 -307> mark @Anchor7__Anchor7;
+        pos base u020B
+            <anchor 1090 -3> mark @Anchor7__Anchor7;
+        pos base u020C
+            <anchor 643 -1> mark @Anchor7__Anchor7;
+        pos base uni09A509CD09F1.blwf
+            <anchor 633 -304> mark @Anchor7__Anchor7;
+        pos base uni09A509CD09F0.blwf
+            <anchor 630 11> mark @Anchor7__Anchor7;
+        pos base uni09A509CD09B2.akhn
+            <anchor 630 -244> mark @Anchor7__Anchor7;
+        pos base [u020D u022C]
+            <anchor 824 6> mark @Anchor7__Anchor7;
+        pos base uni020D09CD09F1.blwf
+            <anchor 820 -242> mark @Anchor7__Anchor7;
+        pos base u0213
+            <anchor 508 7> mark @Anchor7__Anchor7;
+        pos base uni021309CD09F1.blwf
+            <anchor 508 -307> mark @Anchor7__Anchor7;
+        pos base uni09A609CD09A8.akhn
+            <anchor 569 -183> mark @Anchor7__Anchor7;
+        pos base u0214
+            <anchor 508 5> mark @Anchor7__Anchor7;
+        pos base uni09A609CD09AD.akhn
+            <anchor 817 -54> mark @Anchor7__Anchor7;
+        pos base uni09A609CD09AD09CD09F0.akhn
+            <anchor 569 -119> mark @Anchor7__Anchor7;
+        pos base u0215
+            <anchor 831 -129> mark @Anchor7__Anchor7;
+        pos base [uni09A609CD09F0.blwf uni09A609CD09F0.blwf.1]
+            <anchor 573 -187> mark @Anchor7__Anchor7;
+        pos base uni09A709CD09A8.akhn
+            <anchor 693 -174> mark @Anchor7__Anchor7;
+        pos base uni09A709CD09AE.akhn
+            <anchor 943 -174> mark @Anchor7__Anchor7;
+        pos base uni09A709CD09F0.blwf
+            <anchor 690 -112> mark @Anchor7__Anchor7;
+        pos base uni09A809CD099C.akhn
+            <anchor 1201 6> mark @Anchor7__Anchor7;
+        pos base u0216
+            <anchor 635 -57> mark @Anchor7__Anchor7;
+        pos base u0217
+            <anchor 695 -119> mark @Anchor7__Anchor7;
+        pos base uni021709CD09F0.blwf
+            <anchor 695 -367> mark @Anchor7__Anchor7;
+        pos base uni09A809CD09A4.akhn
+            <anchor 755 12> mark @Anchor7__Anchor7;
+        pos base uni09A809CD09A409CD09F1.akhn
+            <anchor 756 -364> mark @Anchor7__Anchor7;
+        pos base uni09A809CD09A409CD09F0.akhn
+            <anchor 632 -119> mark @Anchor7__Anchor7;
+        pos base uni09A809CD09A5.akhn
+            <anchor 883 -180> mark @Anchor7__Anchor7;
+        pos base [u0218 uni09B709CD0995.akhn]
+            <anchor 569 5> mark @Anchor7__Anchor7;
+        pos base uni021809CD09F0.blwf
+            <anchor 570 -178> mark @Anchor7__Anchor7;
+        pos base [uni09A809CD09A8.akhn uni09B609CD09F1.blwf]
+            <anchor 632 9> mark @Anchor7__Anchor7;
+        pos base uni09A809CD09F1.blwf
+            <anchor 567 9> mark @Anchor7__Anchor7;
+        pos base uni09A809CD09AE.akhn
+            <anchor 882 -49> mark @Anchor7__Anchor7;
+        pos base uni09A809CD09F0.blwf
+            <anchor 634 -123> mark @Anchor7__Anchor7;
+        pos base u0219
+            <anchor 947 8> mark @Anchor7__Anchor7;
+        pos base u021A
+            <anchor 946 6> mark @Anchor7__Anchor7;
+        pos base uni021B09CD09F0.blwf
+            <anchor 695 -53> mark @Anchor7__Anchor7;
+        pos base uni09AA09CD09A8.akhn
+            <anchor 636 5> mark @Anchor7__Anchor7;
+        pos base u021C
+            <anchor 1007 -50> mark @Anchor7__Anchor7;
+        pos base u0248
+            <anchor 763 -126> mark @Anchor7__Anchor7;
+        pos base u0248.psts
+            <anchor 822 -124> mark @Anchor7__Anchor7;
+        pos base uni09AA09CD09B2.akhn
+            <anchor 634 7> mark @Anchor7__Anchor7;
+        pos base u021D
+            <anchor 1073 3> mark @Anchor7__Anchor7;
+        pos base uni09AB09CD099F.akhn
+            <anchor 683 -46> mark @Anchor7__Anchor7;
+        pos base uni09AB09CD09F0.blwf
+            <anchor 573 -124> mark @Anchor7__Anchor7;
+        pos base uni09AB09CD09B2.akhn
+            <anchor 561 -105> mark @Anchor7__Anchor7;
+        pos base u021E
+            <anchor 1006 7> mark @Anchor7__Anchor7;
+        pos base u0220
+            <anchor 564 14> mark @Anchor7__Anchor7;
+        pos base uni09AC09CD09F0.blwf
+            <anchor 572 -116> mark @Anchor7__Anchor7;
+        pos base uni09AC09CD09B2.akhn
+            <anchor 643 -136> mark @Anchor7__Anchor7;
+        pos base u0221
+            <anchor 629 11> mark @Anchor7__Anchor7;
+        pos base uni09AD09CD09B2.akhn
+            <anchor 567 8> mark @Anchor7__Anchor7;
+        pos base u0222
+            <anchor 567 17> mark @Anchor7__Anchor7;
+        pos base u0223
+            <anchor 814 -41> mark @Anchor7__Anchor7;
+        pos base uni09AE09CD09F1.blwf
+            <anchor 565 24> mark @Anchor7__Anchor7;
+        pos base uni09AE09CD09F109CD09F0.blwf
+            <anchor 567 -106> mark @Anchor7__Anchor7;
+        pos base uni09AE09CD09AD.akhn
+            <anchor 753 18> mark @Anchor7__Anchor7;
+        pos base uni09AE09CD09AD09CD09F0.akhn
+            <anchor 626 -114> mark @Anchor7__Anchor7;
+        pos base uni09AE09CD09AE.akhn
+            <anchor 815 12> mark @Anchor7__Anchor7;
+        pos base uni09AE09CD09F0.blwf
+            <anchor 634 -117> mark @Anchor7__Anchor7;
+        pos base uni09AE09CD09B2.akhn
+            <anchor 565 18> mark @Anchor7__Anchor7;
+        pos base uni09AF09CD09F0.blwf
+            <anchor 637 -126> mark @Anchor7__Anchor7;
+        pos base u0225
+            <anchor 568 6> mark @Anchor7__Anchor7;
+        pos base u0226
+            <anchor 568 -111> mark @Anchor7__Anchor7;
+        pos base u0228
+            <anchor 941 9> mark @Anchor7__Anchor7;
+        pos base u0229
+            <anchor 568 -58> mark @Anchor7__Anchor7;
+        pos base u022A
+            <anchor 945 11> mark @Anchor7__Anchor7;
+        pos base uni09B209CD09F1.blwf
+            <anchor 566 8> mark @Anchor7__Anchor7;
+        pos base uni09B209CD09AD.akhn
+            <anchor 818 7> mark @Anchor7__Anchor7;
+        pos base uni09B209CD09AE.akhn
+            <anchor 821 8> mark @Anchor7__Anchor7;
+        pos base uni09B209CD09F0.blwf
+            <anchor 637 -186> mark @Anchor7__Anchor7;
+        pos base uni09B209CD09B2.akhn
+            <anchor 571 12> mark @Anchor7__Anchor7;
+        pos base uni09B209CD09B8.akhn
+            <anchor 1007 14> mark @Anchor7__Anchor7;
+        pos base u022D
+            <anchor 1263 11> mark @Anchor7__Anchor7;
+        pos base uni09B609CD09A8.akhn
+            <anchor 632 14> mark @Anchor7__Anchor7;
+        pos base uni09B609CD09AE.akhn
+            <anchor 884 10> mark @Anchor7__Anchor7;
+        pos base uni09B609CD09F0.blwf
+            <anchor 640 2> mark @Anchor7__Anchor7;
+        pos base uni09B609CD09B2.akhn
+            <anchor 627 10> mark @Anchor7__Anchor7;
+        pos base uni09B709CD099509CD09F0.akhn
+            <anchor 693 10> mark @Anchor7__Anchor7;
+        pos base u022F
+            <anchor 507 11> mark @Anchor7__Anchor7;
+        pos base uni022F09CD09F0.blwf
+            <anchor 507 -181> mark @Anchor7__Anchor7;
+        pos base u0230
+            <anchor 631 8> mark @Anchor7__Anchor7;
+        pos base u022E
+            <anchor 638 9> mark @Anchor7__Anchor7;
+        pos base u0231
+            <anchor 692 10> mark @Anchor7__Anchor7;
+        pos base uni09B709CD09F1.blwf
+            <anchor 637 -317> mark @Anchor7__Anchor7;
+        pos base [uni09B709CD09AE.akhn uni09B809CD099509CD09F0.akhn]
+            <anchor 693 11> mark @Anchor7__Anchor7;
+        pos base uni09B709CD09F0.blwf
+            <anchor 639 -183> mark @Anchor7__Anchor7;
+        pos base uni09B809CD0995.akhn
+            <anchor 632 12> mark @Anchor7__Anchor7;
+        pos base uni09B809CD099509CD09B2.akhn
+            <anchor 631 -241> mark @Anchor7__Anchor7;
+        pos base u0232
+            <anchor 947 19> mark @Anchor7__Anchor7;
+        pos base u0233
+            <anchor 822 12> mark @Anchor7__Anchor7;
+        pos base uni023309CD09F0.blwf
+            <anchor 821 -181> mark @Anchor7__Anchor7;
+        pos base [u0234 uni09B809CD09B2.akhn]
+            <anchor 630 6> mark @Anchor7__Anchor7;
+        pos base uni023409CD09F0.blwf
+            <anchor 885 10> mark @Anchor7__Anchor7;
+        pos base uni09B809CD09A5.akhn
+            <anchor 760 -112> mark @Anchor7__Anchor7;
+        pos base uni09B809CD09A8.akhn
+            <anchor 630 13> mark @Anchor7__Anchor7;
+        pos base u0235
+            <anchor 754 9> mark @Anchor7__Anchor7;
+        pos base uni09B809CD09F1.blwf
+            <anchor 631 72> mark @Anchor7__Anchor7;
+        pos base uni09B809CD09AE.akhn
+            <anchor 884 12> mark @Anchor7__Anchor7;
+        pos base uni09B809CD09F0.blwf
+            <anchor 701 -63> mark @Anchor7__Anchor7;
+        pos base uni09B909CD09A3.akhn
+            <anchor 512 -247> mark @Anchor7__Anchor7;
+        pos base u0239
+            <anchor 631 7> mark @Anchor7__Anchor7;
+        pos base u023A
+            <anchor 706 -2> mark @Anchor7__Anchor7;
+        pos base uni09B909CD09F0.blwf
+            <anchor 512 -186> mark @Anchor7__Anchor7;
+        pos base uni09B909CD09B2.akhn
+            <anchor 511 -245> mark @Anchor7__Anchor7;
+        pos base uni09B909CD09F1.blwf
+            <anchor 1018 2> mark @Anchor7__Anchor7;
+        pos base uni09DD09CD09F0.blwf
+            <anchor 446 -354> mark @Anchor7__Anchor7;
+        pos base uni09CD09F1.blwf.1
+            <anchor 408 7> mark @Anchor7__Anchor7;
+
+} MarkToBase6;
+
+lookup MarkToBase8 {
+    lookupflag 0;
+    ;
+    # Original source: 3 
+            pos base u09A1
+            <anchor 572 3> mark @Anchor9__Anchor9;
+        pos base u09A2
+            <anchor 267 -5> mark @Anchor9__Anchor9;
+        pos base u09AF
+            <anchor 323 126> mark @Anchor9__Anchor9;
+
+} MarkToBase8;
+
+lookup MarkToBase10 {
+    lookupflag 0;
+    ;
+    # Original source: 4 
+            pos base u0995
+            <anchor 104 -96> mark @Anchor11__Anchor11;
+        pos base u0996
+            <anchor 220 -76> mark @Anchor11__Anchor11;
+        pos base u0997
+            <anchor 191 -184> mark @Anchor11__Anchor11;
+        pos base u099B
+            <anchor 61 -278> mark @Anchor11__Anchor11;
+        pos base u099C
+            <anchor 793 -232> mark @Anchor11__Anchor11;
+        pos base u09A6
+            <anchor -48 -225> mark @Anchor11__Anchor11;
+        pos base u09A8
+            <anchor 118 -214> mark @Anchor11__Anchor11;
+        pos base u09AB
+            <anchor 72 -116> mark @Anchor11__Anchor11;
+        pos base u09AD
+            <anchor 414 -238> mark @Anchor11__Anchor11;
+        pos base u09B2
+            <anchor 119 -179> mark @Anchor11__Anchor11;
+        pos base u09B8
+            <anchor 62 -184> mark @Anchor11__Anchor11;
+
+} MarkToBase10;
+
+lookup PairPositioning12 {
+    lookupflag 0;
+    ;
+    # Original source: 5 
+    pos [u09C7 u09C7.init u09C8 u09C8.init] [u01D5 u01D6 u021B u0232 u0995 u0996 u0998 u0999 u099C u099D u09A1 u09A3 u09A4 u09A8 u09AA u09AB u09AC u09AD u09AF u09B0 u09B2 u09B6 u09B7 u09B8 u09DC u09DF uni099709CD.half uni09A309CD.half uni09A609CD.half uni09A809CD.half uni09AA09CD.half uni09AE09CD.half uni09B209CD.half uni09B609CD.half uni09B709CD.half uni09B809CD.half] -6;
+    pos uni09B809CD.half u0248.psts -157;
+} PairPositioning12;
+
+lookup PairPositioning13 {
+    lookupflag 0;
+    ;
+    # Original source: 6 
+    pos [B S] J 32;
+    pos [B S] T -22;
+    pos [B S] Y -36;
+    pos [B S] Z 36;
+    pos [B S] a 28;
+    pos [B S] j 34;
+    pos [B S] s 30;
+    pos [B S] y 21;
+    pos [B S] z 24;
+    pos [B S] [B E H P R] 20;
+    pos [B S] D 21;
+    pos [B S] [F N] 24;
+    pos [B S] I 30;
+    pos [B S] M 22;
+    pos [B S] O 23;
+    pos [B S] Q 20;
+    pos [B S] S 22;
+    pos [B S] b 27;
+    pos [B S] c 27;
+    pos [B S] d 28;
+    pos [B S] e 35;
+    pos [B S] f 39;
+    pos [B S] g 28;
+    pos [B S] h 22;
+    pos [B S] k 26;
+    pos [B S] m 20;
+    pos [B S] o 26;
+    pos [B S] q 27;
+    pos [B S] t 30;
+    pos [B S] v 22;
+    pos [B S] w 21;
+    pos A A 58;
+    pos A J 40;
+    pos A T -111;
+    pos A V -58;
+    pos A W -24;
+    pos A X 54;
+    pos A Y -108;
+    pos A Z 59;
+    pos A a 28;
+    pos A j 28;
+    pos A p 24;
+    pos A s 37;
+    pos A x 48;
+    pos A y 20;
+    pos A z 54;
+    pos C W 24;
+    pos C Y -20;
+    pos C x 28;
+    pos C I 21;
+    pos C f 28;
+    pos C t 39;
+    pos C w 26;
+    pos D T -33;
+    pos D W 28;
+    pos D Y -37;
+    pos D a 24;
+    pos D j 43;
+    pos D p 31;
+    pos D s 30;
+    pos D x 25;
+    pos D y 27;
+    pos D z 26;
+    pos D [B E H P R] 33;
+    pos D D 34;
+    pos D [F N] 37;
+    pos D I 43;
+    pos D M 35;
+    pos D O 39;
+    pos D Q 38;
+    pos D b 40;
+    pos D c 30;
+    pos D d 30;
+    pos D e 37;
+    pos D f 53;
+    pos D g 29;
+    pos D h 35;
+    pos D k 39;
+    pos D m 35;
+    pos D o 30;
+    pos D q 28;
+    pos D t 50;
+    pos D v 28;
+    pos D w 38;
+    pos D C 34;
+    pos D G 34;
+    pos D K 31;
+    pos D L 30;
+    pos D U 28;
+    pos D [i l] 31;
+    pos D n 27;
+    pos D r 32;
+    pos D u 28;
+    pos E A 34;
+    pos E T 50;
+    pos E W 32;
+    pos E X 28;
+    pos E Z 43;
+    pos E j 63;
+    pos E x 24;
+    pos E z 41;
+    pos E [F N] 21;
+    pos E I 27;
+    pos E b 24;
+    pos E k 23;
+    pos F A -92;
+    pos F J -192;
+    pos F T 61;
+    pos F V 31;
+    pos F W 37;
+    pos F Y 23;
+    pos F Z 31;
+    pos F a -53;
+    pos F p -35;
+    pos F s -23;
+    pos F x -63;
+    pos F y -33;
+    pos F z -27;
+    pos F S -26;
+    pos F c -31;
+    pos F d -30;
+    pos F e -24;
+    pos F g -30;
+    pos F m -30;
+    pos F o -32;
+    pos F q -30;
+    pos F v -32;
+    pos F w -22;
+    pos F n -38;
+    pos F r -33;
+    pos F u -36;
+    pos G J 32;
+    pos G T -28;
+    pos G Y -33;
+    pos G Z 35;
+    pos G a 24;
+    pos G j 53;
+    pos G p 47;
+    pos G s 27;
+    pos G z 23;
+    pos G [B E H P R] 44;
+    pos G D 45;
+    pos G [F N] 48;
+    pos G I 54;
+    pos G M 46;
+    pos G O 29;
+    pos G Q 28;
+    pos G b 51;
+    pos G c 36;
+    pos G d 35;
+    pos G e 42;
+    pos G f 51;
+    pos G g 35;
+    pos G h 46;
+    pos G k 50;
+    pos G m 51;
+    pos G o 35;
+    pos G q 36;
+    pos G t 44;
+    pos G C 23;
+    pos G G 23;
+    pos G K 42;
+    pos G L 41;
+    pos G U 27;
+    pos G [i l] 41;
+    pos G n 43;
+    pos G r 48;
+    pos G u 39;
+    pos H T 22;
+    pos H W 26;
+    pos H Z 34;
+    pos H a 21;
+    pos H j 66;
+    pos H p 70;
+    pos H s 23;
+    pos H x 21;
+    pos H y 20;
+    pos H z 37;
+    pos H [B E H P R] 91;
+    pos H D 92;
+    pos H [F N] 95;
+    pos H I 101;
+    pos H M 93;
+    pos H O 37;
+    pos H Q 35;
+    pos H b 98;
+    pos H c 23;
+    pos H d 23;
+    pos H e 28;
+    pos H f 68;
+    pos H g 27;
+    pos H h 93;
+    pos H k 97;
+    pos H m 69;
+    pos H o 21;
+    pos H q 23;
+    pos H t 54;
+    pos H w 26;
+    pos H C 31;
+    pos H G 32;
+    pos H K 89;
+    pos H L 88;
+    pos H U 60;
+    pos H [i l] 86;
+    pos H n 61;
+    pos H r 66;
+    pos H u 50;
+    pos I J 26;
+    pos I T 31;
+    pos I V 20;
+    pos I W 35;
+    pos I Z 43;
+    pos I a 31;
+    pos I j 75;
+    pos I p 80;
+    pos I s 32;
+    pos I x 30;
+    pos I y 29;
+    pos I z 46;
+    pos I [B E H P R] 100;
+    pos I D 101;
+    pos I [F N] 104;
+    pos I I 110;
+    pos I M 102;
+    pos I O 46;
+    pos I Q 44;
+    pos I S 24;
+    pos I b 107;
+    pos I c 32;
+    pos I d 32;
+    pos I e 38;
+    pos I f 78;
+    pos I g 36;
+    pos I h 102;
+    pos I k 106;
+    pos I m 79;
+    pos I o 31;
+    pos I q 33;
+    pos I t 63;
+    pos I v 25;
+    pos I w 35;
+    pos I C 40;
+    pos I G 41;
+    pos I K 98;
+    pos I L 97;
+    pos I U 69;
+    pos I [i l] 95;
+    pos I n 71;
+    pos I r 76;
+    pos I u 59;
+    pos J T 21;
+    pos J W 24;
+    pos J j 68;
+    pos J p 39;
+    pos J z 26;
+    pos J [B E H P R] 63;
+    pos J D 64;
+    pos J [F N] 67;
+    pos J I 73;
+    pos J M 65;
+    pos J O 31;
+    pos J Q 30;
+    pos J b 70;
+    pos J e 21;
+    pos J f 54;
+    pos J h 65;
+    pos J k 69;
+    pos J m 41;
+    pos J t 40;
+    pos J w 23;
+    pos J C 26;
+    pos J G 27;
+    pos J K 61;
+    pos J L 60;
+    pos J U 55;
+    pos J [i l] 57;
+    pos J n 33;
+    pos J r 38;
+    pos J u 34;
+    pos K A 58;
+    pos K T 29;
+    pos K V 44;
+    pos K W 46;
+    pos K X 61;
+    pos K Y 43;
+    pos K Z 57;
+    pos K j 34;
+    pos K x 49;
+    pos K z 51;
+    pos K I 24;
+    pos K b 21;
+    pos K k 20;
+    pos K v -44;
+    pos K w -28;
+    pos K C -20;
+    pos K G -22;
+    pos L A 48;
+    pos L J 29;
+    pos L T -125;
+    pos L V -131;
+    pos L W -62;
+    pos L X 39;
+    pos L Y -150;
+    pos L Z 75;
+    pos L a 25;
+    pos L p 27;
+    pos L s 21;
+    pos L x 32;
+    pos L y -79;
+    pos L z 66;
+    pos L [F N] 22;
+    pos L I 28;
+    pos L M 20;
+    pos L O -38;
+    pos L Q -41;
+    pos L b 25;
+    pos L h 20;
+    pos L k 24;
+    pos L m 28;
+    pos L v -90;
+    pos L w -53;
+    pos L C -44;
+    pos L G -48;
+    pos L U -35;
+    pos L n 20;
+    pos L r 25;
+    pos M J 24;
+    pos M T 30;
+    pos M W 33;
+    pos M Z 41;
+    pos M a 29;
+    pos M j 74;
+    pos M p 78;
+    pos M s 31;
+    pos M x 28;
+    pos M y 28;
+    pos M z 44;
+    pos M [B E H P R] 99;
+    pos M D 100;
+    pos M [F N] 103;
+    pos M I 109;
+    pos M M 101;
+    pos M O 45;
+    pos M Q 43;
+    pos M S 23;
+    pos M b 106;
+    pos M c 31;
+    pos M d 31;
+    pos M e 36;
+    pos M f 76;
+    pos M g 35;
+    pos M h 101;
+    pos M k 105;
+    pos M m 77;
+    pos M o 29;
+    pos M q 31;
+    pos M t 61;
+    pos M v 24;
+    pos M w 34;
+    pos M C 39;
+    pos M G 40;
+    pos M K 97;
+    pos M L 95;
+    pos M U 68;
+    pos M [i l] 94;
+    pos M n 69;
+    pos M r 74;
+    pos M u 58;
+    pos N T 23;
+    pos N W 26;
+    pos N Z 34;
+    pos N a 22;
+    pos N j 67;
+    pos N p 71;
+    pos N s 24;
+    pos N x 21;
+    pos N y 21;
+    pos N z 37;
+    pos N [B E H P R] 92;
+    pos N D 93;
+    pos N [F N] 96;
+    pos N I 102;
+    pos N M 94;
+    pos N O 37;
+    pos N Q 36;
+    pos N b 99;
+    pos N c 23;
+    pos N d 23;
+    pos N e 29;
+    pos N f 69;
+    pos N g 27;
+    pos N h 94;
+    pos N k 98;
+    pos N m 70;
+    pos N o 22;
+    pos N q 24;
+    pos N t 54;
+    pos N w 26;
+    pos N C 31;
+    pos N G 32;
+    pos N K 90;
+    pos N L 88;
+    pos N U 61;
+    pos N [i l] 87;
+    pos N n 62;
+    pos N r 67;
+    pos N u 50;
+    pos O T -33;
+    pos O W 33;
+    pos O Y -36;
+    pos O a 24;
+    pos O j 49;
+    pos O p 38;
+    pos O s 37;
+    pos O x 30;
+    pos O y 33;
+    pos O z 29;
+    pos O [B E H P R] 40;
+    pos O D 41;
+    pos O [F N] 44;
+    pos O I 50;
+    pos O M 42;
+    pos O O 45;
+    pos O Q 44;
+    pos O b 47;
+    pos O c 31;
+    pos O d 33;
+    pos O e 39;
+    pos O f 57;
+    pos O g 33;
+    pos O h 42;
+    pos O k 46;
+    pos O m 42;
+    pos O o 32;
+    pos O q 32;
+    pos O t 54;
+    pos O v 34;
+    pos O w 43;
+    pos O C 40;
+    pos O G 41;
+    pos O K 38;
+    pos O L 36;
+    pos O U 35;
+    pos O [i l] 37;
+    pos O n 34;
+    pos O r 39;
+    pos O u 35;
+    pos P A -73;
+    pos P J -180;
+    pos P V 21;
+    pos P W 36;
+    pos P X -31;
+    pos P Z -25;
+    pos P x 22;
+    pos P y 33;
+    pos P z 27;
+    pos P [F N] 20;
+    pos P I 26;
+    pos P O 20;
+    pos P b 23;
+    pos P f 56;
+    pos P k 22;
+    pos P t 48;
+    pos P v 36;
+    pos P w 42;
+    pos Q A 52;
+    pos Q J 35;
+    pos Q T -30;
+    pos Q W 45;
+    pos Q X 48;
+    pos Q Y -31;
+    pos Q Z 57;
+    pos Q a 37;
+    pos Q j 115;
+    pos Q p 50;
+    pos Q s 50;
+    pos Q x 62;
+    pos Q y 43;
+    pos Q z 76;
+    pos Q [B E H P R] 41;
+    pos Q D 42;
+    pos Q [F N] 45;
+    pos Q I 51;
+    pos Q M 43;
+    pos Q O 50;
+    pos Q Q 49;
+    pos Q S 30;
+    pos Q b 48;
+    pos Q c 43;
+    pos Q d 44;
+    pos Q e 50;
+    pos Q f 67;
+    pos Q g 55;
+    pos Q h 43;
+    pos Q k 47;
+    pos Q m 42;
+    pos Q o 43;
+    pos Q q 43;
+    pos Q t 63;
+    pos Q v 35;
+    pos Q w 47;
+    pos Q C 45;
+    pos Q G 45;
+    pos Q K 39;
+    pos Q L 38;
+    pos Q U 42;
+    pos Q [i l] 39;
+    pos Q n 34;
+    pos Q r 39;
+    pos Q u 48;
+    pos R A 53;
+    pos R W 31;
+    pos R X 50;
+    pos R Y -21;
+    pos R Z 50;
+    pos R j 45;
+    pos R p 48;
+    pos R x 62;
+    pos R z 61;
+    pos R [B E H P R] 39;
+    pos R D 40;
+    pos R [F N] 43;
+    pos R I 49;
+    pos R M 41;
+    pos R S 22;
+    pos R b 46;
+    pos R f 42;
+    pos R g 36;
+    pos R h 41;
+    pos R k 45;
+    pos R m 35;
+    pos R t 37;
+    pos R w 27;
+    pos R K 37;
+    pos R L 36;
+    pos R [i l] 35;
+    pos R n 27;
+    pos R r 32;
+    pos T A -101;
+    pos T J -121;
+    pos T T 88;
+    pos T V 58;
+    pos T W 64;
+    pos T X 27;
+    pos T Y 50;
+    pos T Z 56;
+    pos T a -70;
+    pos T j 30;
+    pos T p -98;
+    pos T s -59;
+    pos T x -116;
+    pos T y -118;
+    pos T z -104;
+    pos T [B E H P R] 28;
+    pos T D 29;
+    pos T [F N] 32;
+    pos T I 38;
+    pos T M 30;
+    pos T O -29;
+    pos T Q -31;
+    pos T b 35;
+    pos T c -117;
+    pos T d -92;
+    pos T e -100;
+    pos T g -81;
+    pos T h 30;
+    pos T k 34;
+    pos T m -93;
+    pos T o -116;
+    pos T q -105;
+    pos T v -122;
+    pos T w -112;
+    pos T C -35;
+    pos T G -37;
+    pos T K 26;
+    pos T L 24;
+    pos T U 29;
+    pos T [i l] 24;
+    pos T n -101;
+    pos T r -96;
+    pos T u -99;
+    pos U T 26;
+    pos U W 28;
+    pos U j 66;
+    pos U p 37;
+    pos U s 22;
+    pos U z 33;
+    pos U [B E H P R] 61;
+    pos U D 62;
+    pos U [F N] 65;
+    pos U I 71;
+    pos U M 63;
+    pos U O 32;
+    pos U Q 31;
+    pos U b 68;
+    pos U e 25;
+    pos U f 60;
+    pos U g 20;
+    pos U h 63;
+    pos U k 67;
+    pos U m 39;
+    pos U t 45;
+    pos U w 28;
+    pos U C 27;
+    pos U G 28;
+    pos U K 59;
+    pos U L 57;
+    pos U U 55;
+    pos U [i l] 55;
+    pos U n 31;
+    pos U r 36;
+    pos U u 33;
+    pos V A -114;
+    pos V J -87;
+    pos V T 54;
+    pos V V 61;
+    pos V W 65;
+    pos V X 37;
+    pos V Y 59;
+    pos V Z 23;
+    pos V a -37;
+    pos V p -27;
+    pos V s -20;
+    pos V I 22;
+    pos V c -38;
+    pos V d -34;
+    pos V e -31;
+    pos V g -35;
+    pos V m -22;
+    pos V o -39;
+    pos V q -37;
+    pos V n -30;
+    pos V r -25;
+    pos V u -28;
+    pos W A -22;
+    pos W J -36;
+    pos W T 60;
+    pos W V 64;
+    pos W W 67;
+    pos W X 37;
+    pos W Y 59;
+    pos W Z 41;
+    pos W j 29;
+    pos W y 30;
+    pos W z 33;
+    pos W [B E H P R] 26;
+    pos W D 27;
+    pos W [F N] 30;
+    pos W I 36;
+    pos W M 28;
+    pos W O 31;
+    pos W Q 29;
+    pos W S 24;
+    pos W b 33;
+    pos W f 38;
+    pos W h 28;
+    pos W k 32;
+    pos W t 38;
+    pos W v 32;
+    pos W w 36;
+    pos W C 25;
+    pos W G 23;
+    pos W K 24;
+    pos W L 22;
+    pos W U 27;
+    pos W [i l] 23;
+    pos X A 58;
+    pos X T 26;
+    pos X V 38;
+    pos X W 40;
+    pos X X 61;
+    pos X Y 36;
+    pos X Z 59;
+    pos X j 35;
+    pos X x 50;
+    pos X z 50;
+    pos X I 22;
+    pos X f 23;
+    pos X v -31;
+    pos X w -22;
+    pos Y A -102;
+    pos Y J -144;
+    pos Y T 46;
+    pos Y V 59;
+    pos Y W 61;
+    pos Y X 35;
+    pos Y Y 57;
+    pos Y a -78;
+    pos Y p -82;
+    pos Y s -73;
+    pos Y x -43;
+    pos Y y -33;
+    pos Y z -60;
+    pos Y O -35;
+    pos Y Q -37;
+    pos Y S -20;
+    pos Y c -100;
+    pos Y d -96;
+    pos Y e -93;
+    pos Y g -91;
+    pos Y m -77;
+    pos Y o -104;
+    pos Y q -98;
+    pos Y v -31;
+    pos Y w -29;
+    pos Y C -42;
+    pos Y G -42;
+    pos Y n -85;
+    pos Y r -80;
+    pos Y u -83;
+    pos Z A 58;
+    pos Z J 39;
+    pos Z T 63;
+    pos Z V 48;
+    pos Z W 55;
+    pos Z X 54;
+    pos Z Y 42;
+    pos Z Z 69;
+    pos Z a 36;
+    pos Z j 50;
+    pos Z p 41;
+    pos Z s 32;
+    pos Z x 46;
+    pos Z z 70;
+    pos Z [B E H P R] 50;
+    pos Z D 51;
+    pos Z [F N] 54;
+    pos Z I 60;
+    pos Z M 52;
+    pos Z S 21;
+    pos Z b 57;
+    pos Z f 30;
+    pos Z h 52;
+    pos Z k 56;
+    pos Z m 35;
+    pos Z t 31;
+    pos Z w 35;
+    pos Z K 48;
+    pos Z L 47;
+    pos Z U 31;
+    pos Z [i l] 48;
+    pos Z n 27;
+    pos Z r 32;
+} PairPositioning13;
+
+lookup MarkToBase14 {
+    lookupflag 0;
+    ;
+    # Original source: 7 
+            pos base u0999
+            <anchor 702 -44> mark @Anchor15__Anchor15;
+        pos base u099A
+            <anchor 317 2> mark @Anchor15__Anchor15;
+        pos base u099B
+            <anchor 761 3> mark @Anchor15__Anchor15;
+        pos base u099C
+            <anchor 891 1> mark @Anchor15__Anchor15;
+        pos base u099F
+            <anchor 321 5> mark @Anchor15__Anchor15;
+        pos base u09A0
+            <anchor 574 4> mark @Anchor15__Anchor15;
+        pos base u09A1
+            <anchor 699 9> mark @Anchor15__Anchor15;
+        pos base u09A2
+            <anchor 320 3> mark @Anchor15__Anchor15;
+        pos base u09A4
+            <anchor 693 7> mark @Anchor15__Anchor15;
+        pos base u09A6
+            <anchor 573 4> mark @Anchor15__Anchor15;
+        pos base u09AD
+            <anchor 701 0> mark @Anchor15__Anchor15;
+        pos base u09B9
+            <anchor 638 10> mark @Anchor15__Anchor15;
+        pos base u01F0
+            <anchor 735 -98> mark @Anchor15__Anchor15;
+        pos base u01F2
+            <anchor 658 -108> mark @Anchor15__Anchor15;
+        pos base u01F8
+            <anchor 1023 5> mark @Anchor15__Anchor15;
+        pos base AEacute
+            <anchor 1091 -5> mark @Anchor15__Anchor15;
+        pos base oslashacute
+            <anchor 441 8> mark @Anchor15__Anchor15;
+        pos base u0200
+            <anchor 567 12> mark @Anchor15__Anchor15;
+        pos base u0201
+            <anchor 938 -231> mark @Anchor15__Anchor15;
+        pos base u0202
+            <anchor 1052 -102> mark @Anchor15__Anchor15;
+        pos base u0204
+            <anchor 638 -187> mark @Anchor15__Anchor15;
+        pos base u0205
+            <anchor 1010 9> mark @Anchor15__Anchor15;
+        pos base u0206
+            <anchor 884 9> mark @Anchor15__Anchor15;
+        pos base u0207
+            <anchor 639 -56> mark @Anchor15__Anchor15;
+        pos base u0208
+            <anchor 948 5> mark @Anchor15__Anchor15;
+        pos base uni09A309CD09A2.akhn
+            <anchor 885 5> mark @Anchor15__Anchor15;
+        pos base u0209
+            <anchor 574 1> mark @Anchor15__Anchor15;
+        pos base u020D
+            <anchor 825 9> mark @Anchor15__Anchor15;
+        pos base uni09A609CD09AD.akhn
+            <anchor 820 -53> mark @Anchor15__Anchor15;
+        pos base uni09A809CD099C.akhn
+            <anchor 1200 12> mark @Anchor15__Anchor15;
+        pos base u0216
+            <anchor 638 -62> mark @Anchor15__Anchor15;
+        pos base u0217
+            <anchor 694 -113> mark @Anchor15__Anchor15;
+        pos base uni09A809CD09A4.akhn
+            <anchor 755 10> mark @Anchor15__Anchor15;
+        pos base u021B
+            <anchor 697 10> mark @Anchor15__Anchor15;
+        pos base uni09AB09CD099F.akhn
+            <anchor 682 -42> mark @Anchor15__Anchor15;
+        pos base u021E
+            <anchor 629 14> mark @Anchor15__Anchor15;
+        pos base u021F
+            <anchor 818 12> mark @Anchor15__Anchor15;
+        pos base uni09AE09CD09AD.akhn
+            <anchor 752 19> mark @Anchor15__Anchor15;
+        pos base u0228
+            <anchor 941 9> mark @Anchor15__Anchor15;
+        pos base uni09B209CD09AD.akhn
+            <anchor 817 9> mark @Anchor15__Anchor15;
+        pos base u022C
+            <anchor 823 6> mark @Anchor15__Anchor15;
+        pos base u022D
+            <anchor 1261 8> mark @Anchor15__Anchor15;
+        pos base u022F
+            <anchor 507 8> mark @Anchor15__Anchor15;
+        pos base u0230
+            <anchor 631 11> mark @Anchor15__Anchor15;
+        pos base u0233
+            <anchor 820 7> mark @Anchor15__Anchor15;
+        pos base u0234
+            <anchor 635 13> mark @Anchor15__Anchor15;
+
+} MarkToBase14;
+
+lookup MarkToMark16 {
+    lookupflag 0;
+    ;
+    # Original source: 8 
+            pos mark uni09CD09F1.blwf
+            <anchor -61 -246> mark @Anchor17_Anchor17_;
+        pos mark uni09CD09F0.blwf
+            <anchor 9 -242> mark @Anchor17_Anchor17_;
+
+} MarkToMark16;
+
+feature half {
+    script DFLT;
+    language dflt;
+            lookup LigatureSubstitution8;
+
+} half;
+
+feature half {
+    script beng;
+    language dflt;
+            lookup LigatureSubstitution8;
+
+} half;
+
+feature half {
+    script bng2;
+    language dflt;
+            lookup LigatureSubstitution8;
+
+} half;
+
+feature pstf {
+    script DFLT;
+    language dflt;
+            lookup LigatureSubstitution4;
+
+} pstf;
+
+feature pstf {
+    script bng2;
+    language dflt;
+            lookup LigatureSubstitution4;
+
+} pstf;
+
+feature pstf {
+    script beng;
+    language dflt;
+            lookup LigatureSubstitution3;
+
+} pstf;
+
+feature init {
+    script DFLT;
+    language dflt;
+            lookup SingleSubstitution21;
+
+} init;
+
+feature init {
+    script beng;
+    language dflt;
+            lookup SingleSubstitution21;
+
+} init;
+
+feature init {
+    script bng2;
+    language dflt;
+            lookup SingleSubstitution21;
+
+} init;
+
+feature psts {
+    script DFLT;
+    language dflt;
+            lookup ChainedContextualGSUB12;
+
+} psts;
+
+feature psts {
+    script beng;
+    language dflt;
+            lookup ChainedContextualGSUB12;
+
+} psts;
+
+feature psts {
+    script bng2;
+    language dflt;
+            lookup ChainedContextualGSUB12;
+
+} psts;
+
+feature psts {
+    script DFLT;
+    language dflt;
+            lookup ChainedContextualGSUB13;
+
+} psts;
+
+feature psts {
+    script beng;
+    language dflt;
+            lookup ChainedContextualGSUB13;
+
+} psts;
+
+feature psts {
+    script bng2;
+    language dflt;
+            lookup ChainedContextualGSUB13;
+
+} psts;
+
+feature psts {
+    script DFLT;
+    language dflt;
+            lookup ChainedContextualGSUB14;
+
+} psts;
+
+feature psts {
+    script beng;
+    language dflt;
+            lookup ChainedContextualGSUB14;
+
+} psts;
+
+feature psts {
+    script bng2;
+    language dflt;
+            lookup ChainedContextualGSUB14;
+
+} psts;
+
+feature psts {
+    script DFLT;
+    language dflt;
+            lookup ChainedContextualGSUB15;
+
+} psts;
+
+feature psts {
+    script beng;
+    language dflt;
+            lookup ChainedContextualGSUB15;
+
+} psts;
+
+feature psts {
+    script bng2;
+    language dflt;
+            lookup ChainedContextualGSUB15;
+
+} psts;
+
+feature psts {
+    script DFLT;
+    language dflt;
+            lookup ChainedContextualGSUB16;
+
+} psts;
+
+feature psts {
+    script beng;
+    language dflt;
+            lookup ChainedContextualGSUB16;
+
+} psts;
+
+feature psts {
+    script bng2;
+    language dflt;
+            lookup ChainedContextualGSUB16;
+
+} psts;
+
+feature psts {
+    script DFLT;
+    language dflt;
+            lookup ChainedContextualGSUB17;
+
+} psts;
+
+feature psts {
+    script beng;
+    language dflt;
+            lookup ChainedContextualGSUB17;
+
+} psts;
+
+feature psts {
+    script bng2;
+    language dflt;
+            lookup ChainedContextualGSUB17;
+
+} psts;
+
+feature psts {
+    script DFLT;
+    language dflt;
+            lookup ChainedContextualGSUB18;
+
+} psts;
+
+feature psts {
+    script beng;
+    language dflt;
+            lookup ChainedContextualGSUB18;
+
+} psts;
+
+feature psts {
+    script bng2;
+    language dflt;
+            lookup ChainedContextualGSUB18;
+
+} psts;
+
+feature psts {
+    script DFLT;
+    language dflt;
+            lookup ChainedContextualGSUB31;
+
+} psts;
+
+feature psts {
+    script beng;
+    language dflt;
+            lookup ChainedContextualGSUB31;
+
+} psts;
+
+feature psts {
+    script bng2;
+    language dflt;
+            lookup ChainedContextualGSUB31;
+
+} psts;
+
+feature psts {
+    script DFLT;
+    language dflt;
+            lookup ChainedContextualGSUB32;
+
+} psts;
+
+feature psts {
+    script beng;
+    language dflt;
+            lookup ChainedContextualGSUB32;
+
+} psts;
+
+feature psts {
+    script bng2;
+    language dflt;
+            lookup ChainedContextualGSUB32;
+
+} psts;
+
+feature psts {
+    script DFLT;
+    language dflt;
+            lookup ChainedContextualGSUB33;
+
+} psts;
+
+feature psts {
+    script beng;
+    language dflt;
+            lookup ChainedContextualGSUB33;
+
+} psts;
+
+feature psts {
+    script bng2;
+    language dflt;
+            lookup ChainedContextualGSUB33;
+
+} psts;
+
+feature psts {
+    script DFLT;
+    language dflt;
+            lookup ChainedContextualGSUB36;
+
+} psts;
+
+feature psts {
+    script beng;
+    language dflt;
+            lookup ChainedContextualGSUB36;
+
+} psts;
+
+feature psts {
+    script bng2;
+    language dflt;
+            lookup ChainedContextualGSUB36;
+
+} psts;
+
+feature psts {
+    script DFLT;
+    language dflt;
+            lookup ChainedContextualGSUB37;
+
+} psts;
+
+feature psts {
+    script beng;
+    language dflt;
+            lookup ChainedContextualGSUB37;
+
+} psts;
+
+feature psts {
+    script bng2;
+    language dflt;
+            lookup ChainedContextualGSUB37;
+
+} psts;
+
+feature psts {
+    script DFLT;
+    language dflt;
+            lookup ChainedContextualGSUB39;
+
+} psts;
+
+feature psts {
+    script beng;
+    language dflt;
+            lookup ChainedContextualGSUB39;
+
+} psts;
+
+feature psts {
+    script bng2;
+    language dflt;
+            lookup ChainedContextualGSUB39;
+
+} psts;
+
+feature vatu {
+    script DFLT;
+    language dflt;
+            lookup LigatureSubstitution10;
+
+} vatu;
+
+feature vatu {
+    script beng;
+    language dflt;
+            lookup LigatureSubstitution10;
+
+} vatu;
+
+feature vatu {
+    script bng2;
+    language dflt;
+            lookup LigatureSubstitution10;
+
+} vatu;
+
+feature blwf {
+    script DFLT;
+    language dflt;
+            lookup LigatureSubstitution2;
+
+} blwf;
+
+feature blwf {
+    script bng2;
+    language dflt;
+            lookup LigatureSubstitution2;
+
+} blwf;
+
+feature blwf {
+    script beng;
+    language dflt;
+            lookup LigatureSubstitution1;
+
+} blwf;
+
+feature akhn {
+    script DFLT;
+    language dflt;
+            lookup LigatureSubstitution7;
+
+} akhn;
+
+feature akhn {
+    script beng;
+    language dflt;
+            lookup LigatureSubstitution7;
+
+} akhn;
+
+feature akhn {
+    script bng2;
+    language dflt;
+            lookup LigatureSubstitution7;
+
+} akhn;
+
+feature akhn {
+    script DFLT;
+    language dflt;
+            lookup ChainedContextualGSUB41;
+
+} akhn;
+
+feature akhn {
+    script beng;
+    language dflt;
+            lookup ChainedContextualGSUB41;
+
+} akhn;
+
+feature akhn {
+    script bng2;
+    language dflt;
+            lookup ChainedContextualGSUB41;
+
+} akhn;
+
+feature akhn {
+    script DFLT;
+    language dflt;
+            lookup ChainedContextualGSUB42;
+
+} akhn;
+
+feature akhn {
+    script beng;
+    language dflt;
+            lookup ChainedContextualGSUB42;
+
+} akhn;
+
+feature akhn {
+    script bng2;
+    language dflt;
+            lookup ChainedContextualGSUB42;
+
+} akhn;
+
+feature akhn {
+    script DFLT;
+    language dflt;
+            lookup ChainedContextualGSUB43;
+
+} akhn;
+
+feature akhn {
+    script beng;
+    language dflt;
+            lookup ChainedContextualGSUB43;
+
+} akhn;
+
+feature akhn {
+    script bng2;
+    language dflt;
+            lookup ChainedContextualGSUB43;
+
+} akhn;
+
+feature akhn {
+    script DFLT;
+    language dflt;
+            lookup ChainedContextualGSUB44;
+
+} akhn;
+
+feature akhn {
+    script beng;
+    language dflt;
+            lookup ChainedContextualGSUB44;
+
+} akhn;
+
+feature akhn {
+    script bng2;
+    language dflt;
+            lookup ChainedContextualGSUB44;
+
+} akhn;
+
+feature akhn {
+    script DFLT;
+    language dflt;
+            lookup ChainedContextualGSUB45;
+
+} akhn;
+
+feature akhn {
+    script beng;
+    language dflt;
+            lookup ChainedContextualGSUB45;
+
+} akhn;
+
+feature akhn {
+    script bng2;
+    language dflt;
+            lookup ChainedContextualGSUB45;
+
+} akhn;
+
+feature blws {
+    script DFLT;
+    language dflt;
+            lookup LigatureSubstitution11;
+
+} blws;
+
+feature blws {
+    script beng;
+    language dflt;
+            lookup LigatureSubstitution11;
+
+} blws;
+
+feature blws {
+    script bng2;
+    language dflt;
+            lookup LigatureSubstitution11;
+
+} blws;
+
+feature blws {
+    script DFLT;
+    language dflt;
+            lookup MarkToBase10;
+
+} blws;
+
+feature blws {
+    script beng;
+    language dflt;
+            lookup MarkToBase10;
+
+} blws;
+
+feature blws {
+    script bng2;
+    language dflt;
+            lookup MarkToBase10;
+
+} blws;
+
+feature rphf {
+    script DFLT;
+    language dflt;
+            lookup LigatureSubstitution5;
+
+} rphf;
+
+feature rphf {
+    script beng;
+    language dflt;
+            lookup LigatureSubstitution5;
+
+} rphf;
+
+feature rphf {
+    script bng2;
+    language dflt;
+            lookup LigatureSubstitution5;
+
+} rphf;
+
+feature pres {
+    script DFLT;
+    language dflt;
+            lookup LigatureSubstitution9;
+
+} pres;
+
+feature pres {
+    script beng;
+    language dflt;
+            lookup LigatureSubstitution9;
+
+} pres;
+
+feature pres {
+    script bng2;
+    language dflt;
+            lookup LigatureSubstitution9;
+
+} pres;
+
+feature pres {
+    script DFLT;
+    language dflt;
+            lookup ChainedContextualGSUB19;
+
+} pres;
+
+feature pres {
+    script beng;
+    language dflt;
+            lookup ChainedContextualGSUB19;
+
+} pres;
+
+feature pres {
+    script bng2;
+    language dflt;
+            lookup ChainedContextualGSUB19;
+
+} pres;
+
+feature pres {
+    script DFLT;
+    language dflt;
+            lookup ChainedContextualGSUB20;
+
+} pres;
+
+feature pres {
+    script beng;
+    language dflt;
+            lookup ChainedContextualGSUB20;
+
+} pres;
+
+feature pres {
+    script bng2;
+    language dflt;
+            lookup ChainedContextualGSUB20;
+
+} pres;
+
+feature pres {
+    script DFLT;
+    language dflt;
+            lookup ChainedContextualGSUB35;
+
+} pres;
+
+feature pres {
+    script beng;
+    language dflt;
+            lookup ChainedContextualGSUB35;
+
+} pres;
+
+feature pres {
+    script bng2;
+    language dflt;
+            lookup ChainedContextualGSUB35;
+
+} pres;
+
+feature pres {
+    script DFLT;
+    language dflt;
+            lookup ChainedContextualGSUB46;
+
+} pres;
+
+feature pres {
+    script beng;
+    language dflt;
+            lookup ChainedContextualGSUB46;
+
+} pres;
+
+feature pres {
+    script bng2;
+    language dflt;
+            lookup ChainedContextualGSUB46;
+
+} pres;
+
+feature pres {
+    script DFLT;
+    language dflt;
+            lookup ChainedContextualGSUB47;
+
+} pres;
+
+feature pres {
+    script beng;
+    language dflt;
+            lookup ChainedContextualGSUB47;
+
+} pres;
+
+feature pres {
+    script bng2;
+    language dflt;
+            lookup ChainedContextualGSUB47;
+
+} pres;
+
+feature nukt {
+    script DFLT;
+    language dflt;
+            lookup LigatureSubstitution6;
+
+} nukt;
+
+feature nukt {
+    script beng;
+    language dflt;
+            lookup LigatureSubstitution6;
+
+} nukt;
+
+feature nukt {
+    script bng2;
+    language dflt;
+            lookup LigatureSubstitution6;
+
+} nukt;
+
+feature rlig {
+    script DFLT;
+    language dflt;
+            lookup LigatureSubstitution34;
+
+} rlig;
+
+feature rlig {
+    script beng;
+    language dflt;
+            lookup LigatureSubstitution34;
+
+} rlig;
+
+feature rlig {
+    script bng2;
+    language dflt;
+            lookup LigatureSubstitution34;
+
+} rlig;
+
+feature rlig {
+    script latn;
+    language dflt;
+            lookup LigatureSubstitution34;
+
+} rlig;
+
+feature abvm {
+    script DFLT;
+    language dflt;
+            lookup MarkToBase1;
+
+} abvm;
+
+feature abvm {
+    script beng;
+    language dflt;
+            lookup MarkToBase1;
+
+} abvm;
+
+feature abvm {
+    script bng2;
+    language dflt;
+            lookup MarkToBase1;
+
+} abvm;
+
+feature abvm {
+    script DFLT;
+    language dflt;
+            lookup MarkToBase3;
+
+} abvm;
+
+feature abvm {
+    script beng;
+    language dflt;
+            lookup MarkToBase3;
+
+} abvm;
+
+feature abvm {
+    script bng2;
+    language dflt;
+            lookup MarkToBase3;
+
+} abvm;
+
+feature blwm {
+    script DFLT;
+    language dflt;
+            lookup MarkToBase6;
+
+} blwm;
+
+feature blwm {
+    script beng;
+    language dflt;
+            lookup MarkToBase6;
+
+} blwm;
+
+feature blwm {
+    script bng2;
+    language dflt;
+            lookup MarkToBase6;
+
+} blwm;
+
+feature blwm {
+    script DFLT;
+    language dflt;
+            lookup MarkToBase8;
+
+} blwm;
+
+feature blwm {
+    script beng;
+    language dflt;
+            lookup MarkToBase8;
+
+} blwm;
+
+feature blwm {
+    script bng2;
+    language dflt;
+            lookup MarkToBase8;
+
+} blwm;
+
+feature blwm {
+    script DFLT;
+    language dflt;
+            lookup MarkToBase14;
+
+} blwm;
+
+feature blwm {
+    script beng;
+    language dflt;
+            lookup MarkToBase14;
+
+} blwm;
+
+feature blwm {
+    script bng2;
+    language dflt;
+            lookup MarkToBase14;
+
+} blwm;
+
+feature blwm {
+    script DFLT;
+    language dflt;
+            lookup MarkToMark16;
+
+} blwm;
+
+feature blwm {
+    script beng;
+    language dflt;
+            lookup MarkToMark16;
+
+} blwm;
+
+feature blwm {
+    script bng2;
+    language dflt;
+            lookup MarkToMark16;
+
+} blwm;
+
+feature kern {
+    script DFLT;
+    language dflt;
+            lookup PairPositioning12;
+
+} kern;
+
+feature kern {
+    script beng;
+    language dflt;
+            lookup PairPositioning12;
+
+} kern;
+
+feature kern {
+    script bng2;
+    language dflt;
+            lookup PairPositioning12;
+
+} kern;
+
+feature kern {
+    script DFLT;
+    language dflt;
+            lookup PairPositioning13;
+
+} kern;
+
+feature kern {
+    script beng;
+    language dflt;
+            lookup PairPositioning13;
+
+} kern;
+
+feature kern {
+    script bng2;
+    language dflt;
+            lookup PairPositioning13;
+
+} kern;
+
+feature kern {
+    script latn;
+    language dflt;
+            lookup PairPositioning13;
+
+} kern;

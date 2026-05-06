@@ -1,0 +1,889 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>public.glyphOrder</key>
+    <array>
+      <string>.notdef</string>
+      <string>u0000</string>
+      <string>space</string>
+      <string>uFDFA</string>
+      <string>uni09AE09BE09BE.rlig</string>
+      <string>uni09AE09BE09BE09BE.rlig</string>
+      <string>exclam</string>
+      <string>quotedbl</string>
+      <string>numbersign</string>
+      <string>percent</string>
+      <string>quotesingle</string>
+      <string>parenleft</string>
+      <string>parenright</string>
+      <string>asterisk</string>
+      <string>plus</string>
+      <string>comma</string>
+      <string>hyphen</string>
+      <string>period</string>
+      <string>slash</string>
+      <string>colon</string>
+      <string>semicolon</string>
+      <string>less</string>
+      <string>equal</string>
+      <string>greater</string>
+      <string>question</string>
+      <string>at</string>
+      <string>bracketleft</string>
+      <string>backslash</string>
+      <string>bracketright</string>
+      <string>asciicircum</string>
+      <string>underscore</string>
+      <string>grave</string>
+      <string>braceleft</string>
+      <string>bar</string>
+      <string>braceright</string>
+      <string>asciitilde</string>
+      <string>periodcentered</string>
+      <string>multiply</string>
+      <string>divide</string>
+      <string>u00AD</string>
+      <string>endash</string>
+      <string>emdash</string>
+      <string>quoteleft</string>
+      <string>quoteright</string>
+      <string>quotedblleft</string>
+      <string>quotedblright</string>
+      <string>u0985</string>
+      <string>u0986</string>
+      <string>u0987</string>
+      <string>u0988</string>
+      <string>u0989</string>
+      <string>u098A</string>
+      <string>u098B</string>
+      <string>u098F</string>
+      <string>u0990</string>
+      <string>u0993</string>
+      <string>u0994</string>
+      <string>u0995</string>
+      <string>u0996</string>
+      <string>u0997</string>
+      <string>u0998</string>
+      <string>u0999</string>
+      <string>u099A</string>
+      <string>u099B</string>
+      <string>u099C</string>
+      <string>u099D</string>
+      <string>u099E</string>
+      <string>u099F</string>
+      <string>u09A0</string>
+      <string>u09A1</string>
+      <string>u09A2</string>
+      <string>u09A3</string>
+      <string>u09A4</string>
+      <string>u09A5</string>
+      <string>u09A6</string>
+      <string>u09A7</string>
+      <string>u09A8</string>
+      <string>u09AA</string>
+      <string>u09AB</string>
+      <string>u09AC</string>
+      <string>u09AD</string>
+      <string>u09AE</string>
+      <string>u09AF</string>
+      <string>u09B0</string>
+      <string>u09B2</string>
+      <string>u09B6</string>
+      <string>u09B7</string>
+      <string>u09B8</string>
+      <string>u09B9</string>
+      <string>u09DC</string>
+      <string>u09DD</string>
+      <string>u09DF</string>
+      <string>u09CE</string>
+      <string>u0982</string>
+      <string>u0983</string>
+      <string>u0981</string>
+      <string>u09BE</string>
+      <string>u09BF</string>
+      <string>u09C0</string>
+      <string>u09C1</string>
+      <string>u09C2</string>
+      <string>u09C3</string>
+      <string>u09C7</string>
+      <string>u09C7.init</string>
+      <string>u09C8</string>
+      <string>u09C8.init</string>
+      <string>u09CB</string>
+      <string>u09CC</string>
+      <string>u09CD</string>
+      <string>u0964</string>
+      <string>u0965</string>
+      <string>u09D7</string>
+      <string>u09BC</string>
+      <string>u09E6</string>
+      <string>u09E7</string>
+      <string>u09E8</string>
+      <string>u09E9</string>
+      <string>u09EA</string>
+      <string>u09EB</string>
+      <string>u09EC</string>
+      <string>u09ED</string>
+      <string>u09EE</string>
+      <string>u09EF</string>
+      <string>u09F3</string>
+      <string>u20B9</string>
+      <string>u01EF</string>
+      <string>u01F0</string>
+      <string>uni01F009CD09F0.blwf</string>
+      <string>u01F2</string>
+      <string>uni01F209CD09F1.blwf</string>
+      <string>uni01F209CD09F0.blwf</string>
+      <string>uni099509CD09A8.akhn</string>
+      <string>uni099509CD09F1.blwf</string>
+      <string>u01F3</string>
+      <string>u01F4</string>
+      <string>uni099509CD09B2.akhn</string>
+      <string>u01F5</string>
+      <string>uni099509CD09B709CD09A3.akhn</string>
+      <string>uni01F509CD09F1.blwf</string>
+      <string>u01F1</string>
+      <string>u0240</string>
+      <string>uni099609CD09F1.blwf</string>
+      <string>uni099609CD09F0.blwf</string>
+      <string>u01F6</string>
+      <string>u01F7</string>
+      <string>u01F8</string>
+      <string>u01F9</string>
+      <string>uni01F909CD09F0.blwf</string>
+      <string>uni099709CD09A8.akhn</string>
+      <string>uni099709CD09F1.blwf</string>
+      <string>uni099709CD09AE.akhn</string>
+      <string>u0249</string>
+      <string>uni099709CD09B2.akhn</string>
+      <string>uni099809CD09A8.akhn</string>
+      <string>uni099809CD09F1.blwf</string>
+      <string>uni099809CD09F0.blwf</string>
+      <string>Aringacute</string>
+      <string>uni01D601F4.pres</string>
+      <string>uni01D60996.pres</string>
+      <string>aringacute</string>
+      <string>uni01D609AE.pres</string>
+      <string>uni099909CD09F0.blwf</string>
+      <string>uni099A09CD099E.akhn</string>
+      <string>uni099A09CD09F0.blwf</string>
+      <string>uni099B09CD09F1.blwf</string>
+      <string>uni099B09CD09F0.blwf</string>
+      <string>uni099B09CD09F0.blwf.1</string>
+      <string>AEacute</string>
+      <string>uni01FC09CD09F1.blwf</string>
+      <string>Oslashacute</string>
+      <string>oslashacute</string>
+      <string>uni099C09CD09F1.blwf</string>
+      <string>uni099C09CD09F0.blwf</string>
+      <string>uni099D09CD09F0.blwf</string>
+      <string>u0200</string>
+      <string>u0201</string>
+      <string>u0202</string>
+      <string>u0203</string>
+      <string>u0204</string>
+      <string>uni099F09CD09F1.blwf</string>
+      <string>uni099F09CD09AE.akhn</string>
+      <string>uni099F09CD09F0.blwf</string>
+      <string>uni099F09CD09F0.blwf.1</string>
+      <string>uni09A009CD09F0.blwf</string>
+      <string>u0205</string>
+      <string>uni09A109CD09F0.blwf</string>
+      <string>uni09A209CD09F0.blwf</string>
+      <string>u0206</string>
+      <string>u0207</string>
+      <string>u0208</string>
+      <string>uni020809CD09F0.blwf</string>
+      <string>uni09A309CD09A2.akhn</string>
+      <string>uni09A309CD09A3.akhn</string>
+      <string>uni09A309CD09F1.blwf</string>
+      <string>uni09A309CD09AE.akhn</string>
+      <string>uni09A309CD09F0.blwf</string>
+      <string>u0209</string>
+      <string>uni020909CD09F1.blwf</string>
+      <string>u020A</string>
+      <string>uni09A409CD09A8.akhn</string>
+      <string>uni09A409CD09F1.blwf</string>
+      <string>uni09A409CD09B2.akhn</string>
+      <string>u020B</string>
+      <string>u020C</string>
+      <string>uni09A509CD09F1.blwf</string>
+      <string>uni09A509CD09F0.blwf</string>
+      <string>uni09A509CD09B2.akhn</string>
+      <string>u020D</string>
+      <string>uni020D09CD09F1.blwf</string>
+      <string>u0213</string>
+      <string>uni021309CD09F1.blwf</string>
+      <string>uni09A609CD09A8.akhn</string>
+      <string>u0214</string>
+      <string>uni09A609CD09AD.akhn</string>
+      <string>uni09A609CD09AD09CD09F0.akhn</string>
+      <string>u0215</string>
+      <string>uni09A609CD09F0.blwf</string>
+      <string>uni09A609CD09F0.blwf.1</string>
+      <string>uni09A609CD09F009C1.blwf</string>
+      <string>uni09A609CD09F009C2.blwf</string>
+      <string>uni09A709CD09A8.akhn</string>
+      <string>uni09A709CD09AE.akhn</string>
+      <string>uni09A709CD09F0.blwf</string>
+      <string>uni09A809CD099C.akhn</string>
+      <string>u0216</string>
+      <string>u0217</string>
+      <string>uni021709CD09F0.blwf</string>
+      <string>uni09A809CD09A4.akhn</string>
+      <string>uni09A809CD09A409CD09F1.akhn</string>
+      <string>uni09A809CD09A409CD09F0.akhn</string>
+      <string>uni09A809CD09A5.akhn</string>
+      <string>u0218</string>
+      <string>uni021809CD09F0.blwf</string>
+      <string>uni09A809CD09A8.akhn</string>
+      <string>uni09A809CD09F1.blwf</string>
+      <string>uni09A809CD09AE.akhn</string>
+      <string>uni09A809CD09F0.blwf</string>
+      <string>u0219</string>
+      <string>u021A</string>
+      <string>u021B</string>
+      <string>uni021B09CD09F0.blwf</string>
+      <string>uni09AA09CD09A8.akhn</string>
+      <string>u021C</string>
+      <string>u0248</string>
+      <string>u0248.psts</string>
+      <string>uni09AA09CD09B2.akhn</string>
+      <string>u021D</string>
+      <string>uni09AB09CD099F.akhn</string>
+      <string>uni09AB09CD09F0.blwf</string>
+      <string>uni09AB09CD09B2.akhn</string>
+      <string>u021E</string>
+      <string>u021F</string>
+      <string>u0220</string>
+      <string>uni09AC09CD09F0.blwf</string>
+      <string>uni09AC09CD09B2.akhn</string>
+      <string>u0221</string>
+      <string>uni022109C1.blws</string>
+      <string>uni022109C2.blws</string>
+      <string>uni09AD09CD09B2.akhn</string>
+      <string>u0222</string>
+      <string>u0223</string>
+      <string>uni09AE09CD09F1.blwf</string>
+      <string>uni09AE09CD09F109CD09F0.blwf</string>
+      <string>uni09AE09CD09AD.akhn</string>
+      <string>uni09AE09CD09AD09CD09F0.akhn</string>
+      <string>uni09AE09CD09AE.akhn</string>
+      <string>uni09AE09CD09F0.blwf</string>
+      <string>uni09AE09CD09B2.akhn</string>
+      <string>uni09AF09CD09F0.blwf</string>
+      <string>u0225</string>
+      <string>u0226</string>
+      <string>u0228</string>
+      <string>u0229</string>
+      <string>u022A</string>
+      <string>uni09B209CD09F1.blwf</string>
+      <string>uni09B209CD09AD.akhn</string>
+      <string>uni09B209CD09AE.akhn</string>
+      <string>uni09B209CD09F0.blwf</string>
+      <string>uni09B209CD09B2.akhn</string>
+      <string>uni09B209CD09B8.akhn</string>
+      <string>u022B</string>
+      <string>u022C</string>
+      <string>u022D</string>
+      <string>uni09B609CD09A8.akhn</string>
+      <string>uni09B609CD09F1.blwf</string>
+      <string>uni09B609CD09AE.akhn</string>
+      <string>uni09B609CD09F0.blwf</string>
+      <string>uni09B609CD09B2.akhn</string>
+      <string>uni09B709CD0995.akhn</string>
+      <string>uni09B709CD099509CD09F0.akhn</string>
+      <string>u022F</string>
+      <string>uni022F09CD09F0.blwf</string>
+      <string>u0230</string>
+      <string>u022E</string>
+      <string>u0231</string>
+      <string>uni09B709CD09F1.blwf</string>
+      <string>uni09B709CD09AE.akhn</string>
+      <string>uni09B709CD09F0.blwf</string>
+      <string>uni09B809CD0995.akhn</string>
+      <string>uni09B809CD099509CD09F0.akhn</string>
+      <string>uni09B809CD099509CD09B2.akhn</string>
+      <string>u0232</string>
+      <string>u0233</string>
+      <string>uni023309CD09F0.blwf</string>
+      <string>u0234</string>
+      <string>uni023409CD09F0.blwf</string>
+      <string>uni09B809CD09A5.akhn</string>
+      <string>uni09B809CD09A8.akhn</string>
+      <string>u0235</string>
+      <string>uni09B809CD09F1.blwf</string>
+      <string>uni09B809CD09AE.akhn</string>
+      <string>uni09B809CD09F0.blwf</string>
+      <string>uni09B809CD09B2.akhn</string>
+      <string>u0237</string>
+      <string>u0238</string>
+      <string>uni09B909CD09A3.akhn</string>
+      <string>u0239</string>
+      <string>u023A</string>
+      <string>uni09B909CD09F0.blwf</string>
+      <string>uni09B909CD09B2.akhn</string>
+      <string>uni09B909CD09F1.blwf</string>
+      <string>uni09DD09CD09F0.blwf</string>
+      <string>uni09CD09F1.blwf</string>
+      <string>uni09CD09F1.blwf.1</string>
+      <string>uni09CD09AF.rlig</string>
+      <string>uni09CD09F0.blwf</string>
+      <string>u09D7.rphf</string>
+      <string>u09C1.psts</string>
+      <string>u09C2.psts</string>
+      <string>u09BF.psts</string>
+      <string>u09BF.psts.1</string>
+      <string>uni099709CD.half</string>
+      <string>u01D6</string>
+      <string>u01D5</string>
+      <string>uni09A309CD.half</string>
+      <string>uni09A609CD.half</string>
+      <string>uni09A809CD.half</string>
+      <string>uni09AA09CD.half</string>
+      <string>uni09AE09CD.half</string>
+      <string>uni09B209CD.half</string>
+      <string>uni09B609CD.half</string>
+      <string>uni09B709CD.half</string>
+      <string>uni09B809CD.half</string>
+      <string>uni09DC09CD.half</string>
+      <string>u09F0</string>
+      <string>u09F1</string>
+      <string>u25CC</string>
+      <string>uni09DC09C1.blws</string>
+      <string>uni09DC09C2.blws</string>
+      <string>uni09DD09C1.blws</string>
+      <string>uni09DD09C2.blws</string>
+      <string>uni09DF09C1.blws</string>
+      <string>uni09DF09C2.blws</string>
+      <string>u09BD</string>
+      <string>u0980</string>
+      <string>u09BF.psts.2</string>
+      <string>u09C0.psts</string>
+      <string>u09D7.psts</string>
+      <string>u200C</string>
+      <string>u200D</string>
+      <string>dollar</string>
+      <string>ampersand</string>
+      <string>zero</string>
+      <string>one</string>
+      <string>two</string>
+      <string>three</string>
+      <string>four</string>
+      <string>five</string>
+      <string>six</string>
+      <string>seven</string>
+      <string>eight</string>
+      <string>nine</string>
+      <string>A</string>
+      <string>B</string>
+      <string>C</string>
+      <string>D</string>
+      <string>E</string>
+      <string>F</string>
+      <string>G</string>
+      <string>H</string>
+      <string>I</string>
+      <string>J</string>
+      <string>K</string>
+      <string>L</string>
+      <string>M</string>
+      <string>N</string>
+      <string>O</string>
+      <string>P</string>
+      <string>Q</string>
+      <string>R</string>
+      <string>S</string>
+      <string>T</string>
+      <string>U</string>
+      <string>V</string>
+      <string>W</string>
+      <string>X</string>
+      <string>Y</string>
+      <string>Z</string>
+      <string>a</string>
+      <string>b</string>
+      <string>c</string>
+      <string>d</string>
+      <string>e</string>
+      <string>f</string>
+      <string>g</string>
+      <string>h</string>
+      <string>i</string>
+      <string>j</string>
+      <string>k</string>
+      <string>l</string>
+      <string>m</string>
+      <string>n</string>
+      <string>o</string>
+      <string>p</string>
+      <string>q</string>
+      <string>r</string>
+      <string>s</string>
+      <string>t</string>
+      <string>u</string>
+      <string>v</string>
+      <string>w</string>
+      <string>x</string>
+      <string>y</string>
+      <string>z</string>
+      <string>copyright</string>
+      <string>registered</string>
+    </array>
+    <key>public.openTypeHeadModified</key>
+    <string>2026/05/06 20:06:03</string>
+    <key>public.openTypePostUnderlinePosition</key>
+    <integer>-100</integer>
+    <key>public.truetype.instructions</key>
+    <dict>
+      <key>controlValue</key>
+      <dict>
+        <key>0</key>
+        <integer>20</integer>
+        <key>1</key>
+        <integer>58</integer>
+        <key>10</key>
+        <integer>-216</integer>
+        <key>11</key>
+        <integer>0</integer>
+        <key>12</key>
+        <integer>482</integer>
+        <key>13</key>
+        <integer>8</integer>
+        <key>14</key>
+        <integer>642</integer>
+        <key>15</key>
+        <integer>11</integer>
+        <key>2</key>
+        <integer>29</integer>
+        <key>3</key>
+        <integer>49</integer>
+        <key>4</key>
+        <integer>53</integer>
+        <key>5</key>
+        <integer>67</integer>
+        <key>6</key>
+        <integer>102</integer>
+        <key>7</key>
+        <integer>51</integer>
+        <key>8</key>
+        <integer>0</integer>
+        <key>9</key>
+        <integer>9</integer>
+      </dict>
+      <key>controlValueProgram</key>
+      <string>
+PUSHW[ ]	/* 1 value pushed */
+0
+CALL[ ]	/* CallFunction */
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 3 values pushed */
+1 5 2
+CALL[ ]	/* CallFunction */
+SVTCA[1]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 3 values pushed */
+6 2 2
+CALL[ ]	/* CallFunction */
+SVTCA[1]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 8 values pushed */
+6 54 45 35 25 15 0 8
+CALL[ ]	/* CallFunction */
+PUSHW[ ]	/* 8 values pushed */
+7 108 89 69 45 28 0 8
+CALL[ ]	/* CallFunction */
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 8 values pushed */
+1 95 73 57 45 28 0 8
+CALL[ ]	/* CallFunction */
+PUSHW[ ]	/* 8 values pushed */
+2 190 156 121 87 52 0 8
+CALL[ ]	/* CallFunction */
+PUSHW[ ]	/* 8 values pushed */
+3 113 89 69 52 28 0 8
+CALL[ ]	/* CallFunction */
+PUSHW[ ]	/* 8 values pushed */
+4 104 89 69 45 28 0 8
+CALL[ ]	/* CallFunction */
+PUSHW[ ]	/* 8 values pushed */
+5 83 73 57 45 28 0 8
+CALL[ ]	/* CallFunction */
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 3 values pushed */
+8 4 7
+CALL[ ]	/* CallFunction */
+PUSHW[ ]	/* 1 value pushed */
+0
+DUP[ ]	/* DuplicateTopStack */
+RCVT[ ]	/* ReadCVT */
+RDTG[ ]	/* RoundDownToGrid */
+ROUND[01]	/* Round */
+RTG[ ]	/* RoundToGrid */
+WCVTP[ ]	/* WriteCVTInPixels */
+</string>
+      <key>fontProgram</key>
+      <string>
+PUSHW[ ]	/* 1 value pushed */
+0
+FDEF[ ]	/* FunctionDefinition */
+  MPPEM[ ]	/* MeasurePixelPerEm */
+  PUSHW[ ]	/* 1 value pushed */
+  10
+  LT[ ]	/* LessThan */
+  IF[ ]	/* If */
+    PUSHB[ ]	/* 2 values pushed */
+    1 1
+    INSTCTRL[ ]	/* SetInstrExecControl */
+  EIF[ ]	/* EndIf */
+  PUSHW[ ]	/* 1 value pushed */
+  511
+  SCANCTRL[ ]	/* ScanConversionControl */
+  PUSHW[ ]	/* 1 value pushed */
+  68
+  SCVTCI[ ]	/* SetCVTCutIn */
+  PUSHW[ ]	/* 2 values pushed */
+  10 3
+  SDS[ ]	/* SetDeltaShiftInGState */
+  SDB[ ]	/* SetDeltaBaseInGState */
+ENDF[ ]	/* EndFunctionDefinition */
+PUSHW[ ]	/* 1 value pushed */
+1
+FDEF[ ]	/* FunctionDefinition */
+  DUP[ ]	/* DuplicateTopStack */
+  DUP[ ]	/* DuplicateTopStack */
+  RCVT[ ]	/* ReadCVT */
+  ROUND[01]	/* Round */
+  WCVTP[ ]	/* WriteCVTInPixels */
+  PUSHB[ ]	/* 1 value pushed */
+  1
+  ADD[ ]	/* Add */
+ENDF[ ]	/* EndFunctionDefinition */
+PUSHW[ ]	/* 1 value pushed */
+2
+FDEF[ ]	/* FunctionDefinition */
+  PUSHW[ ]	/* 1 value pushed */
+  1
+  LOOPCALL[ ]	/* LoopAndCallFunction */
+  POP[ ]	/* PopTopStack */
+ENDF[ ]	/* EndFunctionDefinition */
+PUSHW[ ]	/* 1 value pushed */
+3
+FDEF[ ]	/* FunctionDefinition */
+  DUP[ ]	/* DuplicateTopStack */
+  GC[0]	/* GetCoordOnPVector */
+  PUSHB[ ]	/* 1 value pushed */
+  3
+  CINDEX[ ]	/* CopyXToTopStack */
+  GC[0]	/* GetCoordOnPVector */
+  GT[ ]	/* GreaterThan */
+  IF[ ]	/* If */
+    SWAP[ ]	/* SwapTopStack */
+  EIF[ ]	/* EndIf */
+  DUP[ ]	/* DuplicateTopStack */
+  ROLL[ ]	/* RollTopThreeStack */
+  DUP[ ]	/* DuplicateTopStack */
+  ROLL[ ]	/* RollTopThreeStack */
+  MD[0]	/* MeasureDistance */
+  ABS[ ]	/* Absolute */
+  ROLL[ ]	/* RollTopThreeStack */
+  DUP[ ]	/* DuplicateTopStack */
+  GC[0]	/* GetCoordOnPVector */
+  DUP[ ]	/* DuplicateTopStack */
+  ROUND[00]	/* Round */
+  SUB[ ]	/* Subtract */
+  ABS[ ]	/* Absolute */
+  PUSHB[ ]	/* 1 value pushed */
+  4
+  CINDEX[ ]	/* CopyXToTopStack */
+  GC[0]	/* GetCoordOnPVector */
+  DUP[ ]	/* DuplicateTopStack */
+  ROUND[00]	/* Round */
+  SUB[ ]	/* Subtract */
+  ABS[ ]	/* Absolute */
+  GT[ ]	/* GreaterThan */
+  IF[ ]	/* If */
+    SWAP[ ]	/* SwapTopStack */
+    NEG[ ]	/* Negate */
+    ROLL[ ]	/* RollTopThreeStack */
+  EIF[ ]	/* EndIf */
+  MDAP[1]	/* MoveDirectAbsPt */
+  DUP[ ]	/* DuplicateTopStack */
+  PUSHB[ ]	/* 1 value pushed */
+  0
+  GTEQ[ ]	/* GreaterThanOrEqual */
+  IF[ ]	/* If */
+    ROUND[01]	/* Round */
+    DUP[ ]	/* DuplicateTopStack */
+    PUSHB[ ]	/* 1 value pushed */
+    0
+    EQ[ ]	/* Equal */
+    IF[ ]	/* If */
+      POP[ ]	/* PopTopStack */
+      PUSHB[ ]	/* 1 value pushed */
+      64
+    EIF[ ]	/* EndIf */
+  ELSE[ ]	/* Else */
+    ROUND[01]	/* Round */
+    DUP[ ]	/* DuplicateTopStack */
+    PUSHB[ ]	/* 1 value pushed */
+    0
+    EQ[ ]	/* Equal */
+    IF[ ]	/* If */
+      POP[ ]	/* PopTopStack */
+      PUSHB[ ]	/* 1 value pushed */
+      64
+      NEG[ ]	/* Negate */
+    EIF[ ]	/* EndIf */
+  EIF[ ]	/* EndIf */
+  MSIRP[0]	/* MoveStackIndirRelPt */
+ENDF[ ]	/* EndFunctionDefinition */
+PUSHW[ ]	/* 1 value pushed */
+4
+FDEF[ ]	/* FunctionDefinition */
+  DUP[ ]	/* DuplicateTopStack */
+  GC[0]	/* GetCoordOnPVector */
+  PUSHB[ ]	/* 1 value pushed */
+  4
+  CINDEX[ ]	/* CopyXToTopStack */
+  GC[0]	/* GetCoordOnPVector */
+  GT[ ]	/* GreaterThan */
+  IF[ ]	/* If */
+    SWAP[ ]	/* SwapTopStack */
+    ROLL[ ]	/* RollTopThreeStack */
+  EIF[ ]	/* EndIf */
+  DUP[ ]	/* DuplicateTopStack */
+  GC[0]	/* GetCoordOnPVector */
+  DUP[ ]	/* DuplicateTopStack */
+  ROUND[10]	/* Round */
+  SUB[ ]	/* Subtract */
+  ABS[ ]	/* Absolute */
+  PUSHB[ ]	/* 1 value pushed */
+  4
+  CINDEX[ ]	/* CopyXToTopStack */
+  GC[0]	/* GetCoordOnPVector */
+  DUP[ ]	/* DuplicateTopStack */
+  ROUND[10]	/* Round */
+  SUB[ ]	/* Subtract */
+  ABS[ ]	/* Absolute */
+  GT[ ]	/* GreaterThan */
+  IF[ ]	/* If */
+    SWAP[ ]	/* SwapTopStack */
+    ROLL[ ]	/* RollTopThreeStack */
+  EIF[ ]	/* EndIf */
+  MDAP[1]	/* MoveDirectAbsPt */
+  MIRP[11101]	/* MoveIndirectRelPt */
+ENDF[ ]	/* EndFunctionDefinition */
+PUSHW[ ]	/* 1 value pushed */
+5
+FDEF[ ]	/* FunctionDefinition */
+  MPPEM[ ]	/* MeasurePixelPerEm */
+  DUP[ ]	/* DuplicateTopStack */
+  PUSHB[ ]	/* 1 value pushed */
+  3
+  MINDEX[ ]	/* MoveXToTopStack */
+  LT[ ]	/* LessThan */
+  IF[ ]	/* If */
+    LTEQ[ ]	/* LessThenOrEqual */
+    IF[ ]	/* If */
+      PUSHB[ ]	/* 1 value pushed */
+      128
+      WCVTP[ ]	/* WriteCVTInPixels */
+    ELSE[ ]	/* Else */
+      PUSHB[ ]	/* 1 value pushed */
+      64
+      WCVTP[ ]	/* WriteCVTInPixels */
+    EIF[ ]	/* EndIf */
+  ELSE[ ]	/* Else */
+    POP[ ]	/* PopTopStack */
+    POP[ ]	/* PopTopStack */
+    DUP[ ]	/* DuplicateTopStack */
+    RCVT[ ]	/* ReadCVT */
+    PUSHB[ ]	/* 1 value pushed */
+    192
+    LT[ ]	/* LessThan */
+    IF[ ]	/* If */
+      PUSHB[ ]	/* 1 value pushed */
+      192
+      WCVTP[ ]	/* WriteCVTInPixels */
+    ELSE[ ]	/* Else */
+      POP[ ]	/* PopTopStack */
+    EIF[ ]	/* EndIf */
+  EIF[ ]	/* EndIf */
+ENDF[ ]	/* EndFunctionDefinition */
+PUSHW[ ]	/* 1 value pushed */
+6
+FDEF[ ]	/* FunctionDefinition */
+  DUP[ ]	/* DuplicateTopStack */
+  DUP[ ]	/* DuplicateTopStack */
+  RCVT[ ]	/* ReadCVT */
+  ROUND[01]	/* Round */
+  WCVTP[ ]	/* WriteCVTInPixels */
+  PUSHB[ ]	/* 1 value pushed */
+  1
+  ADD[ ]	/* Add */
+  DUP[ ]	/* DuplicateTopStack */
+  DUP[ ]	/* DuplicateTopStack */
+  RCVT[ ]	/* ReadCVT */
+  RDTG[ ]	/* RoundDownToGrid */
+  ROUND[01]	/* Round */
+  RTG[ ]	/* RoundToGrid */
+  WCVTP[ ]	/* WriteCVTInPixels */
+  PUSHB[ ]	/* 1 value pushed */
+  1
+  ADD[ ]	/* Add */
+ENDF[ ]	/* EndFunctionDefinition */
+PUSHW[ ]	/* 1 value pushed */
+7
+FDEF[ ]	/* FunctionDefinition */
+  PUSHW[ ]	/* 1 value pushed */
+  6
+  LOOPCALL[ ]	/* LoopAndCallFunction */
+ENDF[ ]	/* EndFunctionDefinition */
+PUSHW[ ]	/* 1 value pushed */
+8
+FDEF[ ]	/* FunctionDefinition */
+  MPPEM[ ]	/* MeasurePixelPerEm */
+  DUP[ ]	/* DuplicateTopStack */
+  PUSHB[ ]	/* 1 value pushed */
+  3
+  MINDEX[ ]	/* MoveXToTopStack */
+  GTEQ[ ]	/* GreaterThanOrEqual */
+  IF[ ]	/* If */
+    PUSHB[ ]	/* 1 value pushed */
+    64
+  ELSE[ ]	/* Else */
+    PUSHB[ ]	/* 1 value pushed */
+    0
+  EIF[ ]	/* EndIf */
+  ROLL[ ]	/* RollTopThreeStack */
+  ROLL[ ]	/* RollTopThreeStack */
+  DUP[ ]	/* DuplicateTopStack */
+  PUSHB[ ]	/* 1 value pushed */
+  3
+  MINDEX[ ]	/* MoveXToTopStack */
+  GTEQ[ ]	/* GreaterThanOrEqual */
+  IF[ ]	/* If */
+    SWAP[ ]	/* SwapTopStack */
+    POP[ ]	/* PopTopStack */
+    PUSHB[ ]	/* 1 value pushed */
+    128
+    ROLL[ ]	/* RollTopThreeStack */
+    ROLL[ ]	/* RollTopThreeStack */
+  ELSE[ ]	/* Else */
+    ROLL[ ]	/* RollTopThreeStack */
+    SWAP[ ]	/* SwapTopStack */
+  EIF[ ]	/* EndIf */
+  DUP[ ]	/* DuplicateTopStack */
+  PUSHB[ ]	/* 1 value pushed */
+  3
+  MINDEX[ ]	/* MoveXToTopStack */
+  GTEQ[ ]	/* GreaterThanOrEqual */
+  IF[ ]	/* If */
+    SWAP[ ]	/* SwapTopStack */
+    POP[ ]	/* PopTopStack */
+    PUSHW[ ]	/* 1 value pushed */
+    192
+    ROLL[ ]	/* RollTopThreeStack */
+    ROLL[ ]	/* RollTopThreeStack */
+  ELSE[ ]	/* Else */
+    ROLL[ ]	/* RollTopThreeStack */
+    SWAP[ ]	/* SwapTopStack */
+  EIF[ ]	/* EndIf */
+  DUP[ ]	/* DuplicateTopStack */
+  PUSHB[ ]	/* 1 value pushed */
+  3
+  MINDEX[ ]	/* MoveXToTopStack */
+  GTEQ[ ]	/* GreaterThanOrEqual */
+  IF[ ]	/* If */
+    SWAP[ ]	/* SwapTopStack */
+    POP[ ]	/* PopTopStack */
+    PUSHW[ ]	/* 1 value pushed */
+    256
+    ROLL[ ]	/* RollTopThreeStack */
+    ROLL[ ]	/* RollTopThreeStack */
+  ELSE[ ]	/* Else */
+    ROLL[ ]	/* RollTopThreeStack */
+    SWAP[ ]	/* SwapTopStack */
+  EIF[ ]	/* EndIf */
+  DUP[ ]	/* DuplicateTopStack */
+  PUSHB[ ]	/* 1 value pushed */
+  3
+  MINDEX[ ]	/* MoveXToTopStack */
+  GTEQ[ ]	/* GreaterThanOrEqual */
+  IF[ ]	/* If */
+    SWAP[ ]	/* SwapTopStack */
+    POP[ ]	/* PopTopStack */
+    PUSHW[ ]	/* 1 value pushed */
+    320
+    ROLL[ ]	/* RollTopThreeStack */
+    ROLL[ ]	/* RollTopThreeStack */
+  ELSE[ ]	/* Else */
+    ROLL[ ]	/* RollTopThreeStack */
+    SWAP[ ]	/* SwapTopStack */
+  EIF[ ]	/* EndIf */
+  DUP[ ]	/* DuplicateTopStack */
+  PUSHW[ ]	/* 1 value pushed */
+  3
+  MINDEX[ ]	/* MoveXToTopStack */
+  GTEQ[ ]	/* GreaterThanOrEqual */
+  IF[ ]	/* If */
+    PUSHB[ ]	/* 1 value pushed */
+    3
+    CINDEX[ ]	/* CopyXToTopStack */
+    RCVT[ ]	/* ReadCVT */
+    PUSHW[ ]	/* 1 value pushed */
+    384
+    LT[ ]	/* LessThan */
+    IF[ ]	/* If */
+      SWAP[ ]	/* SwapTopStack */
+      POP[ ]	/* PopTopStack */
+      PUSHW[ ]	/* 1 value pushed */
+      384
+      SWAP[ ]	/* SwapTopStack */
+      POP[ ]	/* PopTopStack */
+    ELSE[ ]	/* Else */
+      PUSHB[ ]	/* 1 value pushed */
+      3
+      CINDEX[ ]	/* CopyXToTopStack */
+      RCVT[ ]	/* ReadCVT */
+      SWAP[ ]	/* SwapTopStack */
+      POP[ ]	/* PopTopStack */
+      SWAP[ ]	/* SwapTopStack */
+      POP[ ]	/* PopTopStack */
+    EIF[ ]	/* EndIf */
+  ELSE[ ]	/* Else */
+    POP[ ]	/* PopTopStack */
+  EIF[ ]	/* EndIf */
+  WCVTP[ ]	/* WriteCVTInPixels */
+ENDF[ ]	/* EndFunctionDefinition */
+PUSHW[ ]	/* 1 value pushed */
+9
+FDEF[ ]	/* FunctionDefinition */
+  MPPEM[ ]	/* MeasurePixelPerEm */
+  GTEQ[ ]	/* GreaterThanOrEqual */
+  IF[ ]	/* If */
+    RCVT[ ]	/* ReadCVT */
+    WCVTP[ ]	/* WriteCVTInPixels */
+  ELSE[ ]	/* Else */
+    POP[ ]	/* PopTopStack */
+    POP[ ]	/* PopTopStack */
+  EIF[ ]	/* EndIf */
+ENDF[ ]	/* EndFunctionDefinition */
+</string>
+      <key>formatVersion</key>
+      <string>1</string>
+      <key>maxFunctionDefs</key>
+      <integer>10</integer>
+      <key>maxInstructionDefs</key>
+      <integer>0</integer>
+      <key>maxStackElements</key>
+      <integer>512</integer>
+      <key>maxStorage</key>
+      <integer>0</integer>
+      <key>maxTwilightPoints</key>
+      <integer>0</integer>
+      <key>maxZones</key>
+      <integer>1</integer>
+    </dict>
+  </dict>
+</plist>
