@@ -2,36 +2,98 @@
 
 ![Iksir Typography Specimen](documentation/hero.png)
 
-**Iksir (ইকসির)** is a premium, pixel-perfect Bengali and Latin typography system meticulously crafted for digital nostalgia. Rooted in the 8-bit and 16-bit video game aesthetics of classic consoles and CRT displays, Iksir brings rigid, blocky geometries to the complex curves and looping conjuncts of the Bengali script.
+**Iksir (ইকসির)** is a pixel-perfect Bengali and Latin typeface crafted for digital nostalgia. Rooted in 8-bit and 16-bit video game aesthetics, it brings rigid, blocky geometries to the complex curves and conjuncts of Bengali script.
 
-Unlike standard scalable vectors, Iksir is a strict **retro bitmap** adaptation. It achieves unparalleled grid-aligned legibility without relying on dynamic mark-positioning. Instead, it utilizes an extensive library of meticulously pre-composed, static `akhn` conjunct rules ensuring every single pixel remains sharp, aliased, and mathematically precise.
+Every glyph is a strict **retro bitmap** adaptation — grid-aligned, aliased, and mathematically precise. Rather than relying on dynamic mark-positioning, Iksir uses an extensive library of **119 manually drawn `akhn` conjunct rules**, ensuring every pixel stays sharp on the grid.
 
-### 🌟 Key Characteristics
-- **Strictly Monolinear & Aliased:** No sub-pixel blurring. Pure, crisp, stair-stepped edge rendering.
-- **Micro-Engineered Conjuncts:** 119 manually drawn `akhn` features map complex Bengali ligatures directly onto the pixel grid.
-- **Mathematical Italic Variant:** Features a stepped skew that maintains the 8-bit aesthetic without compromising structural grid integrity.
-- **Universal Scale:** Normalized to a 1000 UPM grid, ensuring modern software compatibility while retaining its retro soul.
+## ✨ Key Features
 
----
+| Feature | Detail |
+|---|---|
+| **Style** | Pixel Art / Retro Bitmap |
+| **Weights** | Regular, Italic |
+| **Scripts** | Bengali (বাংলা), Latin |
+| **UPM** | 1000 |
+| **Total Glyphs** | 426 per weight |
+| **Bengali Conjuncts** | 119 `akhn` rules + 48 `vatu` + 44 `blws` + 13 `half` |
+| **Hinting** | Full TrueType (`fpgm`, `prep`, `cvt`) |
+| **License** | SIL Open Font License 1.1 |
+
+- **Strictly Monolinear & Aliased** — No sub-pixel blurring. Pure stair-stepped edges.
+- **Micro-Engineered Conjuncts** — Every Bengali ligature is hand-drawn onto the pixel grid.
+- **Mathematical Italic** — A stepped skew that preserves 8-bit integrity without compromising grid alignment.
+- **Zero Composites** — All 426 glyphs drawn independently. No component reuse.
 
 ## 📜 License
-This Font Software is licensed under the SIL Open Font License, Version 1.1.
-This license is available with a FAQ at: [https://scripts.sil.org/OFL](https://scripts.sil.org/OFL)
 
-## 👤 Author & Contact
-- **Designer:** Inan
-- **Website:** [https://inanxr.me](https://inanxr.me)
-- **Email:** inan@iseer.co
+This Font Software is licensed under the **SIL Open Font License, Version 1.1**.
+Available at: [https://openfontlicense.org](https://openfontlicense.org)
 
-For any inquiries, bug reports, or feature requests, please feel free to reach out via email.
+## 👤 Author
+
+| | |
+|---|---|
+| **Designer** | Inan |
+| **Web** | [inanxr.me](https://inanxr.me) |
+| **Email** | inan@iseer.co |
 
 ---
 
-## 🏗️ Repository Structure
-- 📁 **`sources/`**: Contains the original `.ufo` (Unified Font Object) master files.
-- 📁 **`fonts/ttf/`**: The finalized, TrueType font binaries ready for distribution and Google Fonts submission.
-- 📁 **`documentation/`**: High-resolution visual specimens and exhaustive markdown-based font forensic analysis.
-- 📁 **`scripts/`**: Custom Python scripts used for programmatic font auditing, metadata injection, and retro UI generation.
-- ⚙️ **`build.sh`** & **`build.py`**: Automated build pipelines to compile the `.ttf` binaries from the `.ufo` sources.
-- 📄 **`OFL.txt`**: The SIL Open Font License.
-- 📄 **`AUTHORS.txt`** & **`CONTRIBUTORS.txt`**: Documentation of authorship and legacy attributions.
+## 🗂️ Repository Structure
+
+```
+Iksir/
+├── .github/
+│   └── workflows/
+│       └── fontbakery.yml          # Automated FontBakery QA via GitHub Actions
+├── documentation/
+│   ├── ARTICLE.en_us.html          # Google Fonts catalog article
+│   ├── hero.png                    # Typography specimen image
+│   └── images-license.txt          # Image asset license
+├── fonts/
+│   └── ttf/
+│       ├── Iksir-Regular.ttf       # Regular weight binary
+│       └── Iksir-Italic.ttf        # Italic weight binary
+├── scripts/
+│   └── index.html                  # Font preview / test page
+├── sources/
+│   ├── Iksir-Regular.ufo/          # Regular master source
+│   │   ├── glyphs/                 #   └── 426 glyph .glif files
+│   │   ├── features.fea            #   └── OpenType feature definitions
+│   │   ├── fontinfo.plist           #   └── Font metadata
+│   │   ├── groups.plist             #   └── Glyph groups
+│   │   ├── kerning.plist            #   └── Kerning data
+│   │   ├── layercontents.plist      #   └── Layer registry
+│   │   ├── lib.plist                #   └── Font library data
+│   │   └── metainfo.plist           #   └── UFO format version
+│   └── Iksir-Italic.ufo/           # Italic master source
+│       └── (same structure as Regular)
+├── .gitignore
+├── AUTHORS.txt                     # Authorship documentation
+├── build.py                        # Python build script (UFO → TTF)
+├── build.sh                        # Shell build script
+├── CONTRIBUTORS.txt                # Legacy attributions
+├── DESCRIPTION.en_us.html          # Google Fonts catalog description
+├── fontbakery-report.md            # Latest FontBakery QA report
+├── METADATA.pb                     # Google Fonts protobuf metadata
+├── OFL.txt                         # SIL Open Font License
+└── README.md
+```
+
+## 🔨 Building
+
+```bash
+# Install dependencies
+pip install defcon ufo2ft fonttools
+
+# Compile TTF binaries from UFO sources
+python build.py
+```
+
+## 🧪 Quality Assurance
+
+FontBakery validation passes with **0 FAILs**. See [`fontbakery-report.md`](fontbakery-report.md) for the full report.
+
+```bash
+fontbakery check-universal fonts/ttf/*.ttf
+```
