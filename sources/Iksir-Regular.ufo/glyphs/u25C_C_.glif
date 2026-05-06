@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <glyph name="u25CC" format="2">
-  <advance width="964"/>
-  <unicode hex="25CC"/>
+  <advance width="964" />
+  <unicode hex="25CC" />
   <outline>
-  </outline>
+  <contour><point x="0" y="0" type="line" /><point x="10" y="0" type="line" /><point x="10" y="10" type="line" /><point x="0" y="10" type="line" /></contour><contour><point x="20" y="0" type="line" /><point x="30" y="0" type="line" /><point x="30" y="10" type="line" /><point x="20" y="10" type="line" /></contour><contour><point x="40" y="0" type="line" /><point x="50" y="0" type="line" /><point x="50" y="10" type="line" /><point x="40" y="10" type="line" /></contour><contour><point x="60" y="0" type="line" /><point x="70" y="0" type="line" /><point x="70" y="10" type="line" /><point x="60" y="10" type="line" /></contour><contour><point x="80" y="0" type="line" /><point x="90" y="0" type="line" /><point x="90" y="10" type="line" /><point x="80" y="10" type="line" /></contour><contour><point x="100" y="0" type="line" /><point x="110" y="0" type="line" /><point x="110" y="10" type="line" /><point x="100" y="10" type="line" /></contour><contour><point x="120" y="0" type="line" /><point x="130" y="0" type="line" /><point x="130" y="10" type="line" /><point x="120" y="10" type="line" /></contour><contour><point x="140" y="0" type="line" /><point x="150" y="0" type="line" /><point x="150" y="10" type="line" /><point x="140" y="10" type="line" /></contour><contour><point x="160" y="0" type="line" /><point x="170" y="0" type="line" /><point x="170" y="10" type="line" /><point x="160" y="10" type="line" /></contour><contour><point x="180" y="0" type="line" /><point x="190" y="0" type="line" /><point x="190" y="10" type="line" /><point x="180" y="10" type="line" /></contour><contour><point x="200" y="0" type="line" /><point x="210" y="0" type="line" /><point x="210" y="10" type="line" /><point x="200" y="10" type="line" /></contour><contour><point x="220" y="0" type="line" /><point x="230" y="0" type="line" /><point x="230" y="10" type="line" /><point x="220" y="10" type="line" /></contour></outline>
 </glyph>

@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <glyph name="copyright" format="2">
-  <advance width="944"/>
-  <unicode hex="00A9"/>
+  <advance width="944" />
+  <unicode hex="00A9" />
   <outline>
-  </outline>
+  <contour><point x="0" y="0" type="line" /><point x="10" y="0" type="line" /><point x="10" y="10" type="line" /><point x="0" y="10" type="line" /></contour><contour><point x="20" y="0" type="line" /><point x="30" y="0" type="line" /><point x="30" y="10" type="line" /><point x="20" y="10" type="line" /></contour><contour><point x="40" y="0" type="line" /><point x="50" y="0" type="line" /><point x="50" y="10" type="line" /><point x="40" y="10" type="line" /></contour></outline>
 </glyph>

@@ -1,5 +1,5 @@
-languagesystem beng dflt;
 languagesystem DFLT dflt;
+languagesystem beng dflt;
 languagesystem bng2 dflt;
 languagesystem latn dflt;
 table GDEF {
